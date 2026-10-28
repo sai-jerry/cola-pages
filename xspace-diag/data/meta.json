@@ -1,0 +1,10 @@
+{
+  "title": "X空间 · 知识点前置诊断",
+  "subtitle": "知识点前置诊断 · 九上数学（二次函数）",
+  "demoTarget": "xs_qf_04",
+  "demoPlan": {
+    "xs_qf_04": ["wrong", "wrong"],
+    "xs_qf_03": ["wrong", "correct"],
+    "xs_pre_04": ["wrong", "wrong"]
+  }
+}

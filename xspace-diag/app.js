@@ -499,8 +499,29 @@
     } catch (e) { /* 存档坏了就当没有 */ }
   }
 
+  /* ---------------------------------------------------------- 科目配置
+     数学和物理共用这一套界面，靠 data/meta.json 区分文案与演示路径。
+     没有 meta.json 时（比如只拷了四件套没拷 data）就退回数学那套默认值。 */
+  var DEMO_PLAN = { xs_qf_04: ['wrong', 'wrong'], xs_qf_03: ['wrong', 'correct'], xs_pre_04: ['wrong', 'wrong'] };
+  var DEMO_TARGET = 'xs_qf_04';
+
+  function applyMeta(m) {
+    if (!m) return;
+    if (m.title) document.title = m.title;
+    var sub = document.getElementById('brand-sub');
+    if (sub && m.subtitle) sub.textContent = m.subtitle;
+    var hint = document.getElementById('subject-note');
+    if (hint && m.note) { hint.textContent = m.note; hint.hidden = false; }
+    if (m.demoPlan) DEMO_PLAN = m.demoPlan;
+    if (m.demoTarget) DEMO_TARGET = m.demoTarget;
+  }
+
   /* ------------------------------------------------------------ 事件绑定 */
   document.addEventListener('DOMContentLoaded', function () {
+    fetch('data/meta.json', { cache: 'no-store' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(applyMeta)
+      .catch(function () {});
     $('student').oninput = function () { state.student = this.value.trim(); };
     $('limit').oninput = function () { state.limit = parseInt(this.value, 10) || 16; };
 
@@ -513,10 +534,10 @@
 
     $('btn-demo').onclick = function () {
       // 演示：目标两题都错 -> 往回追；顶点式一错一对（不稳）；完全平方公式两题都错（真正的根因）
-      var plan = { xs_qf_04: ['wrong', 'wrong'], xs_qf_03: ['wrong', 'correct'], xs_pre_04: ['wrong', 'wrong'] };
+      var plan = DEMO_PLAN;
       var seen = {};
       state.student = '';
-      state.targets = ['xs_qf_04'];
+      state.targets = [DEMO_TARGET];
       state.limit = 16;
       state.demo = true;
       state.seed = 'demo';
@@ -604,7 +625,7 @@
       }
       else if (params.get('demo') === '1') { $('btn-demo').click(); }
       else if (params.get('quiz') === '1') {
-        state.targets = [params.get('target') || 'xs_qf_04'];
+        state.targets = [params.get('target') || DEMO_TARGET];
         $('limit').value = 16;
         start(state.targets, 16, false);
       }

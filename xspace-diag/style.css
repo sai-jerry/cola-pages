@@ -32,8 +32,7 @@ main { max-width: 860px; margin: 0 auto; padding: 16px 16px 80px; }
 }
 .brand { display: flex; align-items: center; gap: 10px; }
 .logo {
-  width: 32px; height: 32px; border-radius: 9px; background: var(--brand); color: #fff;
-  display: grid; place-items: center; font-weight: 700; font-size: 18px;
+  height: 34px; width: auto; display: block;
 }
 .brand-text { display: flex; flex-direction: column; line-height: 1.25; }
 .brand-text strong { font-size: 15px; letter-spacing: .3px; }
@@ -160,6 +159,8 @@ button.ghost {
   display: flex; justify-content: space-between; align-items: flex-end; gap: 20px;
   border-bottom: 2.5px solid #000; padding-bottom: 6px; margin-bottom: 12px;
 }
+.report-head-main { display: flex; align-items: center; gap: 11px; min-width: 0; }
+.report-logo { height: 30px; width: auto; display: block; flex: 0 0 auto; }
 .report-head h1 { font-size: 13.5pt; margin: 0; letter-spacing: .5px; }
 .report-sub { font-size: 9.5pt; margin: 3px 0 0; color: #222; }
 .report-meta { text-align: right; font-size: 10pt; white-space: nowrap; }

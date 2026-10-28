@@ -1,0 +1,1556 @@
+[
+ {
+  "topicId": "xs_ik_02",
+  "prerequisiteId": "xs_ik_01",
+  "strength": "hard",
+  "reason": "不知道什么算反比例函数，就没法谈它的图象长什么样"
+ },
+ {
+  "topicId": "xs_ik_03",
+  "prerequisiteId": "xs_ik_02",
+  "strength": "hard",
+  "reason": "增减性是从图象两支的走向看出来的，先有图才有性质"
+ },
+ {
+  "topicId": "xs_ik_04",
+  "prerequisiteId": "xs_ik_02",
+  "strength": "hard",
+  "reason": "面积模型要靠在图上作垂线才能看出来"
+ },
+ {
+  "topicId": "xs_ik_05",
+  "prerequisiteId": "xs_ik_01",
+  "strength": "soft",
+  "reason": "待定系数法只是在一般形式里把 k 定下来"
+ },
+ {
+  "topicId": "xs_ik_06",
+  "prerequisiteId": "xs_ik_01",
+  "strength": "hard",
+  "reason": "建模题最终都归结为写一个 y=k/x 并求值"
+ },
+ {
+  "topicId": "xs_ik_01",
+  "prerequisiteId": "xs_lf_01",
+  "strength": "soft",
+  "reason": "反比例函数是函数大家族的一员，先有「变量与函数」的概念"
+ },
+ {
+  "topicId": "xs_ik_02",
+  "prerequisiteId": "xs_pre_02",
+  "strength": "soft",
+  "reason": "画双曲线要在坐标系里描点，先用熟平面直角坐标系"
+ },
+ {
+  "topicId": "xs_l1_02",
+  "prerequisiteId": "xs_l1_01",
+  "strength": "hard",
+  "reason": "有理数的分类建立在正负数的概念上，先知道什么是负数才谈得上分类"
+ },
+ {
+  "topicId": "xs_l1_03",
+  "prerequisiteId": "xs_l1_01",
+  "strength": "hard",
+  "reason": "数轴上原点左边是负数、右边是正数，要靠正负数的概念才读得懂"
+ },
+ {
+  "topicId": "xs_l1_04",
+  "prerequisiteId": "xs_l1_03",
+  "strength": "hard",
+  "reason": "相反数的几何意义是「关于原点对称」，得先有数轴才看得见这层对称"
+ },
+ {
+  "topicId": "xs_l1_05",
+  "prerequisiteId": "xs_l1_03",
+  "strength": "hard",
+  "reason": "绝对值定义成「到原点的距离」，这是纯数轴语言"
+ },
+ {
+  "topicId": "xs_l1_06",
+  "prerequisiteId": "xs_l1_03",
+  "strength": "hard",
+  "reason": "数轴上右边的数比左边大，是最直观的比较方法"
+ },
+ {
+  "topicId": "xs_l1_06",
+  "prerequisiteId": "xs_l1_05",
+  "strength": "hard",
+  "reason": "两个负数比大小要用「绝对值大的反而小」，这条规则离不开绝对值"
+ },
+ {
+  "topicId": "xs_l10_02",
+  "prerequisiteId": "xs_l10_01",
+  "strength": "hard",
+  "reason": "方程组是由两个二元一次方程组成的，先知道什么是二元一次方程才谈得上它的解"
+ },
+ {
+  "topicId": "xs_l10_03",
+  "prerequisiteId": "xs_l10_02",
+  "strength": "hard",
+  "reason": "代入法求解的对象就是方程组的公共解，先明白「要同时满足两个方程」才知道为什么要消元"
+ },
+ {
+  "topicId": "xs_l10_03",
+  "prerequisiteId": "xs_l10_01",
+  "strength": "soft",
+  "reason": "代入后要能认出「这是一元一次方程」并解出来，靠的是二元一次方程里那个被表示出来的式子"
+ },
+ {
+  "topicId": "xs_l10_04",
+  "prerequisiteId": "xs_l10_02",
+  "strength": "hard",
+  "reason": "加减法同样是在求公共解，先有方程组的解的概念，才理解消去的意义"
+ },
+ {
+  "topicId": "xs_l10_04",
+  "prerequisiteId": "xs_l10_03",
+  "strength": "soft",
+  "reason": "代入法先让学生接受「消元」这件事，加减法换的只是消元的手段，思路可以迁移"
+ },
+ {
+  "topicId": "xs_l10_05",
+  "prerequisiteId": "xs_l10_04",
+  "strength": "hard",
+  "reason": "实际应用列出来的方程组（如 2x+3y=260 与 3x+2y=290）系数都不特殊，最终要靠加减法解出来"
+ },
+ {
+  "topicId": "xs_l10_05",
+  "prerequisiteId": "xs_l10_03",
+  "strength": "soft",
+  "reason": "题目给了「A 比 B 的几倍少几」时，代入法更快，两种方法都得会挑"
+ },
+ {
+  "topicId": "xs_l10_06",
+  "prerequisiteId": "xs_l10_04",
+  "strength": "hard",
+  "reason": "三元方程组靠加减（或代入）反复消元，二元消元不熟就没法往下推"
+ },
+ {
+  "topicId": "xs_l10_06",
+  "prerequisiteId": "xs_l10_02",
+  "strength": "soft",
+  "reason": "三元方程组也是「解要同时满足所有方程」，公共解的观念一样"
+ },
+ {
+  "topicId": "xs_l11_01",
+  "prerequisiteId": "xs_l1_03",
+  "strength": "soft",
+  "reason": "解集要在数轴上表示，先得会读、会画数轴，否则空心圈实心点无处落笔"
+ },
+ {
+  "topicId": "xs_l11_02",
+  "prerequisiteId": "xs_l11_01",
+  "strength": "hard",
+  "reason": "性质说的是「不等式两边」怎么变，先得知道什么是不等式"
+ },
+ {
+  "topicId": "xs_l11_03",
+  "prerequisiteId": "xs_l11_02",
+  "strength": "hard",
+  "reason": "解不等式的每一步都在用性质，尤其是最后一步除以负数要变号"
+ },
+ {
+  "topicId": "xs_l11_04",
+  "prerequisiteId": "xs_l11_03",
+  "strength": "hard",
+  "reason": "应用题列完不等式还得解出来，不会解不等式应用题的答案就出不来"
+ },
+ {
+  "topicId": "xs_l11_05",
+  "prerequisiteId": "xs_l11_03",
+  "strength": "hard",
+  "reason": "不等式组的解集是两个不等式解集的公共部分，单个都解不对就谈不上公共部分"
+ },
+ {
+  "topicId": "xs_l11_05",
+  "prerequisiteId": "xs_l11_01",
+  "strength": "soft",
+  "reason": "把公共部分画在数轴上，用的是解集的数轴表示法"
+ },
+ {
+  "topicId": "xs_l11_06",
+  "prerequisiteId": "xs_l11_05",
+  "strength": "hard",
+  "reason": "方案设计题的核心就是把两个条件组成不等式组再解，没有不等式组就没有方案范围"
+ },
+ {
+  "topicId": "xs_l11_06",
+  "prerequisiteId": "xs_l11_04",
+  "strength": "soft",
+  "reason": "单个不等式的应用是它的前身，先把「设—列—解—答」这套动作练熟"
+ },
+ {
+  "topicId": "xs_l12_02",
+  "prerequisiteId": "xs_l12_01",
+  "strength": "hard",
+  "reason": "总体、样本这些名称只在「你选了哪种调查方式」之后才有意义，先分清普查和抽样"
+ },
+ {
+  "topicId": "xs_l12_03",
+  "prerequisiteId": "xs_l12_01",
+  "strength": "hard",
+  "reason": "简单随机抽样是抽样调查内部的方法问题，得先知道什么是抽样调查"
+ },
+ {
+  "topicId": "xs_l12_04",
+  "prerequisiteId": "xs_l12_01",
+  "strength": "soft",
+  "reason": "整理数据的前一步是收集数据，没有调查得到的原始记录就无从统计"
+ },
+ {
+  "topicId": "xs_l12_05",
+  "prerequisiteId": "xs_l12_04",
+  "strength": "hard",
+  "reason": "条形图的高度画的就是频数，不懂频数就读不懂条形图"
+ },
+ {
+  "topicId": "xs_l12_06",
+  "prerequisiteId": "xs_l12_04",
+  "strength": "hard",
+  "reason": "频数分布表就是把频数按组填进表格，纵轴仍然是频数"
+ },
+ {
+  "topicId": "xs_l12_07",
+  "prerequisiteId": "xs_l12_04",
+  "strength": "hard",
+  "reason": "众数看频数最大的一组，中位数靠频数累计，三个统计量全靠频数表支撑"
+ },
+ {
+  "topicId": "xs_l12_07",
+  "prerequisiteId": "xs_l12_05",
+  "strength": "soft",
+  "reason": "天津第 20 题是从条形图里读统计量，读图不熟就找不到数据"
+ },
+ {
+  "topicId": "xs_l13_02",
+  "prerequisiteId": "xs_l13_01",
+  "strength": "hard",
+  "reason": "三边关系讨论的是「三条线段能不能围成三角形」，先得知道三角形是什么"
+ },
+ {
+  "topicId": "xs_l13_03",
+  "prerequisiteId": "xs_l13_01",
+  "strength": "hard",
+  "reason": "高、中线、角平分线都是三角形内部的特殊线段，得先认识三角形的边和顶点"
+ },
+ {
+  "topicId": "xs_l13_04",
+  "prerequisiteId": "xs_l13_01",
+  "strength": "hard",
+  "reason": "内角和讲的是三角形三个内角的关系，前提是知道三角形的三个内角在哪"
+ },
+ {
+  "topicId": "xs_l13_04",
+  "prerequisiteId": "xs_l13_03",
+  "strength": "soft",
+  "reason": "内角和的常考题型都带角平分线，先认识角平分线才能把它用进角度计算"
+ },
+ {
+  "topicId": "xs_l13_05",
+  "prerequisiteId": "xs_l13_04",
+  "strength": "hard",
+  "reason": "外角等于不相邻两内角之和，这条性质是靠内角和 180° 推出来的"
+ },
+ {
+  "topicId": "xs_l13_06",
+  "prerequisiteId": "xs_l13_04",
+  "strength": "hard",
+  "reason": "多边形内角和公式的本质是把多边形拆成 n−2 个三角形，每个三角形内角和 180°"
+ },
+ {
+  "topicId": "xs_l13_06",
+  "prerequisiteId": "xs_l13_02",
+  "strength": "soft",
+  "reason": "判断 n 边形能拆成几个三角形、对角线怎么连，都要用到三边关系带来的图形直观"
+ },
+ {
+  "topicId": "xs_l14_02",
+  "prerequisiteId": "xs_l14_01",
+  "strength": "hard",
+  "reason": "性质是从定义直接得到的，先知道什么是全等才谈得上它有什么性质"
+ },
+ {
+  "topicId": "xs_l14_03",
+  "prerequisiteId": "xs_l14_01",
+  "strength": "hard",
+  "reason": "判定是在给条件反推全等，前提是知道全等是什么意思"
+ },
+ {
+  "topicId": "xs_l14_04",
+  "prerequisiteId": "xs_l14_03",
+  "strength": "hard",
+  "reason": "SAS 和 SSS 同属基本判定，先掌握最简单的边边边，再学带角的"
+ },
+ {
+  "topicId": "xs_l14_05",
+  "prerequisiteId": "xs_l14_04",
+  "strength": "hard",
+  "reason": "ASA/AAS 是角参与的两条判定，理解了「夹角要卡住」才理解「夹边」为什么重要"
+ },
+ {
+  "topicId": "xs_l14_06",
+  "prerequisiteId": "xs_l14_05",
+  "strength": "hard",
+  "reason": "HL 的证明要借助 AAS（由斜边和直角边加上直角，构造两角一边）"
+ },
+ {
+  "topicId": "xs_l14_07",
+  "prerequisiteId": "xs_l14_05",
+  "strength": "hard",
+  "reason": "角平分线性质的证明就是用 AAS 证两个直角三角形全等"
+ },
+ {
+  "topicId": "xs_l14_08",
+  "prerequisiteId": "xs_l14_07",
+  "strength": "hard",
+  "reason": "判定就是性质反过来用，两条必须成对掌握"
+ },
+ {
+  "topicId": "xs_l14_01",
+  "prerequisiteId": "xs_l13_01",
+  "strength": "soft",
+  "reason": "全等三角形首先是三角形，三角形的边角概念要先清楚"
+ },
+ {
+  "topicId": "xs_l15_02",
+  "prerequisiteId": "xs_l15_01",
+  "strength": "hard",
+  "reason": "性质是描述「成轴对称会怎样」，先得定义什么是成轴对称"
+ },
+ {
+  "topicId": "xs_l15_03",
+  "prerequisiteId": "xs_l15_02",
+  "strength": "hard",
+  "reason": "垂直平分线是「对应点连线被对称轴垂直平分」这条性质的直接产物"
+ },
+ {
+  "topicId": "xs_l15_04",
+  "prerequisiteId": "xs_l15_02",
+  "strength": "hard",
+  "reason": "画对称点的依据就是轴对称的性质：对应点连线被对称轴垂直平分"
+ },
+ {
+  "topicId": "xs_l15_05",
+  "prerequisiteId": "xs_l15_02",
+  "strength": "hard",
+  "reason": "等腰三角形的轴对称性是三线合一的根源，要先理解轴对称的性质"
+ },
+ {
+  "topicId": "xs_l15_06",
+  "prerequisiteId": "xs_l15_05",
+  "strength": "hard",
+  "reason": "判定是性质的逆命题，得先知道性质说的是什么"
+ },
+ {
+  "topicId": "xs_l15_07",
+  "prerequisiteId": "xs_l15_06",
+  "strength": "hard",
+  "reason": "等边三角形是等腰三角形的特例，判定路径也建立在等腰判定上"
+ },
+ {
+  "topicId": "xs_l15_08",
+  "prerequisiteId": "xs_l15_03",
+  "strength": "hard",
+  "reason": "将军饮马的做法核心是把 PA 换成 PA′，靠的是垂直平分线上的点到两端距离相等"
+ },
+ {
+  "topicId": "xs_l15_01",
+  "prerequisiteId": "xs_l14_01",
+  "strength": "soft",
+  "reason": "成轴对称的两个图形一定全等，这条结论要用全等的概念来说"
+ },
+ {
+  "topicId": "xs_l16_02",
+  "prerequisiteId": "xs_l16_01",
+  "strength": "hard",
+  "reason": "幂的乘方要用到同底数幂相乘，两者只差「指数加还是乘」，必须先分清加法那条"
+ },
+ {
+  "topicId": "xs_l16_03",
+  "prerequisiteId": "xs_l16_01",
+  "strength": "hard",
+  "reason": "单项式乘单项式的核心步骤就是同底数幂相乘"
+ },
+ {
+  "topicId": "xs_l16_03",
+  "prerequisiteId": "xs_l16_02",
+  "strength": "hard",
+  "reason": "遇到 (2x²)³ 这种带乘方的因式，要先算幂的乘方再相乘"
+ },
+ {
+  "topicId": "xs_l16_04",
+  "prerequisiteId": "xs_l16_03",
+  "strength": "hard",
+  "reason": "除法是乘法的逆运算，指数相减建立在指数相加之上"
+ },
+ {
+  "topicId": "xs_l16_05",
+  "prerequisiteId": "xs_l16_03",
+  "strength": "hard",
+  "reason": "乘法公式是多项式乘多项式的特例，先会一般展开才看得懂公式省了哪一步"
+ },
+ {
+  "topicId": "xs_l16_06",
+  "prerequisiteId": "xs_l16_05",
+  "strength": "hard",
+  "reason": "公式法分解因式就是把乘法公式反着用，公式没背熟根本认不出来"
+ },
+ {
+  "topicId": "xs_l16_06",
+  "prerequisiteId": "xs_pre_04",
+  "strength": "soft",
+  "reason": "完全平方公式是配方与因式分解的共同底座，前置点里已经收过一道题"
+ },
+ {
+  "topicId": "xs_l17_02",
+  "prerequisiteId": "xs_l17_01",
+  "strength": "hard",
+  "reason": "先要知道什么是二次根式、什么时候有意义，才谈得上它的性质"
+ },
+ {
+  "topicId": "xs_l17_03",
+  "prerequisiteId": "xs_l17_02",
+  "strength": "hard",
+  "reason": "化简成最简二次根式要用到 √(a²)=|a| 这条性质"
+ },
+ {
+  "topicId": "xs_l17_04",
+  "prerequisiteId": "xs_l17_03",
+  "strength": "hard",
+  "reason": "乘除做完必须化简，不认最简二次根式就写不出最终答案"
+ },
+ {
+  "topicId": "xs_l17_05",
+  "prerequisiteId": "xs_l17_03",
+  "strength": "hard",
+  "reason": "加减的第一步就是化成最简，再判断是不是同类"
+ },
+ {
+  "topicId": "xs_l17_06",
+  "prerequisiteId": "xs_l17_04",
+  "strength": "hard",
+  "reason": "混合运算里乘法部分要用根式乘法法则"
+ },
+ {
+  "topicId": "xs_l17_06",
+  "prerequisiteId": "xs_l17_05",
+  "strength": "hard",
+  "reason": "混合运算里加减部分要用合并同类二次根式"
+ },
+ {
+  "topicId": "xs_l18_02",
+  "prerequisiteId": "xs_l18_01",
+  "strength": "hard",
+  "reason": "要先知道勾股定理说的是什么，才谈得上验证它"
+ },
+ {
+  "topicId": "xs_l18_03",
+  "prerequisiteId": "xs_l18_01",
+  "strength": "hard",
+  "reason": "求边长就是直接把勾股定理拿来用"
+ },
+ {
+  "topicId": "xs_l18_04",
+  "prerequisiteId": "xs_l18_01",
+  "strength": "hard",
+  "reason": "逆定理是把定理反过来用，前提是正定理已经清楚"
+ },
+ {
+  "topicId": "xs_l18_05",
+  "prerequisiteId": "xs_l18_04",
+  "strength": "hard",
+  "reason": "勾股数就是三边满足逆定理关系的整数组合"
+ },
+ {
+  "topicId": "xs_l18_06",
+  "prerequisiteId": "xs_l18_03",
+  "strength": "hard",
+  "reason": "折叠题最后一步一定是「在某边的直角三角形里求未知边」，离不开求边长的基本功"
+ },
+ {
+  "topicId": "xs_l18_07",
+  "prerequisiteId": "xs_l18_03",
+  "strength": "hard",
+  "reason": "网格求距离本质是在求直角三角形的斜边，斜边上的高又是面积法的应用"
+ },
+ {
+  "topicId": "xs_l19_02",
+  "prerequisiteId": "xs_l19_01",
+  "strength": "hard",
+  "reason": "性质是从定义推出来的，先知道什么是平行四边形才谈得上它有什么性质"
+ },
+ {
+  "topicId": "xs_l19_03",
+  "prerequisiteId": "xs_l19_02",
+  "strength": "hard",
+  "reason": "判定要拿性质反推——正因为对边相等、对角线互相平分这些性质都成立，才能用它们反过来定形状"
+ },
+ {
+  "topicId": "xs_l19_04",
+  "prerequisiteId": "xs_l19_01",
+  "strength": "hard",
+  "reason": "算面积要知道哪两条边平行，这正是定义给出的信息"
+ },
+ {
+  "topicId": "xs_l19_05",
+  "prerequisiteId": "xs_l19_03",
+  "strength": "hard",
+  "reason": "中位线定理的证明要把中位线延长一倍构造出平行四边形，靠的是判定③（一组对边平行且相等）"
+ },
+ {
+  "topicId": "xs_l2_01",
+  "prerequisiteId": "xs_l1_05",
+  "strength": "hard",
+  "reason": "同号相加要算绝对值的和，异号相加要先比绝对值大小，整条加法法则都是绝对值语言"
+ },
+ {
+  "topicId": "xs_l2_02",
+  "prerequisiteId": "xs_l2_01",
+  "strength": "hard",
+  "reason": "减法化成加法之后，最后一步还是要按加法法则算，加法不熟减法必崩"
+ },
+ {
+  "topicId": "xs_l2_02",
+  "prerequisiteId": "xs_l1_04",
+  "strength": "hard",
+  "reason": "减法化加法要把减数换成它的相反数，相反数取不对整题就废"
+ },
+ {
+  "topicId": "xs_l2_03",
+  "prerequisiteId": "xs_l1_05",
+  "strength": "hard",
+  "reason": "积的符号定下来之后，剩下的就是把两个绝对值相乘"
+ },
+ {
+  "topicId": "xs_l2_03",
+  "prerequisiteId": "xs_l2_01",
+  "strength": "soft",
+  "reason": "分配律展开后要把各项相加，加法学得顺才能收口"
+ },
+ {
+  "topicId": "xs_l2_04",
+  "prerequisiteId": "xs_l2_03",
+  "strength": "hard",
+  "reason": "除以一个数等于乘它的倒数，除法最后全部落到乘法上"
+ },
+ {
+  "topicId": "xs_l2_04",
+  "prerequisiteId": "xs_l1_04",
+  "strength": "soft",
+  "reason": "倒数与相反数是最容易混的一对概念，先分清相反数才不会把倒数写反"
+ },
+ {
+  "topicId": "xs_l2_05",
+  "prerequisiteId": "xs_l2_03",
+  "strength": "hard",
+  "reason": "乘方就是相同因数连乘，乘法不牢就算不出幂"
+ },
+ {
+  "topicId": "xs_l2_05",
+  "prerequisiteId": "xs_l1_05",
+  "strength": "soft",
+  "reason": "判断幂的符号要先弄清谁是底数、负号在不在底数里，这跟读绝对值是同一套耐心"
+ },
+ {
+  "topicId": "xs_l2_06",
+  "prerequisiteId": "xs_l2_05",
+  "strength": "hard",
+  "reason": "混合运算第一步永远是先算乘方，乘方错整题全错"
+ },
+ {
+  "topicId": "xs_l2_06",
+  "prerequisiteId": "xs_l2_02",
+  "strength": "soft",
+  "reason": "先把减法统一化成加法再算，能少掉一大半符号错误"
+ },
+ {
+  "topicId": "xs_l2_07",
+  "prerequisiteId": "xs_l2_05",
+  "strength": "hard",
+  "reason": "10ⁿ 就是乘方的直接应用，n 表示有几个 10 相连只能靠乘方理解"
+ },
+ {
+  "topicId": "xs_l2_08",
+  "prerequisiteId": "xs_l2_07",
+  "strength": "soft",
+  "reason": "要判断 2.0 × 10³ 精确到哪一位，得先读得懂科学记数法"
+ },
+ {
+  "topicId": "xs_l20_02",
+  "prerequisiteId": "xs_l20_01",
+  "strength": "hard",
+  "reason": "中位数要在排序后找位置，而「排序」这件事本身是跟平均数对比着讲的——先知道平均数看全部数据，才理解中位数只看位置"
+ },
+ {
+  "topicId": "xs_l20_03",
+  "prerequisiteId": "xs_l20_01",
+  "strength": "hard",
+  "reason": "众数反映的是频数角度，要先有「用数据描述集中趋势」这个概念"
+ },
+ {
+  "topicId": "xs_l20_04",
+  "prerequisiteId": "xs_l20_02",
+  "strength": "hard",
+  "reason": "要比较三者的区别，得先分别认识它们"
+ },
+ {
+  "topicId": "xs_l20_04",
+  "prerequisiteId": "xs_l20_03",
+  "strength": "hard",
+  "reason": "同上：三者对比要以众数的定义为基础"
+ },
+ {
+  "topicId": "xs_l20_05",
+  "prerequisiteId": "xs_l20_01",
+  "strength": "hard",
+  "reason": "方差的计算里每一步都要减平均数，不先会算平均数就算不出方差"
+ },
+ {
+  "topicId": "xs_l20_06",
+  "prerequisiteId": "xs_l20_01",
+  "strength": "soft",
+  "reason": "用样本比例估计总体时，常要先用平均数或众数描述样本特征"
+ },
+ {
+  "topicId": "xs_l21_01",
+  "prerequisiteId": "xs_l19_03",
+  "strength": "hard",
+  "reason": "矩形的判定建立在平行四边形的判定上——要先能判定平行四边形，才谈得上再加条件"
+ },
+ {
+  "topicId": "xs_l21_02",
+  "prerequisiteId": "xs_l19_03",
+  "strength": "hard",
+  "reason": "菱形同样是「平行四边形 + 一个额外条件」，基本判定不能少"
+ },
+ {
+  "topicId": "xs_l21_03",
+  "prerequisiteId": "xs_l21_01",
+  "strength": "hard",
+  "reason": "正方形是特殊的矩形，矩形性质全都要会"
+ },
+ {
+  "topicId": "xs_l21_03",
+  "prerequisiteId": "xs_l21_02",
+  "strength": "hard",
+  "reason": "正方形同时也是特殊的菱形，菱形性质也得会"
+ },
+ {
+  "topicId": "xs_l21_04",
+  "prerequisiteId": "xs_l21_01",
+  "strength": "hard",
+  "reason": "判定路径图里第一个节点就是矩形"
+ },
+ {
+  "topicId": "xs_l21_04",
+  "prerequisiteId": "xs_l21_02",
+  "strength": "hard",
+  "reason": "判定路径图里另一个节点是菱形"
+ },
+ {
+  "topicId": "xs_l21_05",
+  "prerequisiteId": "xs_l21_03",
+  "strength": "hard",
+  "reason": "常用结论多半是在正方形或矩形里出现的，要先把这些图形认熟"
+ },
+ {
+  "topicId": "xs_l21_05",
+  "prerequisiteId": "xs_l18_01",
+  "strength": "soft",
+  "reason": "斜边中线、中点四边形这些结论最后都要用勾股定理来算长度"
+ },
+ {
+  "topicId": "xs_l3_02",
+  "prerequisiteId": "xs_l3_01",
+  "strength": "hard",
+  "reason": "先认得出什么是代数式，才谈得上写法规范不规范"
+ },
+ {
+  "topicId": "xs_l3_03",
+  "prerequisiteId": "xs_l3_01",
+  "strength": "hard",
+  "reason": "列代数式就是在造一个代数式，概念不清写出来的东西可能根本不算代数式"
+ },
+ {
+  "topicId": "xs_l3_03",
+  "prerequisiteId": "xs_l3_02",
+  "strength": "soft",
+  "reason": "写出来的式子还得符合书写规范，否则算对了照样被扣分"
+ },
+ {
+  "topicId": "xs_l3_04",
+  "prerequisiteId": "xs_l3_03",
+  "strength": "soft",
+  "reason": "反比例关系要写成 xy = k 这样的代数式，列式能力是前提"
+ },
+ {
+  "topicId": "xs_l3_05",
+  "prerequisiteId": "xs_l2_06",
+  "strength": "hard",
+  "reason": "代入数字后式子就变成有理数的混合运算，顺序和符号错一步结果就错"
+ },
+ {
+  "topicId": "xs_l3_05",
+  "prerequisiteId": "xs_l3_01",
+  "strength": "soft",
+  "reason": "先看懂式子的运算结构，才知道每个数字该代到哪个位置"
+ },
+ {
+  "topicId": "xs_l4_02",
+  "prerequisiteId": "xs_l4_01",
+  "strength": "hard",
+  "reason": "系数和次数都是单项式的属性，不知道什么是单项式就无从数起"
+ },
+ {
+  "topicId": "xs_l4_03",
+  "prerequisiteId": "xs_l4_01",
+  "strength": "hard",
+  "reason": "多项式的项本身就是单项式，先会看单项式才拆得开多项式"
+ },
+ {
+  "topicId": "xs_l4_03",
+  "prerequisiteId": "xs_l4_02",
+  "strength": "hard",
+  "reason": "多项式的次数取最高次项的次数，要靠单项式的次数才定得下来"
+ },
+ {
+  "topicId": "xs_l4_04",
+  "prerequisiteId": "xs_l4_03",
+  "strength": "hard",
+  "reason": "整式是单项式与多项式的统称，不认识多项式就判不了整式"
+ },
+ {
+  "topicId": "xs_l4_05",
+  "prerequisiteId": "xs_l4_02",
+  "strength": "hard",
+  "reason": "比同类项比的就是字母和对应指数，这正是单项式次数里那套指数"
+ },
+ {
+  "topicId": "xs_l4_06",
+  "prerequisiteId": "xs_l4_05",
+  "strength": "hard",
+  "reason": "分不清哪些项是同类项，就根本没有东西可合并"
+ },
+ {
+  "topicId": "xs_l4_06",
+  "prerequisiteId": "xs_l4_02",
+  "strength": "soft",
+  "reason": "合并时只动系数、字母指数照抄，靠的是对系数的清楚把握"
+ },
+ {
+  "topicId": "xs_l4_07",
+  "prerequisiteId": "xs_l2_03",
+  "strength": "hard",
+  "reason": "去括号的本质就是乘法分配律，有理数乘法学不牢这里必然错号"
+ },
+ {
+  "topicId": "xs_l4_08",
+  "prerequisiteId": "xs_l4_06",
+  "strength": "hard",
+  "reason": "整式加减的最后一步永远是合并同类项"
+ },
+ {
+  "topicId": "xs_l4_08",
+  "prerequisiteId": "xs_l4_07",
+  "strength": "hard",
+  "reason": "不去括号就没法合并，去括号错号是整式加减的头号失分点"
+ },
+ {
+  "topicId": "xs_l4_08",
+  "prerequisiteId": "xs_l3_05",
+  "strength": "soft",
+  "reason": "化简之后要求值，代入这一步和第 3 讲「代数式的值」完全同一套动作"
+ },
+ {
+  "topicId": "xs_l5_02",
+  "prerequisiteId": "xs_l5_01",
+  "strength": "hard",
+  "reason": "一元一次方程是方程的特殊情形，不知道什么是方程、什么是解，就无从谈三个条件"
+ },
+ {
+  "topicId": "xs_l5_03",
+  "prerequisiteId": "xs_l5_01",
+  "strength": "hard",
+  "reason": "等式的性质讲的是「等式两边怎么变还相等」，前提是先知道什么是等式、什么是方程"
+ },
+ {
+  "topicId": "xs_l5_04",
+  "prerequisiteId": "xs_l5_02",
+  "strength": "hard",
+  "reason": "解方程之前要认得出它是方程，并且知道解出来意味着两边相等"
+ },
+ {
+  "topicId": "xs_l5_04",
+  "prerequisiteId": "xs_l5_03",
+  "strength": "hard",
+  "reason": "移项的依据就是等式性质 1，性质背不熟就必然会忘变号"
+ },
+ {
+  "topicId": "xs_l5_05",
+  "prerequisiteId": "xs_l5_04",
+  "strength": "hard",
+  "reason": "五步法是在移项、合并同类项的基础上再加去分母、去括号，顺序里含前两步"
+ },
+ {
+  "topicId": "xs_l5_05",
+  "prerequisiteId": "xs_l5_03",
+  "strength": "soft",
+  "reason": "去分母和系数化为 1 用的都是等式性质 2，性质熟了才知道两边可以同乘同除"
+ },
+ {
+  "topicId": "xs_l5_06",
+  "prerequisiteId": "xs_l5_02",
+  "strength": "soft",
+  "reason": "列出方程后要先确认它是不是一元一次方程，才知道该用五步法去解"
+ },
+ {
+  "topicId": "xs_l5_06",
+  "prerequisiteId": "xs_l5_05",
+  "strength": "hard",
+  "reason": "列出来的方程要真的解出来才能作答，五步法不熟就交不出「答」这一步"
+ },
+ {
+  "topicId": "xs_l5_07",
+  "prerequisiteId": "xs_l5_06",
+  "strength": "hard",
+  "reason": "行程、工程题都是六步法的具体场景，审设找列答一步都不能少"
+ },
+ {
+  "topicId": "xs_l5_07",
+  "prerequisiteId": "xs_l5_05",
+  "strength": "hard",
+  "reason": "行程题的方程常带分母（如 240/80），必须靠五步法解干净"
+ },
+ {
+  "topicId": "xs_l5_08",
+  "prerequisiteId": "xs_l5_06",
+  "strength": "hard",
+  "reason": "销售、方案题同样是先找相等关系再列方程，六步法是它们的共同骨架"
+ },
+ {
+  "topicId": "xs_l5_08",
+  "prerequisiteId": "xs_l5_07",
+  "strength": "soft",
+  "reason": "销售与行程同属「两部分之和等于总量」的模型，做过行程题再迁移很容易"
+ },
+ {
+  "topicId": "xs_l6_02",
+  "prerequisiteId": "xs_l6_01",
+  "strength": "hard",
+  "reason": "点、线、面、体是从已经认识的立体图形上抽象出来的，先认得几何体才谈得上拆解它"
+ },
+ {
+  "topicId": "xs_l6_03",
+  "prerequisiteId": "xs_l6_01",
+  "strength": "hard",
+  "reason": "三视图研究的对象就是立体图形，不认识柱锥球的形状就画不出视图"
+ },
+ {
+  "topicId": "xs_l6_03",
+  "prerequisiteId": "xs_l6_02",
+  "strength": "soft",
+  "reason": "立体图形由面围成，理解「面」才知道视图里画的每一个小正方形对应什么"
+ },
+ {
+  "topicId": "xs_l6_04",
+  "prerequisiteId": "xs_l6_02",
+  "strength": "hard",
+  "reason": "直线是「线」这一类的具体化，先有点线面的关系才能定义直线的延伸性"
+ },
+ {
+  "topicId": "xs_l6_04",
+  "prerequisiteId": "xs_l1_03",
+  "strength": "soft",
+  "reason": "数轴是学生第一次系统接触的「直线」，直线向两方无限延伸的直觉可以从数轴迁移过来"
+ },
+ {
+  "topicId": "xs_l6_05",
+  "prerequisiteId": "xs_l6_04",
+  "strength": "hard",
+  "reason": "射线和线段都是在直线上截取出来的部分，不懂直线就说不清端点与延伸方向"
+ },
+ {
+  "topicId": "xs_l6_06",
+  "prerequisiteId": "xs_l6_05",
+  "strength": "hard",
+  "reason": "角由两条有公共端点的射线组成，射线的概念不清就画不对角"
+ },
+ {
+  "topicId": "xs_l6_07",
+  "prerequisiteId": "xs_l6_06",
+  "strength": "hard",
+  "reason": "角平分线是把一个角分成两个相等的角，先要会度量角、会比较大小"
+ },
+ {
+  "topicId": "xs_l6_08",
+  "prerequisiteId": "xs_l6_06",
+  "strength": "hard",
+  "reason": "余角和补角都是按度数算出来的（90°−α、180°−α），离不开角的度量"
+ },
+ {
+  "topicId": "xs_l6_08",
+  "prerequisiteId": "xs_l6_07",
+  "strength": "soft",
+  "reason": "半角与补角常在同一个图里出现，会算角平分线能让这类综合题快一半"
+ },
+ {
+  "topicId": "xs_l7_01",
+  "prerequisiteId": "xs_l6_06",
+  "strength": "hard",
+  "reason": "邻补角和对顶角都是角与角的关系，先要会看角、量角才知道它们在说什么"
+ },
+ {
+  "topicId": "xs_l7_02",
+  "prerequisiteId": "xs_l7_01",
+  "strength": "hard",
+  "reason": "垂直是两条直线相交成直角，先懂两直线相交形成的四个角才谈得上垂直"
+ },
+ {
+  "topicId": "xs_l7_03",
+  "prerequisiteId": "xs_l7_01",
+  "strength": "hard",
+  "reason": "三线八角里的八个角全由两两相交产生，邻补、对顶是辨认它们的基础"
+ },
+ {
+  "topicId": "xs_l7_03",
+  "prerequisiteId": "xs_l6_06",
+  "strength": "soft",
+  "reason": "识别这八类角要能准确指出角的顶点和两条边，离不开角的基本概念"
+ },
+ {
+  "topicId": "xs_l7_04",
+  "prerequisiteId": "xs_l7_03",
+  "strength": "hard",
+  "reason": "「平行」要靠角的位置关系来判断，先认清同位角、内错角、同旁内角"
+ },
+ {
+  "topicId": "xs_l7_04",
+  "prerequisiteId": "xs_l7_02",
+  "strength": "soft",
+  "reason": "同一平面内垂直于同一直线的两直线平行，这条结论要用垂线的概念说清"
+ },
+ {
+  "topicId": "xs_l7_05",
+  "prerequisiteId": "xs_l7_04",
+  "strength": "hard",
+  "reason": "判定平行之前要先知道什么叫平行、平行公理说的是什么"
+ },
+ {
+  "topicId": "xs_l7_05",
+  "prerequisiteId": "xs_l7_03",
+  "strength": "hard",
+  "reason": "三条判定全都建立在同位角、内错角、同旁内角的名称上"
+ },
+ {
+  "topicId": "xs_l7_06",
+  "prerequisiteId": "xs_l7_05",
+  "strength": "hard",
+  "reason": "性质和判定是互逆的两套话，先分得清判定方向，才不会把性质写反"
+ },
+ {
+  "topicId": "xs_l7_06",
+  "prerequisiteId": "xs_l7_03",
+  "strength": "soft",
+  "reason": "写性质时要说清是哪两个角，位置名称认不准理由就写不实"
+ },
+ {
+  "topicId": "xs_l7_07",
+  "prerequisiteId": "xs_l7_04",
+  "strength": "hard",
+  "reason": "平移的性质里「对应线段平行」直接用平行线的概念，没有平行就说不清"
+ },
+ {
+  "topicId": "xs_l7_07",
+  "prerequisiteId": "xs_l6_05",
+  "strength": "soft",
+  "reason": "平移比对的是线段和角，先把线段的概念与等量关系弄牢靠"
+ },
+ {
+  "topicId": "xs_l8_02",
+  "prerequisiteId": "xs_l8_01",
+  "strength": "hard",
+  "reason": "算术平方根只取非负的那一个，平方根要在它基础上补上负根，先分清才不会把 √9 写成 ±3"
+ },
+ {
+  "topicId": "xs_l8_03",
+  "prerequisiteId": "xs_l8_01",
+  "strength": "hard",
+  "reason": "要估的就是算术平方根，先明白「√a 是哪个正数的平方等于 a」，夹逼才有对象"
+ },
+ {
+  "topicId": "xs_l8_04",
+  "prerequisiteId": "xs_l8_02",
+  "strength": "hard",
+  "reason": "开平方与开立方共用「开方是乘方的逆运算」这一套框架，先弄懂平方根的取舍，学立方根才不迷"
+ },
+ {
+  "topicId": "xs_l8_04",
+  "prerequisiteId": "xs_l8_01",
+  "strength": "soft",
+  "reason": "算术平方根的非负约定要和立方根「可以为负」对照着记，否则会以为立方根也有两个"
+ },
+ {
+  "topicId": "xs_l8_05",
+  "prerequisiteId": "xs_l8_01",
+  "strength": "soft",
+  "reason": "开不尽的算术平方根是最常见的无理数来源，判断无理数之前先要会看「开得尽还是开不尽」"
+ },
+ {
+  "topicId": "xs_l8_05",
+  "prerequisiteId": "xs_l8_02",
+  "strength": "soft",
+  "reason": "带根号的数是不是无理数，最终要回到平方根的定义去判断"
+ },
+ {
+  "topicId": "xs_l8_06",
+  "prerequisiteId": "xs_l8_03",
+  "strength": "hard",
+  "reason": "实数比大小最常用的手段是先夹在相邻整数之间，估算是比较的前提"
+ },
+ {
+  "topicId": "xs_l8_06",
+  "prerequisiteId": "xs_l8_05",
+  "strength": "hard",
+  "reason": "先知道实数里除了有理数还有无理数，才谈得上「实数与数轴上的点一一对应」"
+ },
+ {
+  "topicId": "xs_l8_06",
+  "prerequisiteId": "xs_l1_06",
+  "strength": "soft",
+  "reason": "有理数比大小的规则原样搬到实数上，尤其「两个负数绝对值大的反而小」这条"
+ },
+ {
+  "topicId": "xs_l8_07",
+  "prerequisiteId": "xs_l8_02",
+  "strength": "hard",
+  "reason": "实数混合运算里开平方是第一步，根号算不对后面全错"
+ },
+ {
+  "topicId": "xs_l8_07",
+  "prerequisiteId": "xs_l8_04",
+  "strength": "soft",
+  "reason": "式子里出现 ∛ 的项要会开立方，不会开立方就化简不下去"
+ },
+ {
+  "topicId": "xs_l8_07",
+  "prerequisiteId": "xs_l1_05",
+  "strength": "soft",
+  "reason": "绝对值的意义在实数范围内不变，|−5| 与「距离非负」仍然是化简的依据"
+ },
+ {
+  "topicId": "xs_l9_01",
+  "prerequisiteId": "xs_l1_03",
+  "strength": "soft",
+  "reason": "有序数对是数轴上「点与数一一对应」的二维推广，先有一维数轴的经验，才理解为什么要两个数才能定位"
+ },
+ {
+  "topicId": "xs_l9_02",
+  "prerequisiteId": "xs_l9_01",
+  "strength": "hard",
+  "reason": "点的坐标本质上就是一个有序数对，顺序写反位置就全错，先弄懂有序再谈坐标系"
+ },
+ {
+  "topicId": "xs_l9_02",
+  "prerequisiteId": "xs_pre_02",
+  "strength": "hard",
+  "reason": "前置点 xs_pre_02 已经练过「由点写坐标、由坐标描点」，这一讲在它上面把两条数轴三要素与象限符号规则讲系统；读坐标不熟，象限与符号判断就无从下手"
+ },
+ {
+  "topicId": "xs_l9_03",
+  "prerequisiteId": "xs_l9_02",
+  "strength": "hard",
+  "reason": "要判断「在 x 轴上」「在第一象限」这类位置特征，前提是知道坐标系怎么分象限、坐标怎么写"
+ },
+ {
+  "topicId": "xs_l9_03",
+  "prerequisiteId": "xs_pre_02",
+  "strength": "hard",
+  "reason": "前置点 xs_pre_02 只要求认出象限，这一讲要把轴上的点、角平分线上的点、平行线上的点系统化，象限符号是直接前提"
+ },
+ {
+  "topicId": "xs_l9_04",
+  "prerequisiteId": "xs_l9_02",
+  "strength": "hard",
+  "reason": "用坐标描述实际位置，落地就是往坐标系里写坐标，坐标系没搞清无法落笔"
+ },
+ {
+  "topicId": "xs_l9_04",
+  "prerequisiteId": "xs_l9_01",
+  "strength": "soft",
+  "reason": "地理位置常用「第几列第几行」的方格约定表达，这正是有序数对的用法"
+ },
+ {
+  "topicId": "xs_l9_05",
+  "prerequisiteId": "xs_l9_03",
+  "strength": "hard",
+  "reason": "平移改的是坐标分量，先要清楚每个分量代表横还是纵、轴上的点有什么特征，才不会把两处一起改"
+ },
+ {
+  "topicId": "xs_l9_06",
+  "prerequisiteId": "xs_l9_03",
+  "strength": "hard",
+  "reason": "对称与距离都建立在「横坐标管左右、纵坐标管上下」和轴上的坐标特征上"
+ },
+ {
+  "topicId": "xs_l9_06",
+  "prerequisiteId": "xs_pre_02",
+  "strength": "soft",
+  "reason": "前置点 xs_pre_02 已练过关于 x 轴、y 轴对称的坐标变化，这一讲扩展到原点对称、距离与面积"
+ },
+ {
+  "topicId": "xs_lf_02",
+  "prerequisiteId": "xs_lf_01",
+  "strength": "hard",
+  "reason": "不知道函数是什么，就无从读它的图象。"
+ },
+ {
+  "topicId": "xs_lf_02",
+  "prerequisiteId": "xs_pre_02",
+  "strength": "hard",
+  "reason": "读图象要先会看横纵坐标。"
+ },
+ {
+  "topicId": "xs_lf_03",
+  "prerequisiteId": "xs_lf_02",
+  "strength": "hard",
+  "reason": "正比例函数的性质是从它的图象上看出来的。"
+ },
+ {
+  "topicId": "xs_lf_04",
+  "prerequisiteId": "xs_lf_03",
+  "strength": "hard",
+  "reason": "一次函数是正比例函数加上平移，形状一脉相承。"
+ },
+ {
+  "topicId": "xs_lf_05",
+  "prerequisiteId": "xs_lf_04",
+  "strength": "soft",
+  "reason": "求解析式之前得先知道 y=kx+b 里 k、b 各管什么。"
+ },
+ {
+  "topicId": "xs_lf_06",
+  "prerequisiteId": "xs_lf_04",
+  "strength": "hard",
+  "reason": "交点与解集全靠一次函数的图象位置。"
+ },
+ {
+  "topicId": "xs_lf_07",
+  "prerequisiteId": "xs_lf_05",
+  "strength": "hard",
+  "reason": "实际应用的第一步几乎都是先求解析式。"
+ },
+ {
+  "topicId": "xs_lf_07",
+  "prerequisiteId": "xs_lf_06",
+  "strength": "soft",
+  "reason": "方案比较本质是比较两条直线的位置。"
+ },
+ {
+  "topicId": "xs_pj_02",
+  "prerequisiteId": "xs_pj_01",
+  "strength": "hard",
+  "reason": "平行投影是投影的一种，先分清投影的三要素才谈得上分类"
+ },
+ {
+  "topicId": "xs_pj_03",
+  "prerequisiteId": "xs_pj_01",
+  "strength": "hard",
+  "reason": "中心投影同样是投影的一种，只是光源从平行换成了点光源"
+ },
+ {
+  "topicId": "xs_pj_04",
+  "prerequisiteId": "xs_pj_02",
+  "strength": "hard",
+  "reason": "正投影是平行投影里投影线垂直于投影面的特殊情形，先有平行投影的概念"
+ },
+ {
+  "topicId": "xs_pj_05",
+  "prerequisiteId": "xs_pj_04",
+  "strength": "hard",
+  "reason": "三视图就是从三个方向做的正投影，不理解正投影就理解不了为什么三张图能还原物体"
+ },
+ {
+  "topicId": "xs_pj_06",
+  "prerequisiteId": "xs_pj_05",
+  "strength": "hard",
+  "reason": "还原立体图形要先看得懂三视图各表示哪两个方向"
+ },
+ {
+  "topicId": "xs_pj_03",
+  "prerequisiteId": "xs_sm_06",
+  "strength": "soft",
+  "reason": "中心投影求影长本质上是用相似三角形列比例式，与测高模型同源"
+ },
+ {
+  "topicId": "xs_pj_07",
+  "prerequisiteId": "xs_tr_01",
+  "strength": "soft",
+  "reason": "圆锥母线、底面半径、高构成直角三角形，算母线要用勾股定理"
+ },
+ {
+  "topicId": "xs_pr_02",
+  "prerequisiteId": "xs_pr_01",
+  "strength": "hard",
+  "reason": "先分得清事件类型，才谈得上给它们赋值 1、0 或中间数"
+ },
+ {
+  "topicId": "xs_pr_03",
+  "prerequisiteId": "xs_pr_01",
+  "strength": "hard",
+  "reason": "古典概型算的是随机事件的概率，认不出随机事件就没法算"
+ },
+ {
+  "topicId": "xs_pr_04",
+  "prerequisiteId": "xs_pr_03",
+  "strength": "hard",
+  "reason": "列表法只是把 m 和 n 数清楚的工具，底子还是古典概型公式"
+ },
+ {
+  "topicId": "xs_pr_05",
+  "prerequisiteId": "xs_pr_04",
+  "strength": "soft",
+  "reason": "两步以上用树状图，两步以内列表更省事，两者是一套东西的两种画法"
+ },
+ {
+  "topicId": "xs_pr_06",
+  "prerequisiteId": "xs_pr_03",
+  "strength": "soft",
+  "reason": "频率估计是古典概型算不出来时的替补办法"
+ },
+ {
+  "topicId": "xs_qf_01",
+  "prerequisiteId": "xs_lf_01",
+  "strength": "hard",
+  "reason": "不认识“函数”就无法判断二次函数。"
+ },
+ {
+  "topicId": "xs_qf_01",
+  "prerequisiteId": "xs_pre_04",
+  "strength": "soft",
+  "reason": "把解析式整理成一般式要靠整式乘法。"
+ },
+ {
+  "topicId": "xs_qf_02",
+  "prerequisiteId": "xs_qf_01",
+  "strength": "hard",
+  "reason": "先知道什么是二次函数，才研究它的图象。"
+ },
+ {
+  "topicId": "xs_qf_02",
+  "prerequisiteId": "xs_pre_02",
+  "strength": "hard",
+  "reason": "抛物线画在坐标系里，象限与坐标是前提。"
+ },
+ {
+  "topicId": "xs_qf_02",
+  "prerequisiteId": "xs_lf_02",
+  "strength": "soft",
+  "reason": "看抛物线图象，要先会读一般函数的图象。"
+ },
+ {
+  "topicId": "xs_qf_03",
+  "prerequisiteId": "xs_qf_02",
+  "strength": "hard",
+  "reason": "顶点式是 y=ax² 平移得到的形状，性质一脉相承。"
+ },
+ {
+  "topicId": "xs_qf_04",
+  "prerequisiteId": "xs_qf_03",
+  "strength": "hard",
+  "reason": "配方的目的就是把一般式化成顶点式。"
+ },
+ {
+  "topicId": "xs_qf_04",
+  "prerequisiteId": "xs_pre_04",
+  "strength": "hard",
+  "reason": "配方全凭完全平方公式，这一步不牢全错。"
+ },
+ {
+  "topicId": "xs_qf_04",
+  "prerequisiteId": "xs_uq_03",
+  "strength": "soft",
+  "reason": "和配方法解方程是同一套动作，做过方程会更顺。"
+ },
+ {
+  "topicId": "xs_qf_05",
+  "prerequisiteId": "xs_qf_03",
+  "strength": "hard",
+  "reason": "已知顶点必须用顶点式待定。"
+ },
+ {
+  "topicId": "xs_qf_05",
+  "prerequisiteId": "xs_qf_04",
+  "strength": "soft",
+  "reason": "交点式、一般式的选择要先看得懂对称轴和交点。"
+ },
+ {
+  "topicId": "xs_qf_06",
+  "prerequisiteId": "xs_uq_04",
+  "strength": "hard",
+  "reason": "交点个数完全由判别式决定，Δ 不会就无从判断。"
+ },
+ {
+  "topicId": "xs_qf_06",
+  "prerequisiteId": "xs_qf_02",
+  "strength": "soft",
+  "reason": "要能把“图象与 x 轴相交”翻译成方程有根。"
+ },
+ {
+  "topicId": "xs_qf_07",
+  "prerequisiteId": "xs_qf_04",
+  "strength": "hard",
+  "reason": "实际问题最后一步是求最值，配方不熟写不出答案。"
+ },
+ {
+  "topicId": "xs_qf_07",
+  "prerequisiteId": "xs_qf_05",
+  "strength": "soft",
+  "reason": "列式常常先设成待定系数形式。"
+ },
+ {
+  "topicId": "xs_qf_08",
+  "prerequisiteId": "xs_qf_06",
+  "strength": "hard",
+  "reason": "求交点就是解一元二次方程，靠的是交点与根的关系。"
+ },
+ {
+  "topicId": "xs_qf_08",
+  "prerequisiteId": "xs_qf_05",
+  "strength": "hard",
+  "reason": "综合题第一步几乎都是先求解析式。"
+ },
+ {
+  "topicId": "xs_qf_08",
+  "prerequisiteId": "xs_pre_02",
+  "strength": "soft",
+  "reason": "面积和距离都要读坐标。"
+ },
+ {
+  "topicId": "xs_rt_02",
+  "prerequisiteId": "xs_rt_01",
+  "strength": "hard",
+  "reason": "不知道三要素，就说不清「对应点与旋转中心的夹角」是什么"
+ },
+ {
+  "topicId": "xs_rt_03",
+  "prerequisiteId": "xs_rt_02",
+  "strength": "hard",
+  "reason": "作图靠的就是三条性质：距离不变、夹角等于旋转角"
+ },
+ {
+  "topicId": "xs_rt_04",
+  "prerequisiteId": "xs_rt_02",
+  "strength": "hard",
+  "reason": "中心对称是旋转角为 180° 的特例，性质完全沿用"
+ },
+ {
+  "topicId": "xs_rt_05",
+  "prerequisiteId": "xs_rt_04",
+  "strength": "soft",
+  "reason": "先分清「两个图形对称」和「一个图形自己对称」，才不容易混"
+ },
+ {
+  "topicId": "xs_rt_06",
+  "prerequisiteId": "xs_rt_01",
+  "strength": "soft",
+  "reason": "原点对称是在坐标系里做一次 180° 旋转"
+ },
+ {
+  "topicId": "xs_rt_02",
+  "prerequisiteId": "xs_pre_02",
+  "strength": "soft",
+  "reason": "求对称点坐标要用坐标系读点"
+ },
+ {
+  "topicId": "xs_sm_02",
+  "prerequisiteId": "xs_sm_01",
+  "strength": "hard",
+  "reason": "比例线段是相似多边形「对应边成比例」这句话的具体算法"
+ },
+ {
+  "topicId": "xs_sm_03",
+  "prerequisiteId": "xs_sm_02",
+  "strength": "hard",
+  "reason": "平行线分线段成比例列出来的就是比例式，得先会解比例"
+ },
+ {
+  "topicId": "xs_sm_04",
+  "prerequisiteId": "xs_sm_03",
+  "strength": "hard",
+  "reason": "判定相似最常用的图形背景就是 DE∥BC，靠平行线先给出一组等角"
+ },
+ {
+  "topicId": "xs_sm_05",
+  "prerequisiteId": "xs_sm_04",
+  "strength": "hard",
+  "reason": "先能判定两个三角形相似，才谈得上用它们的性质算长度面积"
+ },
+ {
+  "topicId": "xs_sm_06",
+  "prerequisiteId": "xs_sm_05",
+  "strength": "hard",
+  "reason": "应用题最后一步都要用相似比去算实际长度，性质不熟就落不了地"
+ },
+ {
+  "topicId": "xs_sm_07",
+  "prerequisiteId": "xs_sm_01",
+  "strength": "hard",
+  "reason": "位似是相似加一个「对应点连线过同一点」的额外条件，先得懂相似"
+ },
+ {
+  "topicId": "xs_sm_01",
+  "prerequisiteId": "xs_pre_02",
+  "strength": "soft",
+  "reason": "位似和相似的计算常在平面直角坐标系里做，要会读坐标"
+ },
+ {
+  "topicId": "xs_tr_02",
+  "prerequisiteId": "xs_tr_01",
+  "strength": "hard",
+  "reason": "特殊角的值是三角函数定义的直接产物，定义不清就背不下来这些数"
+ },
+ {
+  "topicId": "xs_tr_03",
+  "prerequisiteId": "xs_tr_02",
+  "strength": "hard",
+  "reason": "解直角三角形要频繁代入特殊角的值，值记不住就解不动"
+ },
+ {
+  "topicId": "xs_tr_04",
+  "prerequisiteId": "xs_tr_03",
+  "strength": "hard",
+  "reason": "测高模型的每一步都是一次解直角三角形，先会解单个三角形才能建模"
+ },
+ {
+  "topicId": "xs_tr_05",
+  "prerequisiteId": "xs_tr_03",
+  "strength": "hard",
+  "reason": "坡度计算本质是在直角三角形里用 tan，仍然依赖解直角三角形的能力"
+ },
+ {
+  "topicId": "xs_tr_01",
+  "prerequisiteId": "xs_sm_01",
+  "strength": "soft",
+  "reason": "三角比之所以只与角有关、与三角形大小无关，根据是相似三角形对应边成比例"
+ },
+ {
+  "topicId": "xs_uq_01",
+  "prerequisiteId": "xs_pre_04",
+  "strength": "hard",
+  "reason": "化简成一般式要靠整式乘法与完全平方公式。"
+ },
+ {
+  "topicId": "xs_uq_02",
+  "prerequisiteId": "xs_uq_01",
+  "strength": "hard",
+  "reason": "先认得方程，才谈怎么解。"
+ },
+ {
+  "topicId": "xs_uq_03",
+  "prerequisiteId": "xs_uq_02",
+  "strength": "hard",
+  "reason": "配方最后一步就是直接开平方。"
+ },
+ {
+  "topicId": "xs_uq_03",
+  "prerequisiteId": "xs_pre_04",
+  "strength": "hard",
+  "reason": "配方全靠完全平方公式，这一步不牢必错。"
+ },
+ {
+  "topicId": "xs_uq_04",
+  "prerequisiteId": "xs_uq_03",
+  "strength": "soft",
+  "reason": "求根公式由配方法推出来，配方熟了公式才记得住。"
+ },
+ {
+  "topicId": "xs_uq_04",
+  "prerequisiteId": "xs_pre_04",
+  "strength": "hard",
+  "reason": "算 b²-4ac 也要整式乘法。"
+ },
+ {
+  "topicId": "xs_uq_05",
+  "prerequisiteId": "xs_uq_01",
+  "strength": "hard",
+  "reason": "零乘积性质建立在“右边为 0”的一般形式上。"
+ },
+ {
+  "topicId": "xs_uq_05",
+  "prerequisiteId": "xs_pre_04",
+  "strength": "soft",
+  "reason": "十字相乘、平方差都属于因式分解基本功。"
+ },
+ {
+  "topicId": "xs_uq_06",
+  "prerequisiteId": "xs_uq_04",
+  "strength": "hard",
+  "reason": "韦达定理的前提是方程有实根，要用判别式把关。"
+ },
+ {
+  "topicId": "xs_uq_07",
+  "prerequisiteId": "xs_uq_03",
+  "strength": "hard",
+  "reason": "实际问题解出来大多要靠配方或求根公式。"
+ },
+ {
+  "topicId": "xs_uq_07",
+  "prerequisiteId": "xs_uq_05",
+  "strength": "soft",
+  "reason": "能因式分解的方程解起来最快。"
+ },
+ {
+  "topicId": "xs_yuan_02",
+  "prerequisiteId": "xs_yuan_01",
+  "strength": "hard",
+  "reason": "垂径定理里的「弦」「直径」都是基本概念，先认清楚才谈得上定理"
+ },
+ {
+  "topicId": "xs_yuan_03",
+  "prerequisiteId": "xs_yuan_01",
+  "strength": "hard",
+  "reason": "弧、弦、圆心角三者的关系建立在基本概念之上"
+ },
+ {
+  "topicId": "xs_yuan_04",
+  "prerequisiteId": "xs_yuan_03",
+  "strength": "hard",
+  "reason": "圆周角定理要借助圆心角来证（分三种情形讨论），圆心角不清楚就推不动"
+ },
+ {
+  "topicId": "xs_yuan_05",
+  "prerequisiteId": "xs_yuan_02",
+  "strength": "soft",
+  "reason": "判断直线与圆的位置关系时，常用垂径定理算出圆心到弦的距离 d"
+ },
+ {
+  "topicId": "xs_yuan_06",
+  "prerequisiteId": "xs_yuan_05",
+  "strength": "hard",
+  "reason": "切线是「直线与圆相切」这种情况的具体化，先懂 d=r 的含义"
+ },
+ {
+  "topicId": "xs_yuan_07",
+  "prerequisiteId": "xs_yuan_06",
+  "strength": "hard",
+  "reason": "切线长定理讨论的是从一点引两条切线，前提是知道切线有哪些性质"
+ },
+ {
+  "topicId": "xs_yuan_08",
+  "prerequisiteId": "xs_yuan_03",
+  "strength": "soft",
+  "reason": "弧长公式算的是弧的长，得先知道弧与圆心角的对应关系"
+ },
+ {
+  "topicId": "xs_yuan_02",
+  "prerequisiteId": "xs_tr_01",
+  "strength": "soft",
+  "reason": "半径、弦心距、半弦构成的直角三角形，解它要用锐角三角函数或勾股定理"
+ },
+ {
+  "topicId": "xs_yuan_04",
+  "prerequisiteId": "xs_sm_05",
+  "strength": "soft",
+  "reason": "圆里求线段长度最后常落到相似三角形的性质上——这也是 2025、2026 天津卷第 21 题的做法"
+ }
+]

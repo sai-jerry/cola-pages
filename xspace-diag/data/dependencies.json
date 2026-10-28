@@ -474,6 +474,120 @@
   "reason": "网格求距离本质是在求直角三角形的斜边，斜边上的高又是面积法的应用"
  },
  {
+  "topicId": "xs_fs_02",
+  "prerequisiteId": "xs_fs_01",
+  "strength": "hard",
+  "reason": "先知道分式是什么、什么时候有意义，才谈得上「值为零」"
+ },
+ {
+  "topicId": "xs_fs_03",
+  "prerequisiteId": "xs_fs_01",
+  "strength": "hard",
+  "reason": "基本性质建立在分式概念之上"
+ },
+ {
+  "topicId": "xs_fs_04",
+  "prerequisiteId": "xs_fs_03",
+  "strength": "hard",
+  "reason": "约分用的就是分式的基本性质"
+ },
+ {
+  "topicId": "xs_fs_05",
+  "prerequisiteId": "xs_fs_03",
+  "strength": "hard",
+  "reason": "通分也是基本性质的应用（同乘同一个整式）"
+ },
+ {
+  "topicId": "xs_fs_06",
+  "prerequisiteId": "xs_fs_04",
+  "strength": "hard",
+  "reason": "乘除之后必须先约分才能得到最简结果，不会约分等于没做完"
+ },
+ {
+  "topicId": "xs_fs_07",
+  "prerequisiteId": "xs_fs_06",
+  "strength": "hard",
+  "reason": "乘方是乘法的简化写法，先会乘除才谈乘方"
+ },
+ {
+  "topicId": "xs_fs_08",
+  "prerequisiteId": "xs_fs_05",
+  "strength": "hard",
+  "reason": "异分母加减必须先通分，通分不会就做不了"
+ },
+ {
+  "topicId": "xs_fs_09",
+  "prerequisiteId": "xs_fs_06",
+  "strength": "hard",
+  "reason": "混合运算里乘除是主干环节，乘除不熟整道题崩"
+ },
+ {
+  "topicId": "xs_fs_09",
+  "prerequisiteId": "xs_fs_08",
+  "strength": "hard",
+  "reason": "混合运算的另一半是加减，两块都会才拼得起来"
+ },
+ {
+  "topicId": "xs_fs_11",
+  "prerequisiteId": "xs_fs_09",
+  "strength": "hard",
+  "reason": "去分母之后要解整式方程，其中大量用到分式化简"
+ },
+ {
+  "topicId": "xs_fs_12",
+  "prerequisiteId": "xs_fs_11",
+  "strength": "hard",
+  "reason": "列得出方程还得解得出方程，应用题的最后一公里是解法"
+ },
+ {
+  "topicId": "xs_fs_01",
+  "prerequisiteId": "xs_l4_04",
+  "strength": "hard",
+  "reason": "分式的分子分母都是整式，不认识整式就看不出分母里有没有字母"
+ },
+ {
+  "topicId": "xs_fs_04",
+  "prerequisiteId": "xs_l16_06",
+  "strength": "hard",
+  "reason": "约分前要先把多项式因式分解，因式分解不熟就只能干瞪眼"
+ },
+ {
+  "topicId": "xs_fs_05",
+  "prerequisiteId": "xs_l16_06",
+  "strength": "soft",
+  "reason": "分母是多项式时要先因式分解才看得出最简公分母"
+ },
+ {
+  "topicId": "xs_fs_07",
+  "prerequisiteId": "xs_l16_02",
+  "strength": "hard",
+  "reason": "分式乘方就是积的乘方与幂的乘方的合体"
+ },
+ {
+  "topicId": "xs_fs_10",
+  "prerequisiteId": "xs_l16_02",
+  "strength": "hard",
+  "reason": "负指数幂是幂的运算性质的推广，正指数不透负指数必乱"
+ },
+ {
+  "topicId": "xs_fs_11",
+  "prerequisiteId": "xs_l5_02",
+  "strength": "hard",
+  "reason": "分式方程去分母后就是一元一次方程，解方程的基本功在七上"
+ },
+ {
+  "topicId": "xs_fs_12",
+  "prerequisiteId": "xs_l5_06",
+  "strength": "soft",
+  "reason": "列方程解应用题的六步（设、列、解、验、答）这里同样适用"
+ },
+ {
+  "topicId": "xs_fs_03",
+  "prerequisiteId": "xs_l16_05",
+  "strength": "soft",
+  "reason": "分式基本性质的「同乘一个整式」要用到乘法公式做恒等变形"
+ },
+ {
   "topicId": "xs_l19_02",
   "prerequisiteId": "xs_l19_01",
   "strength": "hard",

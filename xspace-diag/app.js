@@ -427,9 +427,25 @@
       $('report-exam-block').hidden = true;
     }
 
+    renumberReport();
+
     $('report-plan').textContent = hours
       ? '建议按上表顺序补课，先修在前，共约 ' + hours + ' 课时；每节课后用同一知识点复测两题，两题都过即可结课。'
       : '本次未发现需要补的知识点，可进入下一章或提高难度的题组。';
+  }
+
+  /* 报告里的小节编号是写死的「一、二、三…」，但某些小节会被 hide（
+     比如分式章没有中考考情实证，第四节整块不显示）。
+     这里按实际可见的小节重排一遍，避免出现「三、」直接跳到「五、」。 */
+  function renumberReport() {
+    var CN = ['一', '二', '三', '四', '五', '六', '七', '八', '九', '十'];
+    var blocks = [].slice.call(document.querySelectorAll('#report .report-block'))
+      .filter(function (b) { return !b.hidden; });
+    blocks.forEach(function (b, i) {
+      var h = b.querySelector('h2');
+      if (!h) return;
+      h.textContent = h.textContent.replace(/^[一二三四五六七八九十]+、/, CN[i] + '、');
+    });
   }
 
   /* ------------------------------------------------------------ 屏幕切换 */

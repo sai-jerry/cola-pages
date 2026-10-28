@@ -1,10 +1,10 @@
 {
   "title": "X空间 · 初中物理知识点诊断",
   "subtitle": "知识点前置诊断 · 初中物理（八上 → 九全）",
-  "demoTarget": "xs_p9_02",
+  "demoTarget": "xs_p18_04",
   "demoPlan": {
-    "xs_p9_02": ["wrong", "wrong"],
-    "xs_p9_01": ["wrong", "correct"],
-    "xs_p7_03": ["wrong", "wrong"]
+    "xs_p18_04": ["wrong", "wrong"],
+    "xs_p18_03": ["wrong", "correct"],
+    "xs_p18_02": ["wrong", "wrong"]
   }
 }

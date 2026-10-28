@@ -1,0 +1,1082 @@
+[
+ {
+  "topicId": "xs_p1_02",
+  "prerequisiteId": "xs_p1_01",
+  "strength": "soft",
+  "reason": "时间和长度都是基本测量，一起学「怎么测、误差从哪来」更顺"
+ },
+ {
+  "topicId": "xs_p1_04",
+  "prerequisiteId": "xs_p1_01",
+  "strength": "hard",
+  "reason": "算速度要先会用刻度尺测路程"
+ },
+ {
+  "topicId": "xs_p1_04",
+  "prerequisiteId": "xs_p1_02",
+  "strength": "soft",
+  "reason": "算速度还要会测时间，误差意识也是这里带过去的"
+ },
+ {
+  "topicId": "xs_p1_04",
+  "prerequisiteId": "xs_p1_03",
+  "strength": "soft",
+  "reason": "速度描述的是机械运动的快慢，先有运动的概念才谈快慢"
+ },
+ {
+  "topicId": "xs_p1_05",
+  "prerequisiteId": "xs_p1_04",
+  "strength": "hard",
+  "reason": "平均速度就是速度公式用在整段路程上，公式不熟无从谈起"
+ },
+ {
+  "topicId": "xs_p1_06",
+  "prerequisiteId": "xs_p1_04",
+  "strength": "hard",
+  "reason": "实验原理就是 v = s/t，公式不会做不了实验"
+ },
+ {
+  "topicId": "xs_p1_06",
+  "prerequisiteId": "xs_p1_05",
+  "strength": "soft",
+  "reason": "实验要算出上下半段和全程平均速度并比较，先懂平均速度"
+ },
+ {
+  "topicId": "xs_p10_01",
+  "prerequisiteId": "xs_p9_03",
+  "strength": "hard",
+  "reason": "浮力来自液体对上下表面的压力差，其中每个压力都要先用 p = ρgh 算出液体压强才能求"
+ },
+ {
+  "topicId": "xs_p10_01",
+  "prerequisiteId": "xs_p9_02",
+  "strength": "soft",
+  "reason": "压力差是两个压力相减，压强的定义式和 F = pS 的换算要熟"
+ },
+ {
+  "topicId": "xs_p10_04",
+  "prerequisiteId": "xs_p8_03",
+  "strength": "soft",
+  "reason": "漂浮和悬浮都是平衡状态，判断浮沉时用的正是二力平衡那套「状态⇄受力」的思路"
+ },
+ {
+  "topicId": "xs_p10_02",
+  "prerequisiteId": "xs_p10_01",
+  "strength": "hard",
+  "reason": "探究的对象就是浮力的大小，得先用称重法把浮力测出来才能比较"
+ },
+ {
+  "topicId": "xs_p10_03",
+  "prerequisiteId": "xs_p10_02",
+  "strength": "hard",
+  "reason": "阿基米德原理是把探究实验的结论写成公式，实验结论没弄懂就背不动这个公式"
+ },
+ {
+  "topicId": "xs_p10_04",
+  "prerequisiteId": "xs_p10_03",
+  "strength": "hard",
+  "reason": "浮沉条件要把 F浮 和 G 比大小，F浮 得先用阿基米德原理算出来"
+ },
+ {
+  "topicId": "xs_p10_05",
+  "prerequisiteId": "xs_p10_03",
+  "strength": "hard",
+  "reason": "四种算法里最通用的原理法就是阿基米德原理，公式不熟谈不上选方法"
+ },
+ {
+  "topicId": "xs_p10_05",
+  "prerequisiteId": "xs_p10_04",
+  "strength": "soft",
+  "reason": "平衡法就是直接拿浮沉条件里的 F浮 = G 来解题，不知道漂浮悬浮就想不到用它"
+ },
+ {
+  "topicId": "xs_p10_06",
+  "prerequisiteId": "xs_p10_04",
+  "strength": "hard",
+  "reason": "轮船、潜水艇、密度计的原理全部落在浮沉条件上，不懂 F浮 与 G 的关系就解释不了"
+ },
+ {
+  "topicId": "xs_p11_02",
+  "prerequisiteId": "xs_p11_01",
+  "strength": "hard",
+  "reason": "功率是功与做功时间之比，不会算功就无从算功率"
+ },
+ {
+  "topicId": "xs_p11_03",
+  "prerequisiteId": "xs_p11_01",
+  "strength": "soft",
+  "reason": "能量的大小是用「能做多少功」来衡量的，先有功的概念才谈能"
+ },
+ {
+  "topicId": "xs_p11_04",
+  "prerequisiteId": "xs_p11_03",
+  "strength": "soft",
+  "reason": "动能和势能一起构成机械能，先认识动能再看势能更顺"
+ },
+ {
+  "topicId": "xs_p11_04",
+  "prerequisiteId": "xs_p11_01",
+  "strength": "soft",
+  "reason": "重力势能的大小可以从「把物体举高要做多少功」来体会"
+ },
+ {
+  "topicId": "xs_p11_05",
+  "prerequisiteId": "xs_p11_03",
+  "strength": "hard",
+  "reason": "分析转化第一步就是判断动能怎么变，动能的影响因素不熟就无从下手"
+ },
+ {
+  "topicId": "xs_p11_05",
+  "prerequisiteId": "xs_p11_04",
+  "strength": "hard",
+  "reason": "转化的另一个方向是势能怎么变，先要知道势能由什么决定"
+ },
+ {
+  "topicId": "xs_p11_06",
+  "prerequisiteId": "xs_p11_05",
+  "strength": "hard",
+  "reason": "守恒讲的是转化过程中总量不变，先会分析转化再谈守不守恒"
+ },
+ {
+  "topicId": "xs_p11_01",
+  "prerequisiteId": "xs_p7_04",
+  "strength": "hard",
+  "reason": "功的典型计算是 W = Gh，得先会用 G = mg 求重力"
+ },
+ {
+  "topicId": "xs_p11_01",
+  "prerequisiteId": "xs_p8_03",
+  "strength": "soft",
+  "reason": "匀速提升时敢写 F = G，依据就是二力平衡"
+ },
+ {
+  "topicId": "xs_p12_02",
+  "prerequisiteId": "xs_p12_01",
+  "strength": "hard",
+  "reason": "分类的依据就是动力臂与阻力臂的大小关系，先懂力臂和平衡条件才谈得上分类"
+ },
+ {
+  "topicId": "xs_p12_03",
+  "prerequisiteId": "xs_p12_01",
+  "strength": "hard",
+  "reason": "定滑轮实质是等臂杠杆、动滑轮实质是动力臂为阻力臂 2 倍的杠杆，都靠杠杆平衡条件推出来"
+ },
+ {
+  "topicId": "xs_p12_04",
+  "prerequisiteId": "xs_p12_01",
+  "strength": "soft",
+  "reason": "轮轴就是能连续转动的杠杆，斜面则与杠杆同属「省力费距离」一类"
+ },
+ {
+  "topicId": "xs_p12_05",
+  "prerequisiteId": "xs_p12_03",
+  "strength": "hard",
+  "reason": "机械效率的题目几乎都长在滑轮组上，先得会数 n、会算 s = nh 和 W总 = Fs"
+ },
+ {
+  "topicId": "xs_p12_06",
+  "prerequisiteId": "xs_p12_05",
+  "strength": "hard",
+  "reason": "综合计算就是把有用功、额外功、总功和 η 一起用，概念不清必然算乱"
+ },
+ {
+  "topicId": "xs_p12_06",
+  "prerequisiteId": "xs_p11_02",
+  "strength": "soft",
+  "reason": "要不要多算一问功率，靠第 11 讲的 P = W总/t"
+ },
+ {
+  "topicId": "xs_p12_01",
+  "prerequisiteId": "xs_p7_04",
+  "strength": "hard",
+  "reason": "杠杆平衡里的阻力和动力常常就是重力，得先会用 G = mg 求重力"
+ },
+ {
+  "topicId": "xs_p12_03",
+  "prerequisiteId": "xs_p8_03",
+  "strength": "soft",
+  "reason": "动滑轮匀速提升时敢写 F = (G + G动)/2，依据是二力平衡"
+ },
+ {
+  "topicId": "xs_p13_02",
+  "prerequisiteId": "xs_p13_01",
+  "strength": "hard",
+  "reason": "扩散是分子不停地做无规则运动最直接的证据，先有分子动理论才谈得上扩散"
+ },
+ {
+  "topicId": "xs_p13_03",
+  "prerequisiteId": "xs_p13_01",
+  "strength": "hard",
+  "reason": "内能是分子动能与分子势能的总和，前提是知道分子在运动、分子间有作用力"
+ },
+ {
+  "topicId": "xs_p13_04",
+  "prerequisiteId": "xs_p13_03",
+  "strength": "soft",
+  "reason": "比热容描述的是吸热放热的本领，先得知道内能和热量是怎么回事"
+ },
+ {
+  "topicId": "xs_p13_05",
+  "prerequisiteId": "xs_p13_04",
+  "strength": "hard",
+  "reason": "Q = cmΔt 里的 c 就是比热容，比热容不会就代不进公式"
+ },
+ {
+  "topicId": "xs_p13_06",
+  "prerequisiteId": "xs_p13_05",
+  "strength": "hard",
+  "reason": "效率的分母是 Pt、分子是 Q吸，先会算 Q吸才谈得上算效率"
+ },
+ {
+  "topicId": "xs_p13_06",
+  "prerequisiteId": "xs_p13_04",
+  "strength": "soft",
+  "reason": "实验的结论就是「水的比热容大」，与比热容这个概念直接对应"
+ },
+ {
+  "topicId": "xs_p13_03",
+  "prerequisiteId": "xs_p11_05",
+  "strength": "hard",
+  "reason": "做功改变内能就是机械能与内能之间的转化，正是第 11 讲机械能转化的延伸"
+ },
+ {
+  "topicId": "xs_p14_02",
+  "prerequisiteId": "xs_p14_01",
+  "strength": "hard",
+  "reason": "先知道热机是「利用内能做功的机械」，才谈得上汽油机靠四个冲程怎么把内能变成机械能"
+ },
+ {
+  "topicId": "xs_p14_03",
+  "prerequisiteId": "xs_p14_02",
+  "strength": "hard",
+  "reason": "汽油机与柴油机的四个冲程完全相同，差别只在点火方式和吸入的物质，不会四冲程就比不了"
+ },
+ {
+  "topicId": "xs_p14_03",
+  "prerequisiteId": "xs_p14_01",
+  "strength": "soft",
+  "reason": "柴油机同属热机，先有热机的共同特点，两者的对比才有框架"
+ },
+ {
+  "topicId": "xs_p14_05",
+  "prerequisiteId": "xs_p14_04",
+  "strength": "hard",
+  "reason": "热机效率的分母就是燃料完全燃烧放出的热量 Q放 = mq，热值不会就写不出分母"
+ },
+ {
+  "topicId": "xs_p14_05",
+  "prerequisiteId": "xs_p14_02",
+  "strength": "soft",
+  "reason": "有用功正是做功冲程对外做的功，四冲程不清楚就说不清「有用」二字指的是什么"
+ },
+ {
+  "topicId": "xs_p14_06",
+  "prerequisiteId": "xs_p14_02",
+  "strength": "soft",
+  "reason": "压缩冲程与做功冲程正是内能与机械能互相转化最典型的一对例子，讲守恒先讲它们"
+ },
+ {
+  "topicId": "xs_p14_06",
+  "prerequisiteId": "xs_p14_05",
+  "strength": "soft",
+  "reason": "效率永远小于 1 的根源就是能量守恒：废气带走的热量不会消失，只是转移到空气里了"
+ },
+ {
+  "topicId": "xs_p15_02",
+  "prerequisiteId": "xs_p15_01",
+  "strength": "soft",
+  "reason": "摩擦起电讲电荷怎么来，导体与绝缘体讲电荷能不能在物体里自由移动，是同一件事的两面"
+ },
+ {
+  "topicId": "xs_p15_03",
+  "prerequisiteId": "xs_p15_01",
+  "strength": "hard",
+  "reason": "电流就是电荷的定向移动，先有「电荷」这个概念，才谈得上电荷移动形成电流"
+ },
+ {
+  "topicId": "xs_p15_04",
+  "prerequisiteId": "xs_p15_03",
+  "strength": "hard",
+  "reason": "电路是让电流通过的路径，不知道电流怎么形成，就画不出也看不懂电流的通路"
+ },
+ {
+  "topicId": "xs_p15_04",
+  "prerequisiteId": "xs_p15_02",
+  "strength": "soft",
+  "reason": "选导线、判断元件外壳能不能碰，都要用到导体与绝缘体，湿手触电就是例子"
+ },
+ {
+  "topicId": "xs_p15_05",
+  "prerequisiteId": "xs_p15_04",
+  "strength": "hard",
+  "reason": "通路、断路、短路说的是电路的三种状态，前提是知道电路由哪四部分组成"
+ },
+ {
+  "topicId": "xs_p15_06",
+  "prerequisiteId": "xs_p15_04",
+  "strength": "hard",
+  "reason": "串联与并联是电路的两种连接方式，先会看电路图里的干路和支路，才谈得上连接方式"
+ },
+ {
+  "topicId": "xs_p15_06",
+  "prerequisiteId": "xs_p15_05",
+  "strength": "soft",
+  "reason": "「一处断开全路不通」「支路被短路后其余照常」正是断路与短路判断的直接应用"
+ },
+ {
+  "topicId": "xs_p16_02",
+  "prerequisiteId": "xs_p16_01",
+  "strength": "hard",
+  "reason": "先会用电压表测出各元件两端的电压，才谈得上比较串联与并联的电压关系"
+ },
+ {
+  "topicId": "xs_p16_03",
+  "prerequisiteId": "xs_p16_01",
+  "strength": "soft",
+  "reason": "本章把电压与电阻放在一起讲：一个是推动电流的原因，一个是导体对电流的阻碍，先认电压再认电阻更顺"
+ },
+ {
+  "topicId": "xs_p16_04",
+  "prerequisiteId": "xs_p16_03",
+  "strength": "hard",
+  "reason": "滑动变阻器靠改变接入电阻丝的长度来改变电阻，前提是知道长度是电阻的决定因素之一"
+ },
+ {
+  "topicId": "xs_p16_05",
+  "prerequisiteId": "xs_p16_04",
+  "strength": "hard",
+  "reason": "电位器、油量表、盐水柱都是变阻器的变种，判断方法就是滑动变阻器那一套，不会变阻器就没法还原模型"
+ },
+ {
+  "topicId": "xs_p16_05",
+  "prerequisiteId": "xs_p16_03",
+  "strength": "soft",
+  "reason": "盐水柱、电位器改的都是电阻，要说清「改的是长度还是粗细」就得用电阻的影响因素"
+ },
+ {
+  "topicId": "xs_p16_06",
+  "prerequisiteId": "xs_p16_03",
+  "strength": "hard",
+  "reason": "串并联总电阻是「接长了、并粗了」的直接推论，不懂电阻的决定因素就推不出来"
+ },
+ {
+  "topicId": "xs_p17_01",
+  "prerequisiteId": "xs_p15_06",
+  "strength": "hard",
+  "reason": "探究实验用的是串联电路，还要靠电流规律读表，串并联与电流规律不清楚就连不对电路"
+ },
+ {
+  "topicId": "xs_p17_01",
+  "prerequisiteId": "xs_p16_04",
+  "strength": "hard",
+  "reason": "整个实验靠滑动变阻器改变定值电阻两端的电压，不会用它就做不了这个实验"
+ },
+ {
+  "topicId": "xs_p17_03",
+  "prerequisiteId": "xs_p16_03",
+  "strength": "soft",
+  "reason": "欧姆定律里的 R 是导体本身的电阻，先知道电阻由哪些因素决定，才不会说出「电阻与电压成正比」"
+ },
+ {
+  "topicId": "xs_p17_05",
+  "prerequisiteId": "xs_p16_01",
+  "strength": "soft",
+  "reason": "伏安法要并联电压表读电压，电压表的接法与量程选择必须先会"
+ },
+ {
+  "topicId": "xs_p17_02",
+  "prerequisiteId": "xs_p17_01",
+  "strength": "soft",
+  "reason": "两个探究实验共用同一套电路，先会「控电阻变电压」，才谈得上反过来「控电压变电阻」"
+ },
+ {
+  "topicId": "xs_p17_03",
+  "prerequisiteId": "xs_p17_01",
+  "strength": "hard",
+  "reason": "欧姆定律就是把「电阻一定时电流与电压成正比」这个实验结论抽象成公式 I = U/R"
+ },
+ {
+  "topicId": "xs_p17_04",
+  "prerequisiteId": "xs_p17_03",
+  "strength": "hard",
+  "reason": "串联总电阻、并联总电阻都是从欧姆定律配合串并联的电流电压关系推出来的"
+ },
+ {
+  "topicId": "xs_p17_05",
+  "prerequisiteId": "xs_p17_03",
+  "strength": "hard",
+  "reason": "伏安法测电阻的原理就是欧姆定律的变形 R = U/I，不认识定律就无从测起"
+ },
+ {
+  "topicId": "xs_p17_05",
+  "prerequisiteId": "xs_p17_04",
+  "strength": "soft",
+  "reason": "测电阻的电路里串着滑动变阻器，判断它对电压的影响要用串联分压规律"
+ },
+ {
+  "topicId": "xs_p17_06",
+  "prerequisiteId": "xs_p17_03",
+  "strength": "hard",
+  "reason": "串并联综合计算每一步都是 I = U/R 的反复使用，定律不熟就算不动"
+ },
+ {
+  "topicId": "xs_p17_06",
+  "prerequisiteId": "xs_p17_04",
+  "strength": "hard",
+  "reason": "要先会用 R = R₁ + R₂ 和 1/R = 1/R₁ + 1/R₂ 求等效电阻，才能算干路电流和分得电压"
+ },
+ {
+  "topicId": "xs_p18_01",
+  "prerequisiteId": "xs_p16_01",
+  "strength": "hard",
+  "reason": "电功 W = UIt 里第一个量就是电压，电压表怎么接、怎么读是它的直接前置"
+ },
+ {
+  "topicId": "xs_p18_02",
+  "prerequisiteId": "xs_p13_05",
+  "strength": "soft",
+  "reason": "电热类效率题要先用 Q吸 = cmΔt 算出水吸收的热量，再和电功率算出的电能相比，比热容那一步是它的前半段"
+ },
+ {
+  "topicId": "xs_p18_02",
+  "prerequisiteId": "xs_p18_01",
+  "strength": "hard",
+  "reason": "电功率的定义式是 P = W/t，不知道电功是「消耗了多少电能」，就没法谈消耗的快慢"
+ },
+ {
+  "topicId": "xs_p18_03",
+  "prerequisiteId": "xs_p18_02",
+  "strength": "hard",
+  "reason": "额定功率就是「额定电压下」的电功率，本质仍是 P = UI 的一个特定取值"
+ },
+ {
+  "topicId": "xs_p18_04",
+  "prerequisiteId": "xs_p18_02",
+  "strength": "soft",
+  "reason": "亮度由实际功率决定，得先会算 P实 = U实I实 或 P = I²R、P = U²/R"
+ },
+ {
+  "topicId": "xs_p18_04",
+  "prerequisiteId": "xs_p18_03",
+  "strength": "hard",
+  "reason": "判断谁正常发光，要先从铭牌算出额定电流与电阻，再和实际值比较"
+ },
+ {
+  "topicId": "xs_p18_05",
+  "prerequisiteId": "xs_p18_02",
+  "strength": "hard",
+  "reason": "测小灯泡电功率的原理就是 P = UI，功率算不出来这实验就无从下手"
+ },
+ {
+  "topicId": "xs_p18_05",
+  "prerequisiteId": "xs_p18_03",
+  "strength": "hard",
+  "reason": "实验要「使电压表示数等于额定电压」，不知道额定电压是什么就调不到正确位置"
+ },
+ {
+  "topicId": "xs_p18_06",
+  "prerequisiteId": "xs_p18_01",
+  "strength": "hard",
+  "reason": "焦耳定律讨论的是电热与电功的关系，纯电阻时 Q = W，前提是先分清电功是什么"
+ },
+ {
+  "topicId": "xs_p18_06",
+  "prerequisiteId": "xs_p18_02",
+  "strength": "soft",
+  "reason": "由 P = I²R 与 P = W/t 联立就能得到 Q = I²Rt，功率的导出式是它的直接来源"
+ },
+ {
+  "topicId": "xs_p18_07",
+  "prerequisiteId": "xs_p18_06",
+  "strength": "hard",
+  "reason": "不管是利用还是防止电热，依据都是 Q = I²Rt 里 R、I、t 三者的关系"
+ },
+ {
+  "topicId": "xs_p19_01",
+  "prerequisiteId": "xs_p15_04",
+  "strength": "hard",
+  "reason": "家庭电路就是一套具体电路，先会看电路的组成与电路图，才看得懂进户线与各条支路"
+ },
+ {
+  "topicId": "xs_p19_01",
+  "prerequisiteId": "xs_p15_06",
+  "strength": "soft",
+  "reason": "家庭电路里用电器为什么都并联，依据正是串、并联电路的基本特点"
+ },
+ {
+  "topicId": "xs_p19_04",
+  "prerequisiteId": "xs_p18_02",
+  "strength": "hard",
+  "reason": "「总功率过大导致电流过大」的依据是 P = UI 变形出的 I = P总/U，不掌握电功率就算不出干路电流"
+ },
+ {
+  "topicId": "xs_p19_04",
+  "prerequisiteId": "xs_p18_06",
+  "strength": "soft",
+  "reason": "保险丝熔断、导线过热都是电流的热效应，要靠 Q = I²Rt 解释电流大为什么发热多"
+ },
+ {
+  "topicId": "xs_p19_02",
+  "prerequisiteId": "xs_p19_01",
+  "strength": "hard",
+  "reason": "要先知道进户线里哪根是火线、哪根是零线，才谈得上用试电笔去分辨它们"
+ },
+ {
+  "topicId": "xs_p19_03",
+  "prerequisiteId": "xs_p19_01",
+  "strength": "hard",
+  "reason": "三孔插座的三根线怎么接，取决于家庭电路里火线、零线和地线的布置"
+ },
+ {
+  "topicId": "xs_p19_03",
+  "prerequisiteId": "xs_p19_02",
+  "strength": "soft",
+  "reason": "判断插座哪个孔是火线，要用试电笔去测，试电笔的结论直接决定插头该插哪一孔"
+ },
+ {
+  "topicId": "xs_p19_04",
+  "prerequisiteId": "xs_p19_01",
+  "strength": "hard",
+  "reason": "用电器都是并联、各支路电压都是 220 V，是「总功率越大干路电流越大」这个结论的前提"
+ },
+ {
+  "topicId": "xs_p19_05",
+  "prerequisiteId": "xs_p19_02",
+  "strength": "hard",
+  "reason": "故障判断的全部依据都是试电笔的发光情况，不掌握发光的含义就判不出断点"
+ },
+ {
+  "topicId": "xs_p19_06",
+  "prerequisiteId": "xs_p19_02",
+  "strength": "soft",
+  "reason": "触电的本质是人体成了火线到大地的通路，这正是试电笔里那条回路的道理"
+ },
+ {
+  "topicId": "xs_p19_06",
+  "prerequisiteId": "xs_p19_03",
+  "strength": "hard",
+  "reason": "金属外壳要接地这一条安全意识，建立在对三线插头与接地作用的理解上"
+ },
+ {
+  "topicId": "xs_p19_06",
+  "prerequisiteId": "xs_p19_04",
+  "strength": "soft",
+  "reason": "电气火灾的根源就是电流过大、导线过热，先懂成因才懂为什么要先断电再灭火"
+ },
+ {
+  "topicId": "xs_p2_02",
+  "prerequisiteId": "xs_p2_01",
+  "strength": "hard",
+  "reason": "不知道声音靠介质传播、不认声速，就算不出回声走的路程"
+ },
+ {
+  "topicId": "xs_p2_03",
+  "prerequisiteId": "xs_p2_01",
+  "strength": "soft",
+  "reason": "音调是振动快慢的体现，先建立「声音由振动产生」才谈得上频率"
+ },
+ {
+  "topicId": "xs_p2_04",
+  "prerequisiteId": "xs_p2_03",
+  "strength": "hard",
+  "reason": "超声与次声是按频率给声音分类，不讲频率与音调的关系就分不清边界"
+ },
+ {
+  "topicId": "xs_p2_05",
+  "prerequisiteId": "xs_p2_04",
+  "strength": "soft",
+  "reason": "声的利用大半是超声波的应用，先知道超声波方向性好、易反射"
+ },
+ {
+  "topicId": "xs_p2_05",
+  "prerequisiteId": "xs_p2_02",
+  "strength": "soft",
+  "reason": "声呐测海深就是回声测距，公式与「除以 2」的规矩来自声速那一节"
+ },
+ {
+  "topicId": "xs_p2_06",
+  "prerequisiteId": "xs_p2_01",
+  "strength": "soft",
+  "reason": "噪声的定义落在「无规则振动」，控制途径也分发声、传声、听声三段"
+ },
+ {
+  "topicId": "xs_p2_03",
+  "prerequisiteId": "xs_p2_02",
+  "strength": "soft",
+  "reason": "同一介质里声速不变，这个前提能帮学生排除「音调高所以传得快」的干扰项"
+ },
+ {
+  "topicId": "xs_p20_01",
+  "prerequisiteId": "xs_p7_01",
+  "strength": "soft",
+  "reason": "同名相斥、异名相吸讲的是物体之间的相互作用，得先知道力是物体对物体的作用、力的作用效果是什么"
+ },
+ {
+  "topicId": "xs_p20_02",
+  "prerequisiteId": "xs_p20_01",
+  "strength": "hard",
+  "reason": "先认识磁体和磁极，才谈得上「磁体之间靠什么发生作用」，磁场就是用来说明这件事的"
+ },
+ {
+  "topicId": "xs_p20_03",
+  "prerequisiteId": "xs_p20_02",
+  "strength": "hard",
+  "reason": "地磁场是磁场的一个特例，不知道磁场方向怎么规定，就判不出小磁针静止时指向哪一端"
+ },
+ {
+  "topicId": "xs_p20_05",
+  "prerequisiteId": "xs_p20_04",
+  "strength": "hard",
+  "reason": "螺线管的磁场是电流磁效应的具体化：先知道通电导线周围有磁场，才谈得上判断 N、S 极"
+ },
+ {
+  "topicId": "xs_p20_06",
+  "prerequisiteId": "xs_p20_05",
+  "strength": "hard",
+  "reason": "电磁铁就是带铁芯的通电螺线管，判极性用安培定则，说磁性增强要先懂螺线管本身"
+ },
+ {
+  "topicId": "xs_p20_06",
+  "prerequisiteId": "xs_p20_01",
+  "strength": "soft",
+  "reason": "继电器靠电磁铁吸引衔铁工作，本质仍然是磁体吸引铁这一条磁现象"
+ },
+ {
+  "topicId": "xs_p20_07",
+  "prerequisiteId": "xs_p20_02",
+  "strength": "hard",
+  "reason": "磁场的基本性质就是对放入其中的磁体有力的作用，通电导体受力正是这条性质的体现"
+ },
+ {
+  "topicId": "xs_p20_08",
+  "prerequisiteId": "xs_p20_02",
+  "strength": "hard",
+  "reason": "电磁感应是导体切割磁感线产生电流，得先知道磁感线怎么分布、朝哪个方向"
+ },
+ {
+  "topicId": "xs_p20_08",
+  "prerequisiteId": "xs_p20_07",
+  "strength": "hard",
+  "reason": "电动机与发电机两套装置长得像、原理相反，只有把「通电受力」讲透，才能把电磁感应分出来"
+ },
+ {
+  "topicId": "xs_p21_02",
+  "prerequisiteId": "xs_p2_01",
+  "strength": "hard",
+  "reason": "声波是最早的信息载体，讲电磁波时必须处处和声波对照：声波要介质、真空不能传，电磁波不需要介质"
+ },
+ {
+  "topicId": "xs_p21_05",
+  "prerequisiteId": "xs_p1_03",
+  "strength": "soft",
+  "reason": "同步卫星能当中继站，靠的是它相对地面静止——这是第1讲参照物与相对静止那一套的直接应用"
+ },
+ {
+  "topicId": "xs_p21_02",
+  "prerequisiteId": "xs_p21_01",
+  "strength": "hard",
+  "reason": "先知道电流的迅速变化能激起电磁波，才谈得上它往哪儿传、能在什么环境里传"
+ },
+ {
+  "topicId": "xs_p21_03",
+  "prerequisiteId": "xs_p21_02",
+  "strength": "hard",
+  "reason": "c = λf 里的 c 就是真空中的传播速度 3×10⁸ m/s，不先把这个定值记牢，波长频率都没法算"
+ },
+ {
+  "topicId": "xs_p21_04",
+  "prerequisiteId": "xs_p21_03",
+  "strength": "hard",
+  "reason": "调谐选台选的正是频率，不懂频率与波长的关系就说不清为什么不同节目要用不同频率"
+ },
+ {
+  "topicId": "xs_p21_05",
+  "prerequisiteId": "xs_p21_02",
+  "strength": "hard",
+  "reason": "微波要沿直线传、要建中继站，根子在「电磁波不需要介质、但也不能沿地面绕射」这一条性质上"
+ },
+ {
+  "topicId": "xs_p21_05",
+  "prerequisiteId": "xs_p21_04",
+  "strength": "soft",
+  "reason": "卫星通信和微波中继本质上都是无线电波的发射与接收，只是把中继站搬到了天上"
+ },
+ {
+  "topicId": "xs_p21_06",
+  "prerequisiteId": "xs_p21_02",
+  "strength": "soft",
+  "reason": "光纤里跑的是激光，激光也是电磁波，全反射的道理建立在「电磁波能在介质中传播」之上"
+ },
+ {
+  "topicId": "xs_p22_06",
+  "prerequisiteId": "xs_p13_03",
+  "strength": "hard",
+  "reason": "能量的转化最常见的一条线是「内能 ↔ 机械能」，得先知道内能是什么、做功和热传递如何改变内能"
+ },
+ {
+  "topicId": "xs_p22_03",
+  "prerequisiteId": "xs_p13_03",
+  "strength": "soft",
+  "reason": "核电站里核能先变成内能再推动汽轮机，绕不开第13讲的内能概念"
+ },
+ {
+  "topicId": "xs_p22_02",
+  "prerequisiteId": "xs_p22_01",
+  "strength": "hard",
+  "reason": "要从一堆能源里认出化石能源，先得会用「能不能直接获取」「短期能不能补充」这两把尺子"
+ },
+ {
+  "topicId": "xs_p22_03",
+  "prerequisiteId": "xs_p22_01",
+  "strength": "soft",
+  "reason": "核能是一次能源却不可再生，这条判断只能建立在分类标准之上，靠背是不够的"
+ },
+ {
+  "topicId": "xs_p22_04",
+  "prerequisiteId": "xs_p22_01",
+  "strength": "hard",
+  "reason": "太阳能是可再生能源的典型，先有可再生的判据，才说得出它为什么取之不尽"
+ },
+ {
+  "topicId": "xs_p22_05",
+  "prerequisiteId": "xs_p22_01",
+  "strength": "hard",
+  "reason": "讲「开发新能源、提高利用率」必须先分得清哪些能源可再生、哪些用一点少一点"
+ },
+ {
+  "topicId": "xs_p22_05",
+  "prerequisiteId": "xs_p22_06",
+  "strength": "hard",
+  "reason": "「能量守恒却仍要节能」的理由是转化有方向性，不讲守恒定律就无法辨析这句错话"
+ },
+ {
+  "topicId": "xs_p22_06",
+  "prerequisiteId": "xs_p22_02",
+  "strength": "soft",
+  "reason": "化石能源燃烧是化学能→内能，是能量转化里最常见、最该先掌握的一个实例"
+ },
+ {
+  "topicId": "xs_p22_06",
+  "prerequisiteId": "xs_p22_04",
+  "strength": "soft",
+  "reason": "太阳能的两条利用途径本质就是两条能量转化链：太阳→内能、太阳→电能"
+ },
+ {
+  "topicId": "xs_p3_02",
+  "prerequisiteId": "xs_p3_01",
+  "strength": "hard",
+  "reason": "熔化实验靠温度计读数找熔点，不会读温度计就画不出熔化图象"
+ },
+ {
+  "topicId": "xs_p3_03",
+  "prerequisiteId": "xs_p3_01",
+  "strength": "hard",
+  "reason": "沸腾实验全程要盯着温度计看示数是否保持不变"
+ },
+ {
+  "topicId": "xs_p3_04",
+  "prerequisiteId": "xs_p3_02",
+  "strength": "soft",
+  "reason": "升华凝华不经过液态，要先弄清固液、液气两段变化才分得清它跳过了哪一步"
+ },
+ {
+  "topicId": "xs_p3_05",
+  "prerequisiteId": "xs_p3_02",
+  "strength": "hard",
+  "reason": "吸放热规律里的熔化与凝固，就是熔化和凝固那一节的两条"
+ },
+ {
+  "topicId": "xs_p3_05",
+  "prerequisiteId": "xs_p3_03",
+  "strength": "hard",
+  "reason": "汽化与液化是吸放热规律的另一对，白气和制冷都靠它解释"
+ },
+ {
+  "topicId": "xs_p3_05",
+  "prerequisiteId": "xs_p3_04",
+  "strength": "hard",
+  "reason": "升华吸热、凝华放热补上最后两条，六个变化才成体系"
+ },
+ {
+  "topicId": "xs_p3_06",
+  "prerequisiteId": "xs_p3_03",
+  "strength": "hard",
+  "reason": "云、雾、雨的主角是液化，不懂液化讲不清水循环"
+ },
+ {
+  "topicId": "xs_p3_06",
+  "prerequisiteId": "xs_p3_04",
+  "strength": "soft",
+  "reason": "雪、霜、雾凇是凝华，水循环里气→固那条支线要靠它"
+ },
+ {
+  "topicId": "xs_p4_02",
+  "prerequisiteId": "xs_p4_01",
+  "strength": "soft",
+  "reason": "反射是光沿直线传播时撞上界面后的转折，先有「光线可以画成一条直线」的图景"
+ },
+ {
+  "topicId": "xs_p4_03",
+  "prerequisiteId": "xs_p4_02",
+  "strength": "hard",
+  "reason": "平面镜成像的原理就是光的反射，反射定律不熟就画不出物像对称的光路"
+ },
+ {
+  "topicId": "xs_p4_04",
+  "prerequisiteId": "xs_p4_01",
+  "strength": "soft",
+  "reason": "折射是光进入另一种介质后不再沿直线走，要先知道「直线传播」这个前提才讲得清偏折"
+ },
+ {
+  "topicId": "xs_p4_05",
+  "prerequisiteId": "xs_p4_04",
+  "strength": "hard",
+  "reason": "白光被棱镜分开靠的就是不同色光折射程度不同，不懂折射就解释不了色散"
+ },
+ {
+  "topicId": "xs_p4_06",
+  "prerequisiteId": "xs_p4_05",
+  "strength": "hard",
+  "reason": "红外线、紫外线紧挨着可见光的红端和紫端，先有七色光的光谱才谈得上「看不见的光」"
+ },
+ {
+  "topicId": "xs_p5_02",
+  "prerequisiteId": "xs_p5_01",
+  "strength": "hard",
+  "reason": "连焦点、光心、主光轴在哪都不知道，三条特殊光线画不出来"
+ },
+ {
+  "topicId": "xs_p5_04",
+  "prerequisiteId": "xs_p5_02",
+  "strength": "hard",
+  "reason": "成像规律要靠三条特殊光线作图才推得出来，光线画不对规律就记不住"
+ },
+ {
+  "topicId": "xs_p5_04",
+  "prerequisiteId": "xs_p5_01",
+  "strength": "soft",
+  "reason": "焦距 f 是会聚强弱的量度，先知道 f 是什么才能用 f、2f 划分区间"
+ },
+ {
+  "topicId": "xs_p5_03",
+  "prerequisiteId": "xs_p5_04",
+  "strength": "hard",
+  "reason": "照相机、投影仪、放大镜就是成像规律表里的三个区间，规律不会就分不清谁是谁"
+ },
+ {
+  "topicId": "xs_p5_05",
+  "prerequisiteId": "xs_p5_04",
+  "strength": "hard",
+  "reason": "近视远视讲的是像落在视网膜前方还是后方，要用 u、v、f 的关系判断像的位置"
+ },
+ {
+  "topicId": "xs_p5_05",
+  "prerequisiteId": "xs_p5_01",
+  "strength": "soft",
+  "reason": "晶状体相当于凸透镜，先懂凸透镜的会聚作用才懂凹透镜怎么把它拉回来"
+ },
+ {
+  "topicId": "xs_p5_06",
+  "prerequisiteId": "xs_p5_03",
+  "strength": "hard",
+  "reason": "显微镜、望远镜就是把照相机、投影仪、放大镜串起来用，先分清这三个器材才排得出两片镜"
+ },
+ {
+  "topicId": "xs_p6_02",
+  "prerequisiteId": "xs_p6_01",
+  "strength": "soft",
+  "reason": "密度是质量与体积之比，先会称质量才谈得上算密度"
+ },
+ {
+  "topicId": "xs_p6_03",
+  "prerequisiteId": "xs_p6_01",
+  "strength": "hard",
+  "reason": "测密度的第一步永远是天平测质量，天平不会用实验就做不下去"
+ },
+ {
+  "topicId": "xs_p6_03",
+  "prerequisiteId": "xs_p6_02",
+  "strength": "hard",
+  "reason": "测密度的实验原理就是 ρ = m/V，公式不懂测出来也不会算"
+ },
+ {
+  "topicId": "xs_p6_04",
+  "prerequisiteId": "xs_p6_02",
+  "strength": "hard",
+  "reason": "三道计算变形全部来自密度定义式 ρ = m/V"
+ },
+ {
+  "topicId": "xs_p6_05",
+  "prerequisiteId": "xs_p6_02",
+  "strength": "soft",
+  "reason": "鉴别物质、选材料、盐水选种都靠「密度是特性、不同物质密度一般不同」这一条"
+ },
+ {
+  "topicId": "xs_p6_06",
+  "prerequisiteId": "xs_p6_03",
+  "strength": "hard",
+  "reason": "特殊测量是把常规测法里的量筒或砝码换成水，先会常规测法才谈得上替代"
+ },
+ {
+  "topicId": "xs_p6_06",
+  "prerequisiteId": "xs_p6_02",
+  "strength": "soft",
+  "reason": "等体积、等质量替代最后都要落到 ρ = m/V 的变形上"
+ },
+ {
+  "topicId": "xs_p6_06",
+  "prerequisiteId": "xs_p6_04",
+  "strength": "soft",
+  "reason": "替代方案算出的体积还要代回密度公式求 ρ，先练熟基础计算"
+ },
+ {
+  "topicId": "xs_p7_02",
+  "prerequisiteId": "xs_p7_01",
+  "strength": "hard",
+  "reason": "不知道力是什么、有什么作用效果，就无从描述它的大小、方向和作用点"
+ },
+ {
+  "topicId": "xs_p7_03",
+  "prerequisiteId": "xs_p7_01",
+  "strength": "soft",
+  "reason": "弹力是「常见力」里的一种，先有力的一般概念再分类学更顺"
+ },
+ {
+  "topicId": "xs_p7_04",
+  "prerequisiteId": "xs_p7_01",
+  "strength": "soft",
+  "reason": "重力也是力，要挂在力的两个作用效果和单位上理解"
+ },
+ {
+  "topicId": "xs_p7_04",
+  "prerequisiteId": "xs_p7_03",
+  "strength": "soft",
+  "reason": "重力的大小是用弹簧测力计测出来的，先会用它再谈 G = mg"
+ },
+ {
+  "topicId": "xs_p7_04",
+  "prerequisiteId": "xs_p6_01",
+  "strength": "soft",
+  "reason": "G = mg 里的 m 是质量，要先有质量的概念和 t→kg 的单位换算"
+ },
+ {
+  "topicId": "xs_p7_05",
+  "prerequisiteId": "xs_p7_01",
+  "strength": "hard",
+  "reason": "「力的作用是相互的」是从「力是物体对物体的作用」直接推出来的"
+ },
+ {
+  "topicId": "xs_p7_06",
+  "prerequisiteId": "xs_p7_01",
+  "strength": "hard",
+  "reason": "平衡力也是力，先懂力的一般概念才谈得上平衡"
+ },
+ {
+  "topicId": "xs_p7_06",
+  "prerequisiteId": "xs_p7_05",
+  "strength": "hard",
+  "reason": "平衡力与相互作用力只差「作用在几个物体上」，不先学相互作用力就分不清"
+ },
+ {
+  "topicId": "xs_p7_06",
+  "prerequisiteId": "xs_p7_04",
+  "strength": "soft",
+  "reason": "判断平衡力时要逐个核对重力、拉力、支持力，重力的方向和作用点是现成的抓手"
+ },
+ {
+  "topicId": "xs_p8_01",
+  "prerequisiteId": "xs_p7_01",
+  "strength": "soft",
+  "reason": "牛顿第一定律讲的是力与运动的关系，得先知道力的作用效果之一是「改变物体的运动状态」"
+ },
+ {
+  "topicId": "xs_p8_03",
+  "prerequisiteId": "xs_p7_04",
+  "strength": "hard",
+  "reason": "二力平衡最常分析的就是重力与拉力／支持力，不认识重力的方向和作用点就画不对受力"
+ },
+ {
+  "topicId": "xs_p8_05",
+  "prerequisiteId": "xs_p7_03",
+  "strength": "soft",
+  "reason": "测滑动摩擦力靠的是弹簧测力计，弹力与测力计的使用要先会"
+ },
+ {
+  "topicId": "xs_p8_04",
+  "prerequisiteId": "xs_p7_06",
+  "strength": "hard",
+  "reason": "第7讲已经辨析过平衡力与相互作用力，这里是在天津真题情境里接着把它用熟"
+ },
+ {
+  "topicId": "xs_p8_02",
+  "prerequisiteId": "xs_p8_01",
+  "strength": "hard",
+  "reason": "惯性是从牛顿第一定律里读出来的：不受力时保持原状态，说明物体「本身有」这个性质"
+ },
+ {
+  "topicId": "xs_p8_03",
+  "prerequisiteId": "xs_p8_01",
+  "strength": "soft",
+  "reason": "牛顿第一定律说「不受力时保持静止或匀速直线」，二力平衡讲的是「受平衡力时也保持」，是它的补充"
+ },
+ {
+  "topicId": "xs_p8_04",
+  "prerequisiteId": "xs_p8_03",
+  "strength": "hard",
+  "reason": "判断一对力是不是平衡力，前提是先掌握二力平衡的四个条件"
+ },
+ {
+  "topicId": "xs_p8_05",
+  "prerequisiteId": "xs_p8_03",
+  "strength": "hard",
+  "reason": "用弹簧测力计测滑动摩擦力，依据正是「匀速时拉力与摩擦力二力平衡」"
+ },
+ {
+  "topicId": "xs_p8_06",
+  "prerequisiteId": "xs_p8_05",
+  "strength": "hard",
+  "reason": "不知道影响滑动摩擦力的两个因素，就说不清每种增大／减小摩擦的方法改的是什么"
+ },
+ {
+  "topicId": "xs_p9_01",
+  "prerequisiteId": "xs_p7_04",
+  "strength": "hard",
+  "reason": "压力最常由重力产生，水平面上 F = G，不认识重力的大小和方向就分不清压力与重力"
+ },
+ {
+  "topicId": "xs_p9_01",
+  "prerequisiteId": "xs_p7_03",
+  "strength": "soft",
+  "reason": "压力本质上是物体相互挤压产生的弹力，弹力的方向与形变方向的关系在这里要用到"
+ },
+ {
+  "topicId": "xs_p9_02",
+  "prerequisiteId": "xs_p9_01",
+  "strength": "hard",
+  "reason": "p = F/S 里的 F 就是压力，压力概念不清，压强公式就套不对"
+ },
+ {
+  "topicId": "xs_p9_03",
+  "prerequisiteId": "xs_p9_02",
+  "strength": "hard",
+  "reason": "液体压强 p = ρgh 是从压强的定义式推出来的，不会 p = F/S 就理解不了它为什么与容器形状无关"
+ },
+ {
+  "topicId": "xs_p9_04",
+  "prerequisiteId": "xs_p9_03",
+  "strength": "hard",
+  "reason": "液面相平的本质是同一深度处液体压强相等，离开液体压强就说不清连通器"
+ },
+ {
+  "topicId": "xs_p9_05",
+  "prerequisiteId": "xs_p9_02",
+  "strength": "soft",
+  "reason": "吸盘、覆杯这些现象都要用 p = F/S 的「压强 × 面积 = 压力」来算和解释"
+ },
+ {
+  "topicId": "xs_p9_06",
+  "prerequisiteId": "xs_p9_05",
+  "strength": "soft",
+  "reason": "流速与压强的关系常与大气压出现在同一道题里，比如站台安全线、风掀屋顶"
+ }
+]

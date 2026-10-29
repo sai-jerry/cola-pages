@@ -115,6 +115,57 @@ button.ghost {
 .choice.on { border-color: var(--brand); background: var(--brand-soft); }
 .choice.on .key { background: var(--brand); color: #fff; }
 .choice:disabled { opacity: .65; }
+
+/* ---------------------------------------------------------------- 题里的图
+ * 化学的实验操作题就是「四个图选一个」，图不是装饰，是题干本身。
+ * 三道关要过：手机上不撑破屏、四个图选项能排开、打印出来别糊成一片。
+ */
+.q-fig {
+  display: inline-block; vertical-align: middle;
+  max-width: 100%; max-height: 260px; width: auto; height: auto;
+  margin: 8px 10px 4px 0; border-radius: 6px;
+}
+/* 一题里连着几张图（对照实验、装置对比）——给一点呼吸，别糊成一团 */
+.q-fig + .q-fig { margin-left: 4px; }
+
+.opt-body {
+  display: flex; flex-direction: row; align-items: center; gap: 9px;
+  flex-wrap: wrap; flex: 1 1 auto; min-width: 0;
+}
+.opt-fig {
+  display: block; max-width: 100%; max-height: 148px;
+  width: auto; height: auto; margin: 2px 0;
+}
+
+/* 四个选项全是图 → 两列排，一屏能看全，比竖排四行省一半高度 */
+.choices.all-fig {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 9px;
+}
+.choices.all-fig .choice {
+  flex-direction: column; align-items: center; text-align: center;
+  padding: 10px 8px; gap: 8px;
+}
+.choices.all-fig .choice .key { align-self: flex-start; }
+/* 四张图的宽高比各不相同（装置图不能裁），所以统一给一块等高的图区，
+   让每张图在里面居中——这样四个卡片一样高、图不会一高一低。 */
+.choices.all-fig .opt-body {
+  flex: 1 1 auto; width: 100%; min-height: 112px;
+  display: flex; align-items: center; justify-content: center;
+  flex-wrap: nowrap;
+}
+.choices.all-fig .opt-fig { max-height: 112px; margin: 0; }
+
+.fig-missing { color: #c0392b; font-size: 12px; }
+
+/* 报告错题表：带图那行会被撑高，文字要垂直居中，不然一行特别"头重脚轻" */
+#report-wrong td { vertical-align: middle; padding: 6px 9px; }
+
+/* 窄屏（手机）：图选项退回单列，免得两列都挤成邮票 */
+@media (max-width: 480px) {
+  .choices.all-fig { grid-template-columns: 1fr; }
+  .q-fig { max-height: 200px; }
+  .opt-fig { max-height: 130px; }
+}
 .input-wrap { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
 .input-label { font-size: 13px; color: var(--ink-soft); flex: 1 1 100%; margin: 0 0 -2px; }
 .input-wrap input { flex: 1 1 220px; height: 46px; font-size: 16px; }
@@ -210,4 +261,6 @@ table.path-table thead { display: table-header-group; }
   .report { display: block !important; }
   .report-block { break-inside: avoid; }
   table.path-table tr { break-inside: avoid; }
+  /* 打印时图要收着点，A4 一页纸撑不住大图 */
+  .rep-fig { max-height: 26mm; max-width: 42mm; margin: 1mm 2mm 1mm 0; }
 }

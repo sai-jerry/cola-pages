@@ -23,6 +23,37 @@
     });
   };
 
+  /* ------------------------------------------------------------ 题干里的图
+   * 化学这类科目，实验操作题就是「四个图选一个」，图是题干的一部分。
+   * 题库里这样写：prompt = "下列实验操作正确的是（　　）"，choices = ["{{fig:1}}", ...]
+   * 这里把 {{fig:N}} 换成 <img>，其余文字一律走 esc。
+   *
+   * 给 img 写上 width/height 是为了让浏览器先占位，图片加载时页面不跳。
+   * 实际显示多大由 CSS 管（.q-fig 和 .choice 里的 img 分开定）。
+   */
+  function figIndex(figs) {
+    var map = {};
+    (figs || []).forEach(function (f) { map[f.n] = f; });
+    return map;
+  }
+
+  function richText(s, figs, cls) {
+    var text = String(s == null ? '' : s);
+    var map = figIndex(figs);
+    if (!/\{\{fig:\d+\}\}/.test(text)) return esc(text);
+    return text.split(/(\{\{fig:\d+\}\})/).map(function (part) {
+      var m = /^\{\{fig:(\d+)\}\}$/.exec(part);
+      if (!m) return esc(part);
+      var f = map[+m[1]];
+      if (!f) return '<span class="fig-missing">[缺图 ' + esc(m[1]) + ']</span>';
+      return '<img class="q-fig ' + (cls || '') + '" src="' + esc(f.src) + '"' +
+        (f.w ? ' width="' + f.w + '"' : '') +
+        (f.h ? ' height="' + f.h + '"' : '') +
+        ' alt="' + esc(f.alt || ('图 ' + f.n)) + '" loading="lazy">';
+    }).join('');
+  }
+
+
   /* ------------------------------------------------------------ 数据加载 */
   function loadJSON(name) {
     return fetch('data/' + name, { cache: 'no-store' }).then(function (r) {
@@ -156,7 +187,7 @@
     $('q-topic').textContent = t.name;
     $('q-why').textContent = whyText(cur.topicId, cur.nth);
     $('q-diff').textContent = { basic: '基础', standard: '标准', advanced: '提高' }[q.difficulty] || q.difficulty;
-    $('q-prompt').textContent = q.prompt;
+    $('q-prompt').innerHTML = richText(q.prompt, q.figures);
 
     var answered = state.session.answers.length;
     var limit = state.session.limit;
@@ -175,10 +206,16 @@
       answerInput.hidden = true;
       $('input-label').hidden = true;
       submit.hidden = false;
+      // 四个选项全是图的话切两列，省一半高度
+      var allFig = q.choices.every(function (c) {
+        return /^\s*\{\{fig:\d+\}\}\s*$/.test(c.text);
+      });
+      choices.className = allFig ? 'choices all-fig' : 'choices';
       q.choices.forEach(function (c) {
         var b = document.createElement('button');
         b.className = 'choice';
-        b.innerHTML = '<span class="key">' + esc(c.key) + '</span><span>' + esc(c.text) + '</span>';
+        b.innerHTML = '<span class="key">' + esc(c.key) + '</span><span class="opt-body">' +
+          richText(c.text, q.figures, 'opt-fig') + '</span>';
         b.onclick = function () {
           if (state.awaiting) return;
           state.picked = c.text;
@@ -391,8 +428,11 @@
       var q = null;
       (graph.questionsByTopic[a.topicId] || []).forEach(function (x) { if (x.id === a.qid) q = x; });
       if (!q) return '';
+      // 错题复核这一列要带图——老师拿着纸对错题时，没有图等于没给
       return '<tr><td>' + (i + 1) + '</td><td>' + esc(graph.byId[a.topicId].name) + '</td><td>' +
-        esc(q.prompt) + (a.text ? '<br><i>学生答案：' + esc(a.text) + '</i>' : '') + '</td><td>' + esc(q.answer) + '</td><td></td></tr>';
+        richText(q.prompt, q.figures, 'rep-fig') +
+        (a.text ? '<br><i>学生答案：' + richText(a.text, q.figures, 'rep-fig') + '</i>' : '') +
+        '</td><td>' + richText(q.answer, q.figures, 'rep-fig') + '</td><td></td></tr>';
     }).join('');
     if (wrongRows && wrongAll.length > 6) {
       wrongRows += '<tr><td colspan="5">…另有 ' + (wrongAll.length - 8) + ' 道错题未列出，完整答题记录已随本次诊断一起导出。</td></tr>';

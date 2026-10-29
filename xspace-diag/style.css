@@ -282,7 +282,7 @@ table.path-table thead { display: table-header-group; }
   margin: 26px auto 0; padding: 18px 16px 26px; max-width: 940px;
   border-top: 1px solid var(--line);
 }
-.site-foot .foot-qr { width: 96px; height: 96px; display: block; flex: 0 0 auto; }
+.site-foot .foot-qr { width: 160px; height: 160px; display: block; flex: 0 0 auto; }
 .site-foot .foot-text { display: flex; flex-direction: column; gap: 5px; }
 .site-foot strong { font-size: 14px; color: var(--ink); letter-spacing: .2px; }
 .site-foot em { font-style: normal; font-size: 12.5px; color: var(--ink-soft); }
@@ -303,7 +303,7 @@ table.path-table thead { display: table-header-group; }
   .tabs button { flex: 1; padding: 6px 4px; font-size: 12.5px; }
   /* 手机上一屏就窄，页脚竖着排，二维码给够 88px——再小手机就扫不出来了 */
   .site-foot { flex-direction: column; gap: 10px; margin-top: 18px; padding: 16px 16px 22px; }
-  .site-foot .foot-qr { width: 88px; height: 88px; }
+  .site-foot .foot-qr { width: 104px; height: 104px; }
   .site-foot .foot-text { align-items: center; }
   .site-foot strong { font-size: 13px; }
 }

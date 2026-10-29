@@ -266,9 +266,26 @@ table.path-table thead { display: table-header-group; }
 
 .report-note { font-size: 8pt; color: #333; margin-top: 5px; line-height: 1.5; }
 .report-sign {
-  display: flex; justify-content: space-between; gap: 40px;
+  display: flex; justify-content: space-between; align-items: flex-end; gap: 20px;
   font-size: 9.5pt; margin-top: 14px; padding-top: 6px; border-top: 1px dashed #999;
 }
+.sign-lines { display: flex; flex-direction: column; gap: 12px; }
+/* 二维码放在签字栏右下：家长签完字正好扫一眼。17mm 边长在 300dpi 下约 200px，
+   37 个模块每个 5.4px，手机扫得出来；再小就掉到 3px/模块、开始扫不出。 */
+.report-qr { display: flex; flex-direction: column; align-items: center; gap: 1.5mm; flex: 0 0 auto; }
+.report-qr img { width: 17mm; height: 17mm; display: block; }
+.report-qr span { font-size: 7.2pt; line-height: 1.2; text-align: center; letter-spacing: .2px; }
+
+/* ---------------------------------------------------- 页脚（扫码） */
+.site-foot {
+  display: flex; align-items: center; justify-content: center; gap: 14px;
+  margin: 26px auto 0; padding: 18px 16px 26px; max-width: 940px;
+  border-top: 1px solid var(--line);
+}
+.site-foot .foot-qr { width: 96px; height: 96px; display: block; flex: 0 0 auto; }
+.site-foot .foot-text { display: flex; flex-direction: column; gap: 5px; }
+.site-foot strong { font-size: 14px; color: var(--ink); letter-spacing: .2px; }
+.site-foot em { font-style: normal; font-size: 12.5px; color: var(--ink-soft); }
 
 @media (max-width: 640px) {
   .stats { grid-template-columns: repeat(2, 1fr); }
@@ -284,13 +301,18 @@ table.path-table thead { display: table-header-group; }
   .subject-tab { padding: 4px 12px; font-size: 12.5px; }
   .tabs { width: 100%; gap: 6px; }
   .tabs button { flex: 1; padding: 6px 4px; font-size: 12.5px; }
+  /* 手机上一屏就窄，页脚竖着排，二维码给够 88px——再小手机就扫不出来了 */
+  .site-foot { flex-direction: column; gap: 10px; margin-top: 18px; padding: 16px 16px 22px; }
+  .site-foot .foot-qr { width: 88px; height: 88px; }
+  .site-foot .foot-text { align-items: center; }
+  .site-foot strong { font-size: 13px; }
 }
 
 /* ---------------------------------------------------- 打印 */
 @media print {
   @page { size: A4; margin: 12mm; }
   body { background: #fff; }
-  .topbar, main, .screen { display: none !important; }
+  .topbar, main, .screen, .site-foot { display: none !important; }
   .report { display: block !important; }
   .report-block { break-inside: avoid; }
   table.path-table tr { break-inside: avoid; }

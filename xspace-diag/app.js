@@ -248,6 +248,11 @@
       inputWrap.hidden = false;
       answerInput.hidden = false;
       $('input-label').hidden = false;
+      // 提示语要跟着题型走。语文的默写、字形、释义都是填空，
+      // 挂一句「只填数，不写单位；分数写成 3/2」会让人以为点错了科目。
+      $('input-label').textContent = q.type === 'fill'
+        ? '填答案：照课本原句写，标点和空格不扣分。'
+        : '填答案：只填数，不写单位；分数写成 3/2 这样。';
       submit.hidden = false;
       answerInput.value = '';
       answerInput.focus();
@@ -640,6 +645,10 @@
 
   function switchSubject(id) {
     resetState();
+    // 新学科的数据是首次拉取，碰上没缓存的网络要一两秒。
+    // 这时如果还是「先在上面选一个范围」，家长会以为自己点错了，
+    // 所以先占一行「正在载入」。
+    $('start-hint').textContent = '正在载入…';
     show('start');
     return loadSubject(id);
   }

@@ -150,10 +150,9 @@ button.ghost {
    让每张图在里面居中——这样四个卡片一样高、图不会一高一低。 */
 .choices.all-fig .opt-body {
   flex: 1 1 auto; width: 100%; min-height: 112px;
-  display: flex; align-items: center; justify-content: center;
-  flex-wrap: nowrap;
+  display: block; text-align: center;
 }
-.choices.all-fig .opt-fig { max-height: 112px; margin: 0; }
+.choices.all-fig .opt-fig { display: block; max-height: 112px; margin: 4px auto 0; }
 
 .fig-missing { color: #c0392b; font-size: 12px; }
 

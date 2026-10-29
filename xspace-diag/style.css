@@ -13,6 +13,12 @@
 
 * { box-sizing: border-box; }
 
+/* [hidden] 是浏览器自带的 display:none，权重比任何类名都低。
+   只要有人给元素写了 .manual { display: flex } 这种类规则，
+   JS 里 el.hidden = true 就当场失效——「老师判断这道题算不算过」
+   明明该收起来，却每道题都挂在答案下面。全局兜一下。 */
+[hidden] { display: none !important; }
+
 body {
   margin: 0;
   font-family: -apple-system, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;

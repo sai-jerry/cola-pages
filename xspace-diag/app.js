@@ -2,7 +2,26 @@
 (function () {
   'use strict';
   var E = window.XKGraph;
-  var LS_KEY = 'xsDiag.v1';
+  var LS_KEY = 'xsDiag.v1';          // 会被拼上学科，实际 key 形如 xsDiag.v1:chemistry
+  var LS_SUBJECT = 'xsDiag.subject';
+
+  /* ---------------------------------------------------------- 学科
+   * 三科共用一套前端。数据在 data/<学科>/，图片统一在 assets/q/。
+   * 学科由三级决定：URL 的 ?subject= 参数 → 上次选的（localStorage）→ 默认数学。
+   * 答题存档的 key 也带学科，不然物理答到一半切到化学会把存档串了。
+   */
+  var SUBJECTS = [
+    { id: 'math', name: '数学' },
+    { id: 'physics', name: '物理' },
+    { id: 'chemistry', name: '化学' }
+  ];
+  var SUBJECT = 'math';
+
+  function subjectIds() {
+    return SUBJECTS.map(function (s) { return s.id; });
+  }
+  function storeKey() { return LS_KEY + ':' + SUBJECT; }
+  function dataPath(name) { return 'data/' + SUBJECT + '/' + name; }
 
   var graph = null;
   var state = {
@@ -56,8 +75,8 @@
 
   /* ------------------------------------------------------------ 数据加载 */
   function loadJSON(name) {
-    return fetch('data/' + name, { cache: 'no-store' }).then(function (r) {
-      if (!r.ok) throw new Error('读取 data/' + name + ' 失败');
+    return fetch(dataPath(name), { cache: 'no-store' }).then(function (r) {
+      if (!r.ok) throw new Error('读取 ' + dataPath(name) + ' 失败');
       return r.json();
     });
   }
@@ -506,7 +525,7 @@
   /* ------------------------------------------------------------ 存档 */
   function save() {
     try {
-      localStorage.setItem(LS_KEY, JSON.stringify({
+      localStorage.setItem(storeKey(), JSON.stringify({
         student: state.student, targets: state.targets, limit: state.limit, seed: state.seed,
         log: state.log, demo: state.demo, done: !!state.summary
       }));
@@ -515,7 +534,7 @@
 
   function restore() {
     var raw;
-    try { raw = localStorage.getItem(LS_KEY); } catch (e) { raw = null; }
+    try { raw = localStorage.getItem(storeKey()); } catch (e) { raw = null; }
     if (!raw) return;
     try {
       var d = JSON.parse(raw);
@@ -544,24 +563,94 @@
      没有 meta.json 时（比如只拷了四件套没拷 data）就退回数学那套默认值。 */
   var DEMO_PLAN = { xs_qf_04: ['wrong', 'wrong'], xs_qf_03: ['wrong', 'correct'], xs_pre_04: ['wrong', 'wrong'] };
   var DEMO_TARGET = 'xs_qf_04';
+  var DEMO_PLAN_DEFAULT = DEMO_PLAN;
+  var DEMO_TARGET_DEFAULT = DEMO_TARGET;
 
   function applyMeta(m) {
+    // 换学科时先把上一科的值抹掉，不然切到数学还会带着化学的演示路径
+    DEMO_PLAN = DEMO_PLAN_DEFAULT;
+    DEMO_TARGET = DEMO_TARGET_DEFAULT;
+    document.title = 'X空间 · 知识点前置诊断';
+    var sub = document.getElementById('brand-sub');
+    if (sub) sub.textContent = '知识点前置诊断';
+    var hint = document.getElementById('subject-note');
+    if (hint) hint.hidden = true;
     if (!m) return;
     if (m.title) document.title = m.title;
-    var sub = document.getElementById('brand-sub');
     if (sub && m.subtitle) sub.textContent = m.subtitle;
-    var hint = document.getElementById('subject-note');
     if (hint && m.note) { hint.textContent = m.note; hint.hidden = false; }
     if (m.demoPlan) DEMO_PLAN = m.demoPlan;
     if (m.demoTarget) DEMO_TARGET = m.demoTarget;
   }
 
-  /* ------------------------------------------------------------ 事件绑定 */
-  document.addEventListener('DOMContentLoaded', function () {
-    fetch('data/meta.json', { cache: 'no-store' })
+  /* ---------------------------------------------------------- 学科切换 */
+  function renderSubjTabs() {
+    var host = $('subject-tabs');
+    if (!host) return;
+    host.innerHTML = '';
+    SUBJECTS.forEach(function (s) {
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'subject-tab' + (s.id === SUBJECT ? ' active' : '');
+      b.textContent = s.name;
+      b.dataset.subject = s.id;
+      b.onclick = function () {
+        if (s.id === SUBJECT || b.disabled) return;
+        switchSubject(s.id);
+      };
+      host.appendChild(b);
+    });
+  }
+
+  function resetState() {
+    state.targets = [];
+    state.session = null;
+    state.summary = null;
+    state.log = [];
+    state.picked = null;
+    state.awaiting = false;
+    state.demo = false;
+    $('report').hidden = true;
+    $('btn-resume').hidden = true;
+    $('btn-start').disabled = true;
+    $('scope-list').innerHTML = '';
+    $('start-hint').textContent = '先在上面选一个范围。';
+  }
+
+  function switchSubject(id) {
+    resetState();
+    show('start');
+    return loadSubject(id);
+  }
+
+  function loadSubject(id) {
+    SUBJECT = id;
+    saveSubjectChoice(id);
+    renderSubjTabs();
+    var u = new URL(location.href);
+    if (u.searchParams.get('subject') !== id) {
+      u.searchParams.set('subject', id);
+      history.replaceState(null, '', u.toString());
+    }
+    return fetch(dataPath('meta.json'), { cache: 'no-store' })
       .then(function (r) { return r.ok ? r.json() : null; })
       .then(applyMeta)
-      .catch(function () {});
+      .catch(function () { applyMeta(null); })
+      .then(boot);
+  }
+
+  function saveSubjectChoice(id) {
+    try { localStorage.setItem(LS_SUBJECT, id); } catch (e) { /* 隐私模式 */ }
+  }
+
+  function initialSubject() {
+    var want = new URLSearchParams(location.search).get('subject');
+    if (!want) { try { want = localStorage.getItem(LS_SUBJECT); } catch (e) { want = null; } }
+    return subjectIds().indexOf(want) >= 0 ? want : 'math';
+  }
+
+  /* ------------------------------------------------------------ 事件绑定 */
+  document.addEventListener('DOMContentLoaded', function () {
     $('student').oninput = function () { state.student = this.value.trim(); };
     $('limit').oninput = function () { state.limit = parseInt(this.value, 10) || 16; };
 
@@ -613,7 +702,7 @@
     $('btn-restart').onclick = function () {
       state.log = []; state.session = null; state.summary = null;
       $('report').hidden = true;
-      try { localStorage.removeItem(LS_KEY); } catch (e) {}
+      try { localStorage.removeItem(storeKey()); } catch (e) {}
       show('start');
     };
     $('btn-export').onclick = function () {
@@ -645,7 +734,7 @@
       };
     });
 
-    boot().then(function () {
+    loadSubject(initialSubject()).then(function () {
       var params = new URLSearchParams(location.search);
       if (params.get('demo') === 'chapter') {
         // 整章演示（用来检查报告在最长情况下是否还能一页装下）

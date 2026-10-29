@@ -147,6 +147,9 @@
       wrap.appendChild(items);
       host.appendChild(wrap);
     });
+    // 列表出来了就把提示语收回到「先在上面选一个范围」，
+    // 不然 switchSubject 临时写的「正在载入…」会一直挂着。
+    syncScope();
   }
 
   function syncScope() {

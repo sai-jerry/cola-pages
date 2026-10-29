@@ -206,9 +206,9 @@
       answerInput.hidden = true;
       $('input-label').hidden = true;
       submit.hidden = false;
-      // 四个选项全是图的话切两列，省一半高度
+      // 每个选项都带图就切两列，省一半高度
       var allFig = q.choices.every(function (c) {
-        return /^\s*\{\{fig:\d+\}\}\s*$/.test(c.text);
+        return /\{\{fig:\d+\}\}/.test(c.text);
       });
       choices.className = allFig ? 'choices all-fig' : 'choices';
       q.choices.forEach(function (c) {

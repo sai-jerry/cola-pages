@@ -34,5 +34,515 @@
   "prerequisiteId": "xs_ch1_06",
   "strength": "soft",
   "reason": "实验操作题常问「这样操作是为了什么」，本质是在问探究计划怎么设计"
+ },
+ {
+  "topicId": "xs_ch10_02",
+  "prerequisiteId": "xs_ch10_01",
+  "strength": "soft",
+  "reason": "判断「这瓶是酸还是碱」靠的正是石蕊酚酞和 pH，指示剂没过关，连浓盐酸和石灰水都分不出"
+ },
+ {
+  "topicId": "xs_ch10_03",
+  "prerequisiteId": "xs_ch10_02",
+  "strength": "hard",
+  "reason": "酸的通性来自「酸溶液里都有 H⁺」，先得认识盐酸、硫酸这两种酸本身，才谈得上它们的共同性质"
+ },
+ {
+  "topicId": "xs_ch10_04",
+  "prerequisiteId": "xs_ch10_01",
+  "strength": "soft",
+  "reason": "碱的通性第一条就是使石蕊变蓝、酚酞变红，酸碱性判断不过关就读不出碱的性质实验现象"
+ },
+ {
+  "topicId": "xs_ch10_05",
+  "prerequisiteId": "xs_ch10_03",
+  "strength": "hard",
+  "reason": "中和反应是酸的五条通性里的第④条，写不出「酸+碱→盐+水」就判断不了反应后溶质是谁"
+ },
+ {
+  "topicId": "xs_ch10_05",
+  "prerequisiteId": "xs_ch10_04",
+  "strength": "hard",
+  "reason": "中和的另一半是碱，OH⁻ 从哪来、碱过量时溶液为什么显碱性，都建立在碱的通性上"
+ },
+ {
+  "topicId": "xs_ch10_06",
+  "prerequisiteId": "xs_ch10_03",
+  "strength": "soft",
+  "reason": "盐的五种常见物质里，Na₂CO₃、NaHCO₃、CaCO₃ 与酸反应冒气泡这一条，就是酸的通性第⑤条的实例"
+ },
+ {
+  "topicId": "xs_ch10_07",
+  "prerequisiteId": "xs_ch10_06",
+  "strength": "soft",
+  "reason": "粗盐主要成分是 NaCl，先认下「食盐是盐、易溶于水」，才能解释为什么泥沙留下、盐进滤液"
+ },
+ {
+  "topicId": "xs_ch10_08",
+  "prerequisiteId": "xs_ch10_03",
+  "strength": "hard",
+  "reason": "复分解的判据「交换成分后有没有沉淀/气体/水」，第一批例子就是酸的五条通性里的反应"
+ },
+ {
+  "topicId": "xs_ch10_08",
+  "prerequisiteId": "xs_ch10_04",
+  "strength": "hard",
+  "reason": "碱+盐、盐+盐两类复分解要求反应物都可溶，碱的溶解性（只有 KOH/NaOH/Ba(OH)₂ 可溶）必须先记牢"
+ },
+ {
+  "topicId": "xs_ch10_08",
+  "prerequisiteId": "xs_ch10_06",
+  "strength": "hard",
+  "reason": "判沉淀要先认得出 BaSO₄、AgCl、CaCO₃ 这些盐，离子共存题里的「不共存」全落在这里"
+ },
+ {
+  "topicId": "xs_ch10_09",
+  "prerequisiteId": "xs_ch10_06",
+  "strength": "soft",
+  "reason": "化肥大多是盐（NH₄NO₃、K₂SO₄、K₂CO₃、NH₄H₂PO₄），先分清盐的构成，才说得清它提供哪种营养元素"
+ },
+ {
+  "topicId": "xs_ch10_09",
+  "prerequisiteId": "xs_ch10_04",
+  "strength": "soft",
+  "reason": "铵态氮肥不能与草木灰、熟石灰混施，靠的是碱能跟铵盐反应放出 NH₃ 这一条碱的通性"
+ },
+ {
+  "topicId": "xs_ch11_03",
+  "prerequisiteId": "xs_ch11_02",
+  "strength": "hard",
+  "reason": "先要能用「金属／无机非金属／有机高分子／复合材料」给材料定位，才谈得上合成材料好在哪、该不该用灼烧法鉴别纤维"
+ },
+ {
+  "topicId": "xs_ch11_05",
+  "prerequisiteId": "xs_ch11_04",
+  "strength": "soft",
+  "reason": "营养素题里的「钙、铁、碘」和常量／微量元素是同一套元素知识，元素档位切错，「缺什么得什么病」就会跟着错"
+ },
+ {
+  "topicId": "xs_ch11_06",
+  "prerequisiteId": "xs_ch11_05",
+  "strength": "hard",
+  "reason": "食品安全题（霉变、甲醛、小苏打、补剂过量）全靠在六大营养素的性质上判，营养素不清就只能凭生活印象猜"
+ },
+ {
+  "topicId": "xs_ch11_06",
+  "prerequisiteId": "xs_ch11_04",
+  "strength": "soft",
+  "reason": "「必需元素不是越多越好」「补钙剂过量会结石」要用常量／微量元素和过量危害来支撑"
+ },
+ {
+  "topicId": "xs_ch11_07",
+  "prerequisiteId": "xs_ch11_01",
+  "strength": "soft",
+  "reason": "减排降碳减的对象就是化石燃料燃烧，能源结构没理清，就说不清为什么非要开发新能源"
+ },
+ {
+  "topicId": "xs_ch11_07",
+  "prerequisiteId": "xs_ch11_02",
+  "strength": "soft",
+  "reason": "垃圾分类与回收要先知道塑料属于哪一类材料、能不能回收再生，白色污染的治理链条是从材料分类起步的"
+ },
+ {
+  "topicId": "xs_ch12_02",
+  "prerequisiteId": "xs_ch12_01",
+  "strength": "hard",
+  "reason": "现象与结论是探究八步里的「收集证据→解释与结论」，方案这一关没过，后面读到的现象无从归属"
+ },
+ {
+  "topicId": "xs_ch12_03",
+  "prerequisiteId": "xs_ch12_02",
+  "strength": "hard",
+  "reason": "鉴别靠的是「现象有没有差别」，连现象和结论都分不清，就会出现「两瓶都变红所以鉴别出来了」这种错判"
+ },
+ {
+  "topicId": "xs_ch12_04",
+  "prerequisiteId": "xs_ch12_03",
+  "strength": "soft",
+  "reason": "除杂前必须先认出杂质是什么、怎么检出（如 CO₃²⁻ 加盐酸冒泡），检验认不出杂质就选不对试剂"
+ },
+ {
+  "topicId": "xs_ch12_04",
+  "prerequisiteId": "xs_ch12_01",
+  "strength": "soft",
+  "reason": "产率误差分析本质是「反思与评价」那一步，判方案的三把尺子（尤其「有没有引入新杂质」）在这里直接复用"
+ },
+ {
+  "topicId": "xs_ch12_05",
+  "prerequisiteId": "xs_ch12_04",
+  "strength": "hard",
+  "reason": "流程题里出现的过滤、蒸发结晶、降温结晶、洗涤滤渣，全是分离提纯操作搬到工厂里，操作名称和目的完全通用"
+ },
+ {
+  "topicId": "xs_ch12_05",
+  "prerequisiteId": "xs_ch12_02",
+  "strength": "soft",
+  "reason": "流程题判断「这一步除掉了什么」，靠的是现象和数据（沉淀、颜色、pH 变化），读不出证据就顺不动物料"
+ },
+ {
+  "topicId": "xs_ch2_02",
+  "prerequisiteId": "xs_ch2_01",
+  "strength": "hard",
+  "reason": "用途全部挂在成分上——不知道空气里 78% 是氮气，就判不出「含量较多且能作保护气」说的是谁"
+ },
+ {
+  "topicId": "xs_ch2_03",
+  "prerequisiteId": "xs_ch2_01",
+  "strength": "hard",
+  "reason": "测定实验的结论本身就是「氧气约占空气总体积的 1/5」，先有组成这张表，才知道要测的是哪个量"
+ },
+ {
+  "topicId": "xs_ch2_05",
+  "prerequisiteId": "xs_ch2_01",
+  "strength": "soft",
+  "reason": "工业制氧是把空气按各成分沸点切开，前提是先认得空气里有氮气、氧气、稀有气体"
+ },
+ {
+  "topicId": "xs_ch2_06",
+  "prerequisiteId": "xs_ch2_05",
+  "strength": "hard",
+  "reason": "先定发生装置和药品（固固加热还是固液常温），才谈得上查装定点收移熄这套操作顺序"
+ },
+ {
+  "topicId": "xs_ch2_07",
+  "prerequisiteId": "xs_ch2_06",
+  "strength": "soft",
+  "reason": "催化剂的「一变两不变」是过氧化氢制氧实验里对比出来的结论，没做过那三支试管的对比就记不牢"
+ },
+ {
+  "topicId": "xs_ch2_04",
+  "prerequisiteId": "xs_ch2_01",
+  "strength": "soft",
+  "reason": "空气里氧气只占 21%，「在空气中燃烧」和「在氧气中燃烧」现象完全不同，先分清这两个场合才谈得上描述现象"
+ },
+ {
+  "topicId": "xs_ch3_02",
+  "prerequisiteId": "xs_ch3_01",
+  "strength": "hard",
+  "reason": "判微观示意图里哪一格是混合物、哪一格由原子构成，前提是先知道物质由分子或原子构成、分子由原子构成"
+ },
+ {
+  "topicId": "xs_ch3_03",
+  "prerequisiteId": "xs_ch3_01",
+  "strength": "hard",
+  "reason": "分子运动实验的每一个现象都靠「分子在不断运动」「分子间有间隔」这两条性质来解释"
+ },
+ {
+  "topicId": "xs_ch3_04",
+  "prerequisiteId": "xs_ch3_01",
+  "strength": "hard",
+  "reason": "讲原子结构之前，得先有「分子由原子构成」这层关系，否则不知道原子在哪儿、跟分子什么关系"
+ },
+ {
+  "topicId": "xs_ch3_05",
+  "prerequisiteId": "xs_ch3_04",
+  "strength": "hard",
+  "reason": "结构示意图里圆圈内的数字就是质子数，不认识质子、中子、电子就读不懂这张图"
+ },
+ {
+  "topicId": "xs_ch3_06",
+  "prerequisiteId": "xs_ch3_05",
+  "strength": "hard",
+  "reason": "离子能不能形成、形成什么离子，全看最外层电子数是小于 4 还是大于 4，这正是结构示意图给出的信息"
+ },
+ {
+  "topicId": "xs_ch3_06",
+  "prerequisiteId": "xs_ch3_04",
+  "strength": "soft",
+  "reason": "离子所带电荷数＝质子数−核外电子数，得先会数质子数和电子数才算得出来"
+ },
+ {
+  "topicId": "xs_ch3_07",
+  "prerequisiteId": "xs_ch3_04",
+  "strength": "hard",
+  "reason": "元素是质子数相同的一类原子的总称，元素种类由质子数决定，前提是知道原子核里有质子"
+ },
+ {
+  "topicId": "xs_ch3_07",
+  "prerequisiteId": "xs_ch3_06",
+  "strength": "soft",
+  "reason": "「原子得失电子后元素种类不变」这条判断，要用到离子的质子数与电子数关系"
+ },
+ {
+  "topicId": "xs_ch4_02",
+  "prerequisiteId": "xs_ch4_01",
+  "strength": "soft",
+  "reason": "净水是「防治水污染」的直接手段：先知道污染从哪来、为什么要治，才明白四种净水方法各自在解决什么问题"
+ },
+ {
+  "topicId": "xs_ch4_03",
+  "prerequisiteId": "xs_ch4_02",
+  "strength": "hard",
+  "reason": "过滤是净水四法之一，先知道「沉淀<过滤<吸附<蒸馏」的整体位置，才知道过滤为什么排在活性炭前面、它只管不溶性杂质"
+ },
+ {
+  "topicId": "xs_ch4_05",
+  "prerequisiteId": "xs_ch4_04",
+  "strength": "hard",
+  "reason": "水的化学式 H₂O 是从电解水推出来的：分解出氢气和氧气→水含氢氧两种元素，再由分子构成定下 2 个氢原子配 1 个氧原子"
+ },
+ {
+  "topicId": "xs_ch4_06",
+  "prerequisiteId": "xs_ch4_05",
+  "strength": "hard",
+  "reason": "化合价是用来推化学式的工具，前提是已经会读化学式、知道下标数字表示一个分子里有几个原子"
+ },
+ {
+  "topicId": "xs_ch4_07",
+  "prerequisiteId": "xs_ch4_05",
+  "strength": "hard",
+  "reason": "Mr、元素质量比、质量分数全部建立在「化学式里每个数字代表几个原子」上，化学式读不懂就一步也算不下去"
+ },
+ {
+  "topicId": "xs_ch4_07",
+  "prerequisiteId": "xs_ch4_06",
+  "strength": "soft",
+  "reason": "化学式写错（用错化合价）会把 Mr 一起算错：Al₂O₃ 写成 AlO，后面质量分数再熟也白搭"
+ },
+ {
+  "topicId": "xs_ch5_02",
+  "prerequisiteId": "xs_ch5_01",
+  "strength": "hard",
+  "reason": "验证实验就是给定律找证据，定律的「参加」「各物质」两条解读直接决定装置要不要密闭"
+ },
+ {
+  "topicId": "xs_ch5_03",
+  "prerequisiteId": "xs_ch5_01",
+  "strength": "hard",
+  "reason": "微观解释回答的是定律「为什么成立」，原子三不变是定律的原因，不是另一条并列的规律"
+ },
+ {
+  "topicId": "xs_ch5_04",
+  "prerequisiteId": "xs_ch5_03",
+  "strength": "hard",
+  "reason": "方程式的定量意义（质量比、粒子个数比）建立在「原子数目不变」上，微观图读不懂就读不懂系数"
+ },
+ {
+  "topicId": "xs_ch5_05",
+  "prerequisiteId": "xs_ch5_04",
+  "strength": "hard",
+  "reason": "书写与配平的目标就是让方程式满足质量守恒，不理解定量意义就只会死记系数"
+ },
+ {
+  "topicId": "xs_ch5_06",
+  "prerequisiteId": "xs_ch5_05",
+  "strength": "hard",
+  "reason": "计算必须先把方程式写对、配平，系数错一个数，后面比例全错"
+ },
+ {
+  "topicId": "xs_ch5_06",
+  "prerequisiteId": "xs_ch5_03",
+  "strength": "soft",
+  "reason": "计算的理论依据是质量守恒（原子不变），用总质量差求气体质量就是这条的活用"
+ },
+ {
+  "topicId": "xs_ch5_07",
+  "prerequisiteId": "xs_ch5_01",
+  "strength": "hard",
+  "reason": "元素种类守恒、元素质量守恒是质量守恒定律在元素层面的说法，先得会用总量守恒"
+ },
+ {
+  "topicId": "xs_ch5_07",
+  "prerequisiteId": "xs_ch5_04",
+  "strength": "soft",
+  "reason": "算元素质量比、原子个数比要用到质量比和相对原子质量，方程式意义不清容易算错方向"
+ },
+ {
+  "topicId": "xs_ch5_05",
+  "prerequisiteId": "xs_ch5_03",
+  "strength": "soft",
+  "reason": "配平的本质是让两边原子数目相等，微观上数原子比背口诀可靠"
+ },
+ {
+  "topicId": "xs_ch6_02",
+  "prerequisiteId": "xs_ch6_01",
+  "strength": "hard",
+  "reason": "碳单质化学性质相似，是因为不同单质里参加反应的最小粒子都是碳原子；先弄清金刚石、石墨、C60 只是碳原子排列方式不同，才解释得了「物理性质差很多、化学性质却一样」"
+ },
+ {
+  "topicId": "xs_ch6_03",
+  "prerequisiteId": "xs_ch6_01",
+  "strength": "soft",
+  "reason": "干冰是固态二氧化碳，不是碳单质；把「碳家族」和「碳的化合物」分不清，就会拿碳单质的性质去判干冰"
+ },
+ {
+  "topicId": "xs_ch6_04",
+  "prerequisiteId": "xs_ch6_03",
+  "strength": "hard",
+  "reason": "CO₂ 的化学性质全靠密度和溶解性撑着：倾倒的 CO₂ 先沉底才有「自下而上熄灭」，导管要伸到瓶底、不能用排水法，都是因为密度比空气大又能溶于水"
+ },
+ {
+  "topicId": "xs_ch6_04",
+  "prerequisiteId": "xs_ch6_02",
+  "strength": "soft",
+  "reason": "碳燃烧生成 CO₂、CO₂ 在高温下又能被碳还原成 CO，两头都要先会写碳的可燃性和还原性方程式"
+ },
+ {
+  "topicId": "xs_ch6_05",
+  "prerequisiteId": "xs_ch6_04",
+  "strength": "soft",
+  "reason": "用途是性质的延伸：灭火要同时用上「密度比空气大」和「不能燃烧、不支持燃烧」，性质没分清就看不出错误选项"
+ },
+ {
+  "topicId": "xs_ch6_06",
+  "prerequisiteId": "xs_ch6_03",
+  "strength": "hard",
+  "reason": "CO 与 CO₂ 的鉴别、除杂第一步都在比密度和溶解性（CO 难溶于水所以用排水法，CO₂ 密度大所以向上排空气），比不出差别就选不对方法与装置"
+ },
+ {
+  "topicId": "xs_ch6_06",
+  "prerequisiteId": "xs_ch6_04",
+  "strength": "hard",
+  "reason": "除杂与转化考的是两者性质的反差：CO₂ 与石灰水、NaOH 反应而 CO 不反应；CO 能还原 CuO 而 CO₂ 不能。性质对照表不熟，就会把「除谁」的方向做反"
+ },
+ {
+  "topicId": "xs_ch6_06",
+  "prerequisiteId": "xs_ch6_02",
+  "strength": "soft",
+  "reason": "CO 的可燃性和还原性与碳单质同源（都是夺氧被氧化），碳的还原性没过关就读不懂「CO 夺氧」这一句"
+ },
+ {
+  "topicId": "xs_ch6_07",
+  "prerequisiteId": "xs_ch6_04",
+  "strength": "hard",
+  "reason": "挑收集装置靠性质：能溶于水且与水反应、密度比空气大 → 只能向上排空气；检验靠的正是 CO₂ 使石灰水变浑浊"
+ },
+ {
+  "topicId": "xs_ch6_07",
+  "prerequisiteId": "xs_ch6_05",
+  "strength": "soft",
+  "reason": "用途题里背下来的「大理石是建筑材料、碳酸钙」会以药品身份回到制取题：为什么选块状石灰石而不是碳酸钠粉末，考的就是「大理石是混合物、主要成分是碳酸钙，粉末反应太快」"
+ },
+ {
+  "topicId": "xs_ch7_02",
+  "prerequisiteId": "xs_ch7_01",
+  "strength": "hard",
+  "reason": "灭火原理就是「破坏燃烧三条件之一」，三条件没背清，就分不清盖锅盖破坏的是氧气还是可燃物"
+ },
+ {
+  "topicId": "xs_ch7_03",
+  "prerequisiteId": "xs_ch7_01",
+  "strength": "hard",
+  "reason": "充分燃烧的两条措施正好对应「氧气」和「接触面积」这两个条件，先有三条件才谈得上调控"
+ },
+ {
+  "topicId": "xs_ch7_04",
+  "prerequisiteId": "xs_ch7_02",
+  "strength": "hard",
+  "reason": "选灭火器的前提是分清「降温」「隔绝氧气」「隔离可燃物」，否则只能死记适用范围"
+ },
+ {
+  "topicId": "xs_ch7_05",
+  "prerequisiteId": "xs_ch7_01",
+  "strength": "soft",
+  "reason": "爆炸是有限空间内的急剧燃烧，验纯与严禁烟火都是「别让可燃物、氧气、明火凑齐」"
+ },
+ {
+  "topicId": "xs_ch7_06",
+  "prerequisiteId": "xs_ch7_03",
+  "strength": "soft",
+  "reason": "燃料燃烧放热是「调控燃烧」想拿到的结果，先知道燃烧放热才理解为什么要让它烧得充分"
+ },
+ {
+  "topicId": "xs_ch7_07",
+  "prerequisiteId": "xs_ch7_01",
+  "strength": "soft",
+  "reason": "化石能源的利用本质是让它充分燃烧并减少污染物，判断「黄焰」「黑烟」仍要回到燃烧条件与氧气量"
+ },
+ {
+  "topicId": "xs_ch8_02",
+  "prerequisiteId": "xs_ch8_01",
+  "strength": "hard",
+  "reason": "合金的硬度更大、熔点更低，都是跟组成它的纯金属比出来的，不知道纯金属的硬度、熔点就无从对比"
+ },
+ {
+  "topicId": "xs_ch8_04",
+  "prerequisiteId": "xs_ch8_03",
+  "strength": "hard",
+  "reason": "活动性顺序是金属与酸、与盐溶液的反应现象归纳出来的结论，三类反应的现象记不清就排不出顺序"
+ },
+ {
+  "topicId": "xs_ch8_05",
+  "prerequisiteId": "xs_ch8_04",
+  "strength": "hard",
+  "reason": "设计比较三种金属活动性的实验，前提是先用顺序定位谁在中间，两金夹一盐／两盐夹一金的选药全靠这一步"
+ },
+ {
+  "topicId": "xs_ch8_07",
+  "prerequisiteId": "xs_ch8_03",
+  "strength": "soft",
+  "reason": "铁生锈就是铁与氧气发生的缓慢氧化，先认下「铁能被氧气氧化」这一层，才理解锈蚀也是氧化反应"
+ },
+ {
+  "topicId": "xs_ch8_07",
+  "prerequisiteId": "xs_ch8_02",
+  "strength": "soft",
+  "reason": "不锈钢防锈靠的是「改变内部结构、制成合金」，不讲透合金就说不清这条防锈原理"
+ },
+ {
+  "topicId": "xs_ch8_06",
+  "prerequisiteId": "xs_ch8_02",
+  "strength": "soft",
+  "reason": "高炉的产品是生铁（含碳 2%~4.3% 的铁合金），不先认下生铁与钢的含碳量，就说不清炼铁到底炼出了什么"
+ },
+ {
+  "topicId": "xs_ch8_06",
+  "prerequisiteId": "xs_ch8_03",
+  "strength": "soft",
+  "reason": "炼铁的核心是 CO 把铁从 Fe₂O₃ 里还原出来，属于金属氧化物被还原，接在金属化学性质这条线的反面"
+ },
+ {
+  "topicId": "xs_ch9_02",
+  "prerequisiteId": "xs_ch9_01",
+  "strength": "soft",
+  "reason": "吸放热讲的是「溶解这个过程」伴随什么，先认下这杯东西是溶液，才谈得上它的溶解过程"
+ },
+ {
+  "topicId": "xs_ch9_03",
+  "prerequisiteId": "xs_ch9_01",
+  "strength": "hard",
+  "reason": "饱和与否问的是「还能不能再溶这种溶质」，溶质是谁都没分清，就无从判断谁饱和"
+ },
+ {
+  "topicId": "xs_ch9_04",
+  "prerequisiteId": "xs_ch9_03",
+  "strength": "hard",
+  "reason": "溶解度的定义里直接写着「达到饱和状态」，四要素中的这一条就是饱和概念搬过来的"
+ },
+ {
+  "topicId": "xs_ch9_04",
+  "prerequisiteId": "xs_ch9_01",
+  "strength": "soft",
+  "reason": "溶解度里的「100 g 溶剂」和「未溶解的不算溶质」都要靠溶质溶剂的概念打底"
+ },
+ {
+  "topicId": "xs_ch9_05",
+  "prerequisiteId": "xs_ch9_04",
+  "strength": "hard",
+  "reason": "曲线上的每一个点就是该温度下的溶解度数值，不知道 100 g 水、单位克、饱和这三件事就读不懂坐标"
+ },
+ {
+  "topicId": "xs_ch9_05",
+  "prerequisiteId": "xs_ch9_03",
+  "strength": "soft",
+  "reason": "「曲线上的点饱和、下方不饱和、上方饱和且有固体」这三句话是把饱和判断搬到图上"
+ },
+ {
+  "topicId": "xs_ch9_06",
+  "prerequisiteId": "xs_ch9_04",
+  "strength": "hard",
+  "reason": "饱和溶液的质量分数要按 S/(100+S) 算，拿不到该温度的溶解度就算不出来"
+ },
+ {
+  "topicId": "xs_ch9_07",
+  "prerequisiteId": "xs_ch9_06",
+  "strength": "hard",
+  "reason": "配制的每一步都在算「要多少溶质、多少水」，误差分析也是看 ω 的分子分母怎么变"
+ },
+ {
+  "topicId": "xs_ch9_07",
+  "prerequisiteId": "xs_ch9_01",
+  "strength": "soft",
+  "reason": "配制出来的成品就是溶液，溶质溶剂的判断决定了该称什么、该量什么"
  }
 ]

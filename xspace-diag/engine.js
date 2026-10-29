@@ -350,6 +350,14 @@
     return toHalfWidth(s).replace(/\s+/g, '').replace(/^答:/, '').replace(/\.$/, '').toLowerCase();
   }
 
+  // 语文填空题（默写、字形、释义）只有这里用：把标点全去掉再比。
+  // 学生写「沉舟侧畔千帆过病树前头万木春」和「沉舟侧畔千帆过，病树前头万木春」
+  // 是同一个答案，判成错会让人当场失去信任。引号书名号也一并去掉，
+  // 因为默写题学生很少记得加引号。
+  function stripPunct(s) {
+    return normalize(s).replace(/[，。、；：？！,.;:?!""''《》〈〉「」『』（）()【】\[\]—－…·~～"']/g, '');
+  }
+
   function parseNumber(text) {
     var s = normalize(text).replace(/^x=|^y=/, '');
     if (/^-?\d+(\.\d+)?%$/.test(s)) return parseFloat(s) / 100;
@@ -386,6 +394,15 @@
       });
       if (isAnotherOption) return { verdict: 'wrong', reason: '选了别的选项' };
       return { verdict: 'manual', reason: '认不出选了哪个选项' };
+    }
+    if (question.type === 'fill') {
+      var refs = [question.answer].concat(question.accept || []);
+      var user = stripPunct(userText);
+      if (!user) return { verdict: 'manual', reason: '没填答案' };
+      for (var k = 0; k < refs.length; k++) {
+        if (stripPunct(refs[k]) === user) return { verdict: 'correct', reason: '与参考答案一致' };
+      }
+      return { verdict: 'wrong', reason: '与参考答案不一致' };
     }
     if (question.type === 'numeric') {
       var refs = splitAnswers(question.answer);

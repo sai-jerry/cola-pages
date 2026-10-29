@@ -11,6 +11,7 @@
    * 答题存档的 key 也带学科，不然物理答到一半切到化学会把存档串了。
    */
   var SUBJECTS = [
+    { id: 'chinese', name: '语文' },
     { id: 'math', name: '数学' },
     { id: 'physics', name: '物理' },
     { id: 'chemistry', name: '化学' }
@@ -443,6 +444,24 @@
 
     var wrongAll = state.log.filter(function (a) { return a.result === 'wrong'; });
     var wrongCap = s.path.length > 12 ? 3 : 6;   // 路径长时少列错题，尽量压在一页
+
+    // 题干长的科目（语文的题干常常四五十字，还带四个长选项）光按条数截不够，
+    // 六行错题表就能把一页纸顶到第二页。再按题干总字数收一次口：
+    // 累计超过 WRONG_BUDGET 字就不再往下放，至少留 2 行。
+    var WRONG_BUDGET = 340;
+    var usedChars = 0, fitCap = 0;
+    for (var wi = 0; wi < wrongAll.length && fitCap < wrongCap; wi++) {
+      var wq = null;
+      (graph.questionsByTopic[wrongAll[wi].topicId] || []).forEach(function (x) {
+        if (x.id === wrongAll[wi].qid) wq = x;
+      });
+      var len = wq ? String(wq.prompt).length + String(wq.answer).length * 2 : 0;
+      if (fitCap >= 2 && usedChars + len > WRONG_BUDGET) break;
+      usedChars += len;
+      fitCap++;
+    }
+    wrongCap = Math.max(2, fitCap);
+
     var wrongRows = wrongAll.slice(0, wrongCap).map(function (a, i) {
       var q = null;
       (graph.questionsByTopic[a.topicId] || []).forEach(function (x) { if (x.id === a.qid) q = x; });
@@ -453,8 +472,10 @@
         (a.text ? '<br><i>学生答案：' + richText(a.text, q.figures, 'rep-fig') + '</i>' : '') +
         '</td><td>' + richText(q.answer, q.figures, 'rep-fig') + '</td><td></td></tr>';
     }).join('');
-    if (wrongRows && wrongAll.length > 6) {
-      wrongRows += '<tr><td colspan="5">…另有 ' + (wrongAll.length - 8) + ' 道错题未列出，完整答题记录已随本次诊断一起导出。</td></tr>';
+    if (wrongRows && wrongAll.length > wrongCap) {
+      // 这里的数字必须跟着 wrongCap 走，不能写死。
+      // 原来写死 -8，遇到 7 道错题（截 6 道）会算出「另有 -1 道错题未列出」。
+      wrongRows += '<tr><td colspan="5">…另有 ' + (wrongAll.length - wrongCap) + ' 道错题未列出，完整答题记录已随本次诊断一起导出。</td></tr>';
     }
     $('report-wrong').innerHTML = wrongRows || '<tr><td colspan="5">本次没有答错的题。</td></tr>';
 

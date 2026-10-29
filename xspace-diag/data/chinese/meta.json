@@ -1,0 +1,23 @@
+{
+ "title": "X空间 · 初中语文知识点诊断",
+ "subtitle": "知识点前置诊断 · 初中语文（中考五大板块）",
+ "demoTarget": "xs_yw17_08",
+ "demoPlan": {
+  "xs_yw17_08": [
+   "wrong",
+   "wrong"
+  ],
+  "xs_yw17_02": [
+   "wrong",
+   "wrong"
+  ],
+  "xs_yw17_01": [
+   "wrong",
+   "wrong"
+  ],
+  "xs_yw19_01": [
+   "wrong",
+   "correct"
+  ]
+ }
+}

@@ -253,7 +253,9 @@ table.path-table td:nth-child(1), table.path-table td:nth-child(4) { text-align:
 table.path-table td:nth-child(2) { text-align: center; white-space: nowrap; }
 table.path-table thead { display: table-header-group; }
 .wrong-table { font-size: 8.2pt; }
-.wrong-table td:nth-child(3) { font-size: 8.2pt; }
+/* 题干和参考答案两列都是长文字，字号和行距要一致；知识点列会换行，给窄一点 */
+.wrong-table td:nth-child(3), .wrong-table td:nth-child(4) { font-size: 8.2pt; line-height: 1.4; }
+.wrong-table td:nth-child(2) { line-height: 1.35; }
 .wrong-table i { color: #444; }
 
 .report-note { font-size: 8pt; color: #333; margin-top: 5px; line-height: 1.5; }

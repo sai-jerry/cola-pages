@@ -1,0 +1,752 @@
+[
+ {
+  "topicId": "xs_yw1_04",
+  "prerequisiteId": "xs_yw1_03",
+  "strength": "soft",
+  "reason": "同音字和形近字用的是同一条方法——看义选形，只是形近字比形旁、同音字比字义，先有形近字的习惯更好上手"
+ },
+ {
+  "topicId": "xs_yw1_05",
+  "prerequisiteId": "xs_yw1_03",
+  "strength": "soft",
+  "reason": "天津本土字词错的基本都是形近字（蓟/冀、青/清、馃/果），形旁辨析不过关，本土字照样写错"
+ },
+ {
+  "topicId": "xs_yw1_05",
+  "prerequisiteId": "xs_yw1_02",
+  "strength": "soft",
+  "reason": "「泃」读 jū 不读 jù、「馃」读 guǒ，这两个字正好是「读半边」陷阱的本地版本"
+ },
+ {
+  "topicId": "xs_yw1_06",
+  "prerequisiteId": "xs_yw1_01",
+  "strength": "hard",
+  "reason": "排查顺序的第一步就是找每项的可疑字，而多音字永远是最可疑的那一类，不掌握据义定音就无从排起"
+ },
+ {
+  "topicId": "xs_yw1_06",
+  "prerequisiteId": "xs_yw1_02",
+  "strength": "hard",
+  "reason": "形声字是第二个高频可疑点，认不出「哪些字是形声字」就找不到该查的位置"
+ },
+ {
+  "topicId": "xs_yw10_02",
+  "prerequisiteId": "xs_yw10_01",
+  "strength": "soft",
+  "reason": "「去」之所以能骗到人，是因为它看着像熟字；先有「先想课内义项再代入」的习惯，才轮得到发现它方向相反"
+ },
+ {
+  "topicId": "xs_yw10_04",
+  "prerequisiteId": "xs_yw10_03",
+  "strength": "hard",
+  "reason": "补主语是翻译的一个动作，得先知道翻译要逐字落实、按句式给分，补主语才有意义"
+ },
+ {
+  "topicId": "xs_yw10_05",
+  "prerequisiteId": "xs_yw10_01",
+  "strength": "soft",
+  "reason": "提炼品格的前提是把事迹读准，而读准靠的正是实词迁移——「素」「善」「去」读错，人物的行为就跟着读错"
+ },
+ {
+  "topicId": "xs_yw11_03",
+  "prerequisiteId": "xs_yw11_01",
+  "strength": "soft",
+  "reason": "分层之后每一层仍要用「谁＋做了什么＋有何特点」压成一句话，要素提炼不过关，分层只是把文章切碎"
+ },
+ {
+  "topicId": "xs_yw11_04",
+  "prerequisiteId": "xs_yw11_01",
+  "strength": "hard",
+  "reason": "三个失分点全都发生在「把一段话压成一句话」这一步：抄原句是不会压、要点遗漏是漏了要素、内容当主旨是压错了方向"
+ },
+ {
+  "topicId": "xs_yw11_05",
+  "prerequisiteId": "xs_yw11_02",
+  "strength": "hard",
+  "reason": "主旨与意蕴藏在结尾的抒情议论句里，不会定位关键句，就只能凭感觉猜「表达了什么感情」"
+ },
+ {
+  "topicId": "xs_yw11_06",
+  "prerequisiteId": "xs_yw11_03",
+  "strength": "hard",
+  "reason": "「结合全文」的第一步就是分层，分不出层就不知道该逐段勾哪几段，答案必然漏要点"
+ },
+ {
+  "topicId": "xs_yw11_06",
+  "prerequisiteId": "xs_yw11_05",
+  "strength": "soft",
+  "reason": "逐段勾出的要点还要按内容—情感—意蕴三层归类，不会意蕴三层法，勾出的要点就归不成条，答案会写成一团"
+ },
+ {
+  "topicId": "xs_yw12_03",
+  "prerequisiteId": "xs_yw12_01",
+  "strength": "hard",
+  "reason": "赏析三要素的第一格是手法，比喻和拟人判错，后面的内容和情感写得再准也拿不到分"
+ },
+ {
+  "topicId": "xs_yw12_03",
+  "prerequisiteId": "xs_yw12_02",
+  "strength": "soft",
+  "reason": "描写类句子同样要套三要素，认不出动作词与神态词，「内容」那一格就填不进去"
+ },
+ {
+  "topicId": "xs_yw12_04",
+  "prerequisiteId": "xs_yw12_03",
+  "strength": "soft",
+  "reason": "炼字题是三要素的窄化版：手法一格只填「哪个词、什么词性、有没有修辞」，其余两格不变"
+ },
+ {
+  "topicId": "xs_yw12_07",
+  "prerequisiteId": "xs_yw12_01",
+  "strength": "soft",
+  "reason": "段落内容分析要把段内的画面说清楚，读不出句中的比喻拟人，常常连「这一段写了什么景」都说不准"
+ },
+ {
+  "topicId": "xs_yw12_05",
+  "prerequisiteId": "xs_yw12_07",
+  "strength": "hard",
+  "reason": "句段作用的「内容层」就是这一段的段落内容，答不出承接了什么、引出了什么，只剩四个字的空架子"
+ },
+ {
+  "topicId": "xs_yw12_06",
+  "prerequisiteId": "xs_yw12_05",
+  "strength": "soft",
+  "reason": "引用与对比是句段作用里「特殊手法」那一支，先分得清结构与内容两层，才谈得上特殊作用"
+ },
+ {
+  "topicId": "xs_yw13_02",
+  "prerequisiteId": "xs_yw13_01",
+  "strength": "soft",
+  "reason": "先判断出这是事理说明文，才会想到几种方法、几个原因之间是并列或递进的逻辑关系，从而排除时间顺序"
+ },
+ {
+  "topicId": "xs_yw13_04",
+  "prerequisiteId": "xs_yw13_03",
+  "strength": "hard",
+  "reason": "作用表述的前提是方法判对：把举例子看成作比较，作用句写得再工整也是给错的方法配了错的效果"
+ },
+ {
+  "topicId": "xs_yw13_06",
+  "prerequisiteId": "xs_yw13_01",
+  "strength": "soft",
+  "reason": "内容理解题的第一步是确认说明对象与特征，对象搞错，四个选项都会跟着读偏"
+ },
+ {
+  "topicId": "xs_yw13_06",
+  "prerequisiteId": "xs_yw13_05",
+  "strength": "soft",
+  "reason": "「较低→较高」「风的动能→机械能」这类偷换，说到底是限制词与方向被改，读不出限制词就抓不住"
+ },
+ {
+  "topicId": "xs_yw13_07",
+  "prerequisiteId": "xs_yw13_01",
+  "strength": "soft",
+  "reason": "段意概括要先知道这段在讲对象的哪一面，否则分不清「全段核心」和「局部细节」"
+ },
+ {
+  "topicId": "xs_yw14_02",
+  "prerequisiteId": "xs_yw14_01",
+  "strength": "hard",
+  "reason": "结论是从走势里读出来的，读图三步没走完，写出来的「结论」只能是把数字抄一遍"
+ },
+ {
+  "topicId": "xs_yw14_03",
+  "prerequisiteId": "xs_yw14_02",
+  "strength": "hard",
+  "reason": "分角度作答的前提是先会写基本结论，连一句趋势句都写不出，两个角度也分不出两层"
+ },
+ {
+  "topicId": "xs_yw14_04",
+  "prerequisiteId": "xs_yw14_01",
+  "strength": "soft",
+  "reason": "图型决定读点，是读图三步的细化：先认出这是表格还是柱状图，才知道第二步该看什么"
+ },
+ {
+  "topicId": "xs_yw14_06",
+  "prerequisiteId": "xs_yw14_05",
+  "strength": "soft",
+  "reason": "建议＝针对材料反映的问题提做法，先能把材料的措施提炼成动宾短语，建议才写得出「做什么」"
+ },
+ {
+  "topicId": "xs_yw14_07",
+  "prerequisiteId": "xs_yw14_01",
+  "strength": "soft",
+  "reason": "创意题先要把图形里的元素读出来（几个字、什么造型），不会读图就无从谈形式融合"
+ },
+ {
+  "topicId": "xs_yw15_02",
+  "prerequisiteId": "xs_yw15_01",
+  "strength": "hard",
+  "reason": "要分析杨志理想为什么破灭，前提是先认得杨志这一路的情节（失花石纲、杀牛二、失生辰纲），情节都记不住，三层原因只能背空话，说不出一处证据"
+ },
+ {
+  "topicId": "xs_yw15_05",
+  "prerequisiteId": "xs_yw15_04",
+  "strength": "soft",
+  "reason": "两题考的是同一种读法——从一处细节推到人物与主题（「不省人事」推到讽刺科举，「两茎灯草」推到人物多面），先会做前一种推理，后一种才不至于停在贴标签"
+ },
+ {
+  "topicId": "xs_yw16_02",
+  "prerequisiteId": "xs_yw16_01",
+  "strength": "soft",
+  "reason": "《朝花夕拾》的识别标签是「十篇回忆性散文」，只有在会用「体裁＋独有标签」这条路径之后，这个标签才能变成分数；不会定位，记住十篇也照样填不出书名"
+ },
+ {
+  "topicId": "xs_yw16_03",
+  "prerequisiteId": "xs_yw16_01",
+  "strength": "soft",
+  "reason": "《红星照耀中国》的标签是「纪实／外国记者」，正属于靠体裁定位的那一类，先有定位习惯，才不会把它和同为「写革命」的《钢铁》混在一起"
+ },
+ {
+  "topicId": "xs_yw16_06",
+  "prerequisiteId": "xs_yw16_01",
+  "strength": "soft",
+  "reason": "外国经典的作者名、国籍年年换着考，靠的是先按体裁把范围收到「诗集／科普／外国小说」三格，再用作者名填空，直接背名字容易串国籍"
+ },
+ {
+  "topicId": "xs_yw16_07",
+  "prerequisiteId": "xs_yw16_01",
+  "strength": "hard",
+  "reason": "「反推验证」的第四步就是看填进去的词能不能唯一指回这本书，它依赖的正是定位路径；定位不清，反推时自己都判断不出「通顺且唯一」"
+ },
+ {
+  "topicId": "xs_yw16_07",
+  "prerequisiteId": "xs_yw16_06",
+  "strength": "soft",
+  "reason": "「原词原字」最容易栽在外国作家名上（法布尔、夏洛蒂·勃朗特），国籍与译名不牢，抄写时就会漏字改字"
+ },
+ {
+  "topicId": "xs_yw17_02",
+  "prerequisiteId": "xs_yw17_01",
+  "strength": "hard",
+  "reason": "素材是为立意服务的，中心词没定下来就选材，只能凭「哪件事好写」选，选出来必然和题目对不上"
+ },
+ {
+  "topicId": "xs_yw17_03",
+  "prerequisiteId": "xs_yw17_01",
+  "strength": "hard",
+  "reason": "结构是立意的展开顺序，不知道该说什么就没有截取依据——流水账的根本原因往往是立意没想清楚"
+ },
+ {
+  "topicId": "xs_yw17_04",
+  "prerequisiteId": "xs_yw17_03",
+  "strength": "soft",
+  "reason": "描写只发生在详写的那一个片段里，结构没截取好，整篇都在平铺，没有哪一处值得细写"
+ },
+ {
+  "topicId": "xs_yw17_05",
+  "prerequisiteId": "xs_yw17_04",
+  "strength": "soft",
+  "reason": "环境描写是描写的分支，先建立「用名词动词造画面」的意识，才看得懂景物为什么也要具体"
+ },
+ {
+  "topicId": "xs_yw17_06",
+  "prerequisiteId": "xs_yw17_03",
+  "strength": "hard",
+  "reason": "线索物是串联结构的手段，先有分段和起承转合，才知道线索物该在哪三处出现"
+ },
+ {
+  "topicId": "xs_yw17_07",
+  "prerequisiteId": "xs_yw17_01",
+  "strength": "hard",
+  "reason": "自检四问的第一问就是中心词和素材的对应关系，立意判断不过关，清单剩下的三问也用不上"
+ },
+ {
+  "topicId": "xs_yw17_08",
+  "prerequisiteId": "xs_yw17_02",
+  "strength": "hard",
+  "reason": "化用三法是选材的具体做法，先有「只有我写得出」这条标准，才明白为什么要写细节而不是堆地名"
+ },
+ {
+  "topicId": "xs_yw18_02",
+  "prerequisiteId": "xs_yw18_01",
+  "strength": "hard",
+  "reason": "论据是用来证明论点的，论点没定下来就找论据，只能按「哪个例子好听」挑，最后例子和主张对不上"
+ },
+ {
+  "topicId": "xs_yw18_05",
+  "prerequisiteId": "xs_yw18_01",
+  "strength": "hard",
+  "reason": "微型议论的第一步就是首句亮论点，论点写不出来，四步结构根本搭不起来"
+ },
+ {
+  "topicId": "xs_yw18_05",
+  "prerequisiteId": "xs_yw18_02",
+  "strength": "hard",
+  "reason": "四步里第二、三步就是论据和例后分析，不知道什么叫「例而不议」，微型议论必然写成喊口号"
+ },
+ {
+  "topicId": "xs_yw18_08",
+  "prerequisiteId": "xs_yw18_02",
+  "strength": "hard",
+  "reason": "三步取证法是论据那一点的本土化操作，先有「论据要真实、要跟分析」这条原则，才谈得上取证"
+ },
+ {
+  "topicId": "xs_yw18_07",
+  "prerequisiteId": "xs_yw18_01",
+  "strength": "soft",
+  "reason": "三问的第一问就是论点亮没亮，自检清单实际上是把论点要求变成了一句可执行的话"
+ },
+ {
+  "topicId": "xs_yw18_07",
+  "prerequisiteId": "xs_yw18_03",
+  "strength": "soft",
+  "reason": "三问的第三问查的是发言稿、推荐语的格式要素，不熟悉那几种体裁的格式就查不出来"
+ },
+ {
+  "topicId": "xs_yw18_06",
+  "prerequisiteId": "xs_yw18_03",
+  "strength": "soft",
+  "reason": "字数上限是按体裁定的（发言稿 100 字、推荐语 60 字），先知道格式才知道该写多长"
+ },
+ {
+  "topicId": "xs_yw19_02",
+  "prerequisiteId": "xs_yw19_01",
+  "strength": "hard",
+  "reason": "升格的前提是立意定下来了，审题四步的最后一步「立中心」没做完，没有东西可升"
+ },
+ {
+  "topicId": "xs_yw19_03",
+  "prerequisiteId": "xs_yw19_01",
+  "strength": "hard",
+  "reason": "三类失分里的第一类就是脱题，脱题正是审题没做透的直接后果，两条其实是一件事的两面"
+ },
+ {
+  "topicId": "xs_yw19_04",
+  "prerequisiteId": "xs_yw19_01",
+  "strength": "hard",
+  "reason": "材料转化是审题第二步、第三步的具体手法，先会圈关键词和看文体倾向，才看得懂材料给的提示"
+ },
+ {
+  "topicId": "xs_yw19_04",
+  "prerequisiteId": "xs_yw19_02",
+  "strength": "soft",
+  "reason": "材料给的那几个提示词，用不用得上取决于你想要哪一阶的立意——阶二、阶三才用得上两层意思"
+ },
+ {
+  "topicId": "xs_yw19_05",
+  "prerequisiteId": "xs_yw19_01",
+  "strength": "hard",
+  "reason": "提纲第一行就是「中心句（含关键词）」，这就是审题四步第四步的产物，没审对就写不出这一行"
+ },
+ {
+  "topicId": "xs_yw19_05",
+  "prerequisiteId": "xs_yw19_03",
+  "strength": "soft",
+  "reason": "三问自查卡查的第一问就是脱题、第二问就是例而不议，本质上把三类失分做成了可勾选的清单"
+ },
+ {
+  "topicId": "xs_yw2_03",
+  "prerequisiteId": "xs_yw2_01",
+  "strength": "soft",
+  "reason": "成语的「褒贬错位」用的就是近义词那套感情色彩判断，色彩标不准，成语一样会选错"
+ },
+ {
+  "topicId": "xs_yw2_04",
+  "prerequisiteId": "xs_yw2_01",
+  "strength": "hard",
+  "reason": "语段选词的第一层还是近义词辨析——三个空各自都是一组近义词，拆不开就无从代入"
+ },
+ {
+  "topicId": "xs_yw2_04",
+  "prerequisiteId": "xs_yw2_03",
+  "strength": "soft",
+  "reason": "天津语段题里常有成语空（津津乐道、鳞次栉比），不熟四类雷区会被字面骗过去"
+ },
+ {
+  "topicId": "xs_yw2_05",
+  "prerequisiteId": "xs_yw2_01",
+  "strength": "hard",
+  "reason": "固定搭配是近义词辨析的延伸：先知道两个词词义相近，才谈得上「哪个跟这个宾语更配」"
+ },
+ {
+  "topicId": "xs_yw2_06",
+  "prerequisiteId": "xs_yw2_01",
+  "strength": "hard",
+  "reason": "拆项法要找的「最容易判的那一空」，判的依据就是感情色彩和适用对象，这是知识点1的内容"
+ },
+ {
+  "topicId": "xs_yw2_06",
+  "prerequisiteId": "xs_yw2_03",
+  "strength": "hard",
+  "reason": "三空题里成语空往往最好判（褒贬、对象一眼可见），不熟成语雷区就少了一条捷径"
+ },
+ {
+  "topicId": "xs_yw20_04",
+  "prerequisiteId": "xs_yw20_03",
+  "strength": "soft",
+  "reason": "比较《儒林外史》与《朝花夕拾》的讽刺，先要分清两书的叙述身份——一个是小说叙述者，一个是散文里的作者本人；不分清就会把「作者的议论」当成「人物的想法」来比"
+ },
+ {
+  "topicId": "xs_yw20_05",
+  "prerequisiteId": "xs_yw20_02",
+  "strength": "soft",
+  "reason": "人物形象题的「情节证据」要落到具体某一回某一事，而古典小说的情节正是靠回目定位的；不会用回目，证据只能写成「书里有一件事」这种空话"
+ },
+ {
+  "topicId": "xs_yw20_06",
+  "prerequisiteId": "xs_yw20_05",
+  "strength": "hard",
+  "reason": "主题探究的写法是「结论＋证据」，与形象题的三段式同源；不会给性格找证据的人，也不会给主题找证据，只会把情节重说一遍"
+ },
+ {
+  "topicId": "xs_yw20_07",
+  "prerequisiteId": "xs_yw20_03",
+  "strength": "hard",
+  "reason": "冲刺排查的头号失分是「作者与叙述者混同」，治它靠的就是叙述视角这条判断，视角不清，检查时根本发现不了自己写错了人"
+ },
+ {
+  "topicId": "xs_yw20_07",
+  "prerequisiteId": "xs_yw20_05",
+  "strength": "soft",
+  "reason": "「串书」多半发生在人名与情节的对应上，人物名片表正是形象题证据链的副产品，名片做扎实了，串书和缺证据两个毛病一起好"
+ },
+ {
+  "topicId": "xs_yw3_02",
+  "prerequisiteId": "xs_yw3_01",
+  "strength": "hard",
+  "reason": "判断「缺主语」的前提是先找到主语在哪——不会提主干，就看不出「随着……使」把主语吃掉了"
+ },
+ {
+  "topicId": "xs_yw3_03",
+  "prerequisiteId": "xs_yw3_01",
+  "strength": "hard",
+  "reason": "搭配是否得当，只能靠主干三块互相比对；不提主干就无法逐对检查动宾、主谓、主宾"
+ },
+ {
+  "topicId": "xs_yw3_04",
+  "prerequisiteId": "xs_yw3_01",
+  "strength": "soft",
+  "reason": "语序不当检测的是枝叶（定语、状语）的位置，得先分得清主干和枝叶才谈得上调位置"
+ },
+ {
+  "topicId": "xs_yw3_05",
+  "prerequisiteId": "xs_yw3_01",
+  "strength": "hard",
+  "reason": "杂糅句的病根是主干被两套结构同时占着，拆结构之前先要能看出主干应该是哪一套"
+ },
+ {
+  "topicId": "xs_yw3_06",
+  "prerequisiteId": "xs_yw3_01",
+  "strength": "soft",
+  "reason": "不合逻辑的句子语法往往通顺（主干一验就过），所以必须先会提主干，才能确认病不在语法而在逻辑"
+ },
+ {
+  "topicId": "xs_yw3_07",
+  "prerequisiteId": "xs_yw3_02",
+  "strength": "hard",
+  "reason": "修改题里最常补的就是缺失的成分（2026·3 补谓语「成为」），不会判残缺就选不对改法"
+ },
+ {
+  "topicId": "xs_yw3_07",
+  "prerequisiteId": "xs_yw3_05",
+  "strength": "soft",
+  "reason": "修改题的另一类错项是「删掉杂糅中的一套」，不熟杂糅就会把本来正确的句子改坏"
+ },
+ {
+  "topicId": "xs_yw4_02",
+  "prerequisiteId": "xs_yw4_01",
+  "strength": "soft",
+  "reason": "逗号和分号是顿号往上的一层：先分清「词与词并列」，才谈得上「分句与分句并列」该升到分号"
+ },
+ {
+  "topicId": "xs_yw4_03",
+  "prerequisiteId": "xs_yw4_04",
+  "strength": "hard",
+  "reason": "冒号最常见的搭档就是引号（杜牧就曾吟咏：“……”），不先懂引号内标点怎么放，冒号引句这一空必错"
+ },
+ {
+  "topicId": "xs_yw4_03",
+  "prerequisiteId": "xs_yw4_02",
+  "strength": "soft",
+  "reason": "冒号后面的分说常常是一条条并列成分，分项之间还要用顿号或分号，层级判不清冒号就会用岔"
+ },
+ {
+  "topicId": "xs_yw4_05",
+  "prerequisiteId": "xs_yw4_04",
+  "strength": "soft",
+  "reason": "书名号和引号是天津市面上最容易被调换的一对标号，先分清引号管什么，才知道书名号不能被引号替代"
+ },
+ {
+  "topicId": "xs_yw5_02",
+  "prerequisiteId": "xs_yw5_01",
+  "strength": "soft",
+  "reason": "提建议的第一步是先读懂材料暴露了什么问题，这靠的是概括时「逐则抓要点」的同一种读法"
+ },
+ {
+  "topicId": "xs_yw5_04",
+  "prerequisiteId": "xs_yw5_03",
+  "strength": "hard",
+  "reason": "仿写要先辨出原句用了哪种修辞、是什么句式，修辞认不准，仿出来的句子形就不对"
+ },
+ {
+  "topicId": "xs_yw5_05",
+  "prerequisiteId": "xs_yw5_03",
+  "strength": "soft",
+  "reason": "对联讲究词性相对、意象相称，这层感觉和辨识修辞时「找同类、找对应」是同一套眼力"
+ },
+ {
+  "topicId": "xs_yw5_05",
+  "prerequisiteId": "xs_yw5_04",
+  "strength": "soft",
+  "reason": "对联本质是「对偶式的仿写」：先把仿写的形神兼备做稳，对联只剩平仄一关"
+ },
+ {
+  "topicId": "xs_yw5_07",
+  "prerequisiteId": "xs_yw5_01",
+  "strength": "soft",
+  "reason": "转述与开场白都要求要素齐全、不丢关键信息，这与概括题「一条材料不漏一个要点」是同一种训练"
+ },
+ {
+  "topicId": "xs_yw6_02",
+  "prerequisiteId": "xs_yw6_01",
+  "strength": "soft",
+  "reason": "倒推上句靠的是同一个整句记忆，只是检索方向相反；上句在本讲里都写不出来，倒推无从谈起"
+ },
+ {
+  "topicId": "xs_yw6_04",
+  "prerequisiteId": "xs_yw6_03",
+  "strength": "soft",
+  "reason": "同音字和形近字用的是同一条动作——落笔前想偏旁、写完回头查那一个字，形近字的习惯先立起来，同音字才守得住"
+ },
+ {
+  "topicId": "xs_yw6_06",
+  "prerequisiteId": "xs_yw6_01",
+  "strength": "soft",
+  "reason": "句末虚词只有整句在手上才有意义，上句接不上下句的孩子，谈不到去核对「矣」「乎」写没写错"
+ },
+ {
+  "topicId": "xs_yw7_02",
+  "prerequisiteId": "xs_yw7_01",
+  "strength": "soft",
+  "reason": "判断某一联的情感对不对，前提是先知道这句话属于哪一联；联都认不出，就只能凭整首诗的印象猜"
+ },
+ {
+  "topicId": "xs_yw7_03",
+  "prerequisiteId": "xs_yw7_02",
+  "strength": "soft",
+  "reason": "以偏概全是情感误判的另一种形态——先把「说重了」这一类认出，才分得清「说少了」那一种"
+ },
+ {
+  "topicId": "xs_yw7_04",
+  "prerequisiteId": "xs_yw7_01",
+  "strength": "soft",
+  "reason": "事实核对同样要先定位到具体某一联，再把选项里的动作词拿回那一联逐字对"
+ },
+ {
+  "topicId": "xs_yw7_06",
+  "prerequisiteId": "xs_yw7_05",
+  "strength": "soft",
+  "reason": "手法辨识是在炼字的基础上往上一层看：先能讲透一个字怎么写得好，才认得出整句用了什么手法"
+ },
+ {
+  "topicId": "xs_yw7_07",
+  "prerequisiteId": "xs_yw7_05",
+  "strength": "soft",
+  "reason": "画面转写和炼字的「画面」层是同一件事，炼字三层里画面那一层练稳了，整句转写才不丢物象"
+ },
+ {
+  "topicId": "xs_yw8_02",
+  "prerequisiteId": "xs_yw8_01",
+  "strength": "hard",
+  "reason": "「陈」「食」这类字之所以能以今义骗到人，前提是学生知道它们本来另有义项；不认一词多义，就无从判断哪个义才对"
+ },
+ {
+  "topicId": "xs_yw8_04",
+  "prerequisiteId": "xs_yw8_02",
+  "strength": "soft",
+  "reason": "古今异义是以今律古的词目清单，先有「字义随语境变」这一层意识，清单才记得住、用得对"
+ },
+ {
+  "topicId": "xs_yw8_06",
+  "prerequisiteId": "xs_yw8_05",
+  "strength": "hard",
+  "reason": "五字法里的「调」就是状语后置那一步，认不出后置状语，五步法到第三步就断了"
+ },
+ {
+  "topicId": "xs_yw8_07",
+  "prerequisiteId": "xs_yw8_06",
+  "strength": "soft",
+  "reason": "判断译文好坏看的是关键词与句式有没有落实，而关键词落实靠的正是留、替、调、补、删这套动作"
+ },
+ {
+  "topicId": "xs_yw8_07",
+  "prerequisiteId": "xs_yw8_01",
+  "strength": "soft",
+  "reason": "排查顺序的第一条就是「先找现代汉语常用、文言另有专义的字」，那正是一词多义的字"
+ },
+ {
+  "topicId": "xs_yw9_05",
+  "prerequisiteId": "xs_yw9_02",
+  "strength": "soft",
+  "reason": "第 11 题的选项常拿判断句做文章（「望之蔚然而深秀者，琅琊也」说的是什么），认不出判断句就读不准那一句的文意"
+ },
+ {
+  "topicId": "xs_yw9_05",
+  "prerequisiteId": "xs_yw9_04",
+  "strength": "soft",
+  "reason": "2026·11 的错项靠「略无慕艳意」设局，而这类关键句里常带活用（腰、手），活用读错，事实就跟着读反"
+ },
+ {
+  "topicId": "xs_yw9_06",
+  "prerequisiteId": "xs_yw9_05",
+  "strength": "soft",
+  "reason": "两篇比较的前提是先把每一篇的「事实」核准；单篇的事实反转都识不破，合在一起只会串得更厉害"
+ },
+ {
+  "topicId": "xs_yw2_03",
+  "prerequisiteId": "xs_yw1_04",
+  "strength": "soft",
+  "reason": "成语里的错别字九成是同音字（再接再厉写成励、一张一弛写成驰），同音字「看义选形」这条方法不过关，成语就只剩背"
+ },
+ {
+  "topicId": "xs_yw3_03",
+  "prerequisiteId": "xs_yw2_05",
+  "strength": "hard",
+  "reason": "动宾搭配不当的判断，靠的是「这个动词能不能接这个宾语」的语感，而语感来自固定搭配的积累；不知道「推进……水平」是错的，就是因为没见过正确的「提高……水平」"
+ },
+ {
+  "topicId": "xs_yw3_02",
+  "prerequisiteId": "xs_yw2_02",
+  "strength": "soft",
+  "reason": "成分残缺最常见的一种是「随着……使……」缺主语，它出问题的地方恰恰是关联词和介词结构；不熟悉复句关系，就分不清哪一部分本该是主语"
+ },
+ {
+  "topicId": "xs_yw5_01",
+  "prerequisiteId": "xs_yw3_01",
+  "strength": "soft",
+  "reason": "概括一段话和提取句子主干是同一个动作的两个尺度——都是先找出「谁做了什么」，只是概括还要再压掉修饰成分。主干提取不熟，概括出来一定带着一堆废话"
+ },
+ {
+  "topicId": "xs_yw5_06",
+  "prerequisiteId": "xs_yw2_02",
+  "strength": "hard",
+  "reason": "句子排序基本靠关联词和句间关系定位（「因此」「然而」「不仅如此」），关联词不熟，就只剩下「读着顺不顺」这一条不可靠的依据"
+ },
+ {
+  "topicId": "xs_yw7_01",
+  "prerequisiteId": "xs_yw6_01",
+  "strength": "hard",
+  "reason": "古诗词鉴赏要从首联一路读到尾联，前提是四联的内容都在脑子里；默写默不下来，读题时只能凭印象猜哪一联在说什么"
+ },
+ {
+  "topicId": "xs_yw10_01",
+  "prerequisiteId": "xs_yw8_01",
+  "strength": "hard",
+  "reason": "课外文言文的实词考的就是「课内学过的义项能不能迁移出来」——讲义反复讲：素、许、善、率这些字，正确义项全在课内出现过。课内一词多义没铺开，课外就只剩瞎猜"
+ },
+ {
+  "topicId": "xs_yw10_02",
+  "prerequisiteId": "xs_yw8_02",
+  "strength": "hard",
+  "reason": "课外文言文最爱考「今义干扰」（去＝离开、走＝跑），这正是课内「以今律古」那一条的迁移；课内没养成「先想古今异义」的习惯，课外每一次都会掉进去"
+ },
+ {
+  "topicId": "xs_yw10_04",
+  "prerequisiteId": "xs_yw8_06",
+  "strength": "hard",
+  "reason": "补出省略成分是翻译五字法里的「补」和「调」，是同一套动作；课内翻译不会补主语，课外整句译出来就是断的"
+ },
+ {
+  "topicId": "xs_yw9_05",
+  "prerequisiteId": "xs_yw9_01",
+  "strength": "soft",
+  "reason": "回原文定位找「事实反转项」，前提是先看得懂原文那句话；古今异义没辨清，会把「卑鄙」按今义读，定位都定错地方"
+ },
+ {
+  "topicId": "xs_yw11_01",
+  "prerequisiteId": "xs_yw5_01",
+  "strength": "soft",
+  "reason": "散文概括和材料概括是同一个能力（一则一要点、答案都在原文里），只是散文的要点藏在抒情议论句里、材料的要点藏在数据里"
+ },
+ {
+  "topicId": "xs_yw12_01",
+  "prerequisiteId": "xs_yw5_03",
+  "strength": "hard",
+  "reason": "赏析修辞要先认得出是哪种修辞。比喻、拟人、排比分辨不清，「生动形象地写出了……」这句赏析就是背出来的模板，一换句子就错"
+ },
+ {
+  "topicId": "xs_yw12_02",
+  "prerequisiteId": "xs_yw11_01",
+  "strength": "soft",
+  "reason": "赏析描写方法得先知道这段在写什么；要素提炼不过关，就会把「他蹲下倾伞」的动作描写说成「表现了他的心情」——手法和内容对不上"
+ },
+ {
+  "topicId": "xs_yw13_03",
+  "prerequisiteId": "xs_yw5_03",
+  "strength": "soft",
+  "reason": "说明方法和修辞同属「手法辨识」：先建立「看到特征性写法就要叫得出名字」的习惯，举例子、列数字、作比较、打比方才认得快"
+ },
+ {
+  "topicId": "xs_yw13_06",
+  "prerequisiteId": "xs_yw11_02",
+  "strength": "soft",
+  "reason": "说明文的「张冠李戴、因果倒置、答非所问」三类陷阱，都要靠回原文定位关键句才能拆穿；关键句在哪都找不准，就只能凭印象选"
+ },
+ {
+  "topicId": "xs_yw14_05",
+  "prerequisiteId": "xs_yw5_01",
+  "strength": "hard",
+  "reason": "非连续性文本的「多材料概括」就是概括能力的加权版：要在一则材料里挑一则要点，而不仅仅是读一段话——前面概括没过关，这里必然要点重复或漏项"
+ },
+ {
+  "topicId": "xs_yw16_01",
+  "prerequisiteId": "xs_yw15_06",
+  "strength": "hard",
+  "reason": "「据体裁和独有标签定位作品」靠的是先记住每部书的作者、朝代、体裁；这些基本盘没建立，题干给多少标签都对不上号"
+ },
+ {
+  "topicId": "xs_yw20_01",
+  "prerequisiteId": "xs_yw16_03",
+  "strength": "hard",
+  "reason": "「纪实作品读什么、分清事实与作者评论」建立在读过《红星照耀中国》的基础上；书里的基本事实都没进脑子，谈不上分辨哪句是斯诺的判断"
+ },
+ {
+  "topicId": "xs_yw20_02",
+  "prerequisiteId": "xs_yw15_06",
+  "strength": "soft",
+  "reason": "章回体的回目怎么看，要用到古典小说的体裁常识（章回体、对仗回目、说书人套语），体裁常识空着，回目就是一堆漂亮的对句"
+ },
+ {
+  "topicId": "xs_yw20_05",
+  "prerequisiteId": "xs_yw15_02",
+  "strength": "soft",
+  "reason": "「人物形象题的证据链：身份＋性格＋情节」最标准的样本就是杨志那三层分析（性格、对手、社会）；先会拆一个，才能拆别的"
+ },
+ {
+  "topicId": "xs_yw20_07",
+  "prerequisiteId": "xs_yw16_01",
+  "strength": "hard",
+  "reason": "冲刺排查第一项就是「串书」——把人物安到别的书里。作品定位不准，排查就只是把错的地方又看了一遍"
+ },
+ {
+  "topicId": "xs_yw17_01",
+  "prerequisiteId": "xs_yw19_01",
+  "strength": "hard",
+  "reason": "立意的第一句就是「关键词是什么」，这正好是审题四步的第一、四步；题目都没审透，写出来的中心句和题目对不上，后面写得越用力离题越远"
+ },
+ {
+  "topicId": "xs_yw18_01",
+  "prerequisiteId": "xs_yw19_01",
+  "strength": "hard",
+  "reason": "论点要「含关键词、在开头 80 字内亮出来」，这两条都是审题四步给的限制；审题跳过了，论点定得再漂亮也可能是另一个题的论点"
+ },
+ {
+  "topicId": "xs_yw19_02",
+  "prerequisiteId": "xs_yw17_01",
+  "strength": "hard",
+  "reason": "升格是「在本来的立意上再走一层」，所以先得有一个立得住的一阶立意；立意都没立起来，所谓升格就是硬拔高"
+ },
+ {
+  "topicId": "xs_yw18_02",
+  "prerequisiteId": "xs_yw16_02",
+  "strength": "soft",
+  "reason": "议论文的论据需要真实可查的素材，名著人物和情节是最稳的一类；《朝花夕拾》《钢铁是怎样炼成的》这类书读细了，论据就有了出处，不用编"
+ },
+ {
+  "topicId": "xs_yw17_04",
+  "prerequisiteId": "xs_yw12_02",
+  "strength": "soft",
+  "reason": "会赏析别人的动作描写，才知道自己的动作描写该怎么写——阅读里的「手法」和写作里的「技法」是同一套东西的两端"
+ }
+]

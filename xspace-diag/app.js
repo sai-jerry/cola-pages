@@ -360,8 +360,13 @@
   function renderResult() {
     var s = state.summary, c = s.counts;
     var scopeNames = state.targets.map(function (id) { return graph.byId[id].name; });
+    var asked = state.session.answers.length;
+    var cap = state.session.limit;
+    // 问不满上限有两种情况：要么范围里的点都问完了，要么老师提前结束。
+    // 不写清楚，老师会以为程序又「提前收工」了。
+    var why = asked < cap ? '（范围内问完了，上限 ' + cap + ' 题没用满）' : '';
     $('result-scope').textContent = '诊断范围：' + (scopeNames.length > 3 ? scopeNames.length + ' 个知识点（整章）' : scopeNames.join('、')) +
-      '　已问 ' + state.session.answers.length + ' 题' + (state.demo ? '　【演示数据】' : '');
+      '　已问 ' + asked + ' 题' + why + (state.demo ? '　【演示数据】' : '');
 
     $('stats').innerHTML = [
       ['mastered', c.mastered, '掌握'],

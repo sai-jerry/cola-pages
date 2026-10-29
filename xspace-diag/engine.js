@@ -155,6 +155,7 @@
       status: {},        // id -> {s: 'mastered'|'shaky'|'weak', src: 'direct'|'inferred'}
       stack: ts.filter(function (id) { return isTestable(graph, id); })
         .sort(function (a, b) { return pos[b] - pos[a]; }),   // 离目标最近（拓扑序靠后）的先问
+      verify: [],        // 答对后只被「推断掌握」的直接先修，留 1–2 个补问
       answers: [],       // [{id, qid, result, text}]
       attempts: {}       // id -> [{qid, result}]
     };
@@ -200,6 +201,7 @@
     return {
       targets: s.targets.slice(), order: s.order.slice(), limit: s.limit, seed: s.seed,
       status: JSON.parse(JSON.stringify(s.status)), stack: s.stack.slice(),
+      verify: s.verify.slice(),
       answers: s.answers.slice(), attempts: attempts
     };
   }
@@ -209,6 +211,17 @@
     for (var i = 0; i < session.stack.length; i++) {
       var id = session.stack[i];
       if (!session.status[id] && isTestable(graph, id)) return id;
+    }
+    // 主栈问完了，但还有额度：抽 1–2 道题去验证「刚才只是推断出来的直接先修」。
+    // 没有这一段，单点诊断只要第一道题答对就直接结束——“家长看到一页纸报告上写
+    // 题量 1 题”是很难交代的，而且先修断没断根本没被查过。
+    for (var j = 0; j < session.verify.length; j++) {
+      var v = session.verify[j];
+      if ((session.attempts[v] || []).length) continue;
+      var vs = session.status[v];
+      // 补问的对象就是「只被推断、还没亲自答过」的点，所以 status 是 inferred 也算可问。
+      if (vs && vs.src !== 'inferred') continue;
+      if (isTestable(graph, v)) return v;
     }
     return null;
   }
@@ -236,8 +249,27 @@
         s.status[topicId] = { s: 'mastered', src: 'direct' };
         var anc = ancestors(graph, topicId);
         Object.keys(anc).forEach(function (a) {
+          // 本次被选进诊断范围的点，必须由它自己那道题说话。
+          // 否则整章诊断里，答对最后一个点就把前面所有先修一并「推断掌握」，
+          // 7 个知识点的章只问 2 道题就收工，报告却写「整章已诊断」。
+          if (s.targets.indexOf(a) >= 0) return;
           if (!s.status[a]) s.status[a] = { s: 'mastered', src: 'inferred' };
         });
+        // 目标点答对后，它的直接先修还只是「推断」。留最多 2 个给后面补问，
+        // 把推断变成实证；再往上就是上学期的内容了，追上去反而跑题。
+        if (s.targets.indexOf(topicId) >= 0) {
+          (graph.prereqs[topicId] || []).forEach(function (p) {
+            if (s.verify.length >= 2) return;
+            if (s.targets.indexOf(p.id) >= 0) return;
+            if (!isTestable(graph, p.id)) return;
+            if (s.order.indexOf(p.id) < 0) return;
+            if ((s.attempts[p.id] || []).length) return;
+            if (s.verify.indexOf(p.id) >= 0) return;
+            var ps = s.status[p.id];
+            if (ps && ps.src !== 'inferred') return;
+            s.verify.push(p.id);
+          });
+        }
       } else {
         s.status[topicId] = { s: 'shaky', src: 'direct' };
       }

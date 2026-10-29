@@ -1,0 +1,38 @@
+[
+ {
+  "topicId": "xs_ch1_02",
+  "prerequisiteId": "xs_ch1_01",
+  "strength": "hard",
+  "reason": "物理性质/化学性质的区分标准就是「要不要通过化学变化才表现出来」，变化没分清就判不了性质"
+ },
+ {
+  "topicId": "xs_ch1_04",
+  "prerequisiteId": "xs_ch1_03",
+  "strength": "hard",
+  "reason": "操作规范全部建立在「认得出这是哪件仪器」上，仪器认错操作一定错（漏斗三兄弟就是典型）"
+ },
+ {
+  "topicId": "xs_ch1_05",
+  "prerequisiteId": "xs_ch1_01",
+  "strength": "soft",
+  "reason": "蜡烛探究全程在追「有没有新物质生成」（水、二氧化碳），变化判断不过关就看不出现象背后的结论"
+ },
+ {
+  "topicId": "xs_ch1_05",
+  "prerequisiteId": "xs_ch1_02",
+  "strength": "soft",
+  "reason": "蜡烛的硬度、密度、溶解性是物理性质，可燃性是化学性质，探究过程本身就是性质分类的练习"
+ },
+ {
+  "topicId": "xs_ch1_05",
+  "prerequisiteId": "xs_ch1_06",
+  "strength": "hard",
+  "reason": "蜡烛探究是初中第一个完整探究实验，不按八步走就读不懂题干在问哪一步"
+ },
+ {
+  "topicId": "xs_ch1_04",
+  "prerequisiteId": "xs_ch1_06",
+  "strength": "soft",
+  "reason": "实验操作题常问「这样操作是为了什么」，本质是在问探究计划怎么设计"
+ }
+]

@@ -1,0 +1,10 @@
+{
+ "title": "X空间 · 初中化学知识点诊断",
+ "subtitle": "知识点前置诊断 · 初中化学（九上 → 九下）",
+ "demoTarget": "xs_ch1_05",
+ "demoPlan": {
+  "xs_ch1_05": ["wrong", "wrong"],
+  "xs_ch1_06": ["wrong", "correct"],
+  "xs_ch1_02": ["correct", "correct"]
+ }
+}

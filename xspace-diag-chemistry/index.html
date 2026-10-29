@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>X空间 · 知识点前置诊断</title>
+<link rel="icon" type="image/png" href="assets/logo-square.png">
+<link rel="apple-touch-icon" href="assets/logo-square.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <img class="logo" src="assets/logo.png" alt="X空间">
+    <span class="brand-text">
+      <strong>X空间 · 课后成长中心</strong>
+      <em id="brand-sub">知识点前置诊断 · 九上数学（二次函数）</em>
+    </span>
+  </div>
+  <nav class="tabs">
+    <button data-go="start" class="active">开始诊断</button>
+    <button data-go="quiz" disabled>答题</button>
+    <button data-go="result" disabled>诊断结果</button>
+  </nav>
+</header>
+
+<main>
+  <!-- ------------------------------------------------ 开始 -->
+  <section id="screen-start" class="screen">
+    <div class="card">
+      <h1>这个孩子到底卡在哪一步？</h1>
+      <p class="lead">选一个知识点（或整章）开始。答错不会停在这道题，会沿着先修关系一路往回问，找出真正的根因，再给出按年级从低到高的补课顺序。</p>
+
+      <div class="row">
+        <label>学生姓名（可不填，只存在这台电脑上）
+          <input id="student" type="text" placeholder="例如：王小明">
+        </label>
+        <label>本次最多问几题
+          <input id="limit" type="number" min="4" max="60" value="16">
+        </label>
+      </div>
+
+      <h2>选诊断范围</h2>
+      <div id="scope-list" class="scope-list"></div>
+
+      <div class="actions">
+        <button id="btn-start" class="primary" disabled>开始诊断</button>
+        <button id="btn-demo" class="ghost">演示（看一份样例结果）</button>
+        <button id="btn-resume" class="ghost" hidden>继续上次</button>
+      </div>
+      <p class="hint" id="start-hint">先在上面选一个范围。</p>
+    </div>
+  </section>
+
+  <!-- ------------------------------------------------ 答题 -->
+  <section id="screen-quiz" class="screen" hidden>
+    <div class="quiz-head">
+      <div class="progress"><div id="progress-bar"></div></div>
+      <span id="progress-text"></span>
+    </div>
+    <div class="card">
+      <div class="q-meta">
+        <span id="q-topic" class="pill"></span>
+        <span id="q-why" class="pill soft"></span>
+        <span id="q-diff" class="pill soft"></span>
+      </div>
+      <p id="q-prompt" class="prompt"></p>
+      <div id="q-choices" class="choices"></div>
+      <div id="q-input" class="input-wrap" hidden>
+        <p class="input-label" id="input-label">填答案：只填数，不写单位；分数写成 3/2 这样。</p>
+        <input id="answer-input" type="text" autocomplete="off" placeholder="在这里作答">
+        <button id="btn-submit" class="primary">提交答案</button>
+      </div>
+      <div id="feedback" class="feedback" hidden>
+        <div id="feedback-verdict" class="verdict"></div>
+        <div class="ref"><b>参考答案：</b><span id="feedback-answer"></span></div>
+        <div class="explain"><b>解析：</b><span id="feedback-explain"></span></div>
+        <div id="manual-ask" class="manual" hidden>
+          <span>老师判断这道题算不算过：</span>
+          <button data-manual="correct">算过</button>
+          <button data-manual="wrong">没过</button>
+        </div>
+        <button id="btn-next" class="primary" hidden>下一题</button>
+      </div>
+    </div>
+    <div class="quiz-foot">
+      <button id="btn-undo" class="ghost">撤销上一题</button>
+      <button id="btn-finish" class="ghost">提前结束，看结果</button>
+    </div>
+  </section>
+
+  <!-- ------------------------------------------------ 结果 -->
+  <section id="screen-result" class="screen" hidden>
+    <div class="card">
+      <h1>诊断结果</h1>
+      <p class="hint" id="result-scope"></p>
+      <div class="stats" id="stats"></div>
+
+      <h2>根因（先补这些）</h2>
+      <div id="roots" class="roots"></div>
+
+      <h2>不稳的知识点</h2>
+      <div id="shaky" class="roots"></div>
+
+      <h2>学习路径（先修在前，按年级从低到高）</h2>
+      <ol id="path" class="path"></ol>
+
+      <div class="actions">
+        <button id="btn-print" class="primary">打印 / 存成一页纸报告</button>
+        <button id="btn-export" class="ghost">导出完整答题记录</button>
+        <button id="btn-restart" class="ghost">重新开始</button>
+      </div>
+      <p class="hint">结论是线索，不是判决。真实诊断还要老师看一眼孩子的原卷和错题。</p>
+    </div>
+  </section>
+</main>
+
+<!-- 打印用的一页纸报告（平时隐藏，只在打印时显示） -->
+<section id="report" class="report" hidden>
+  <div class="report-head">
+    <div class="report-head-main">
+      <img class="report-logo" src="assets/logo.png" alt="X空间">
+      <div>
+        <h1>X空间 · 课后成长中心　知识点诊断报告</h1>
+        <p class="report-sub" id="report-scope"></p>
+      </div>
+    </div>
+    <div class="report-meta">
+      <p>学生：<span id="report-student">—</span></p>
+      <p>日期：<span id="report-date"></span></p>
+    </div>
+  </div>
+  <div class="report-block">
+    <h2>一、答题概况</h2>
+    <p class="report-note" id="report-summary-note" style="margin:0 0 5px"></p>
+    <table class="mini"><tbody id="report-stats"></tbody></table>
+  </div>
+  <div class="report-block">
+    <h2>二、卡住的根本原因</h2>
+    <ul id="report-roots" class="report-list"></ul>
+  </div>
+  <div class="report-block">
+    <h2>三、建议补课顺序</h2>
+    <table class="path-table">
+      <thead><tr><th style="width:32px">序</th><th style="width:96px">册·章</th><th>知识点</th><th style="width:86px">状态 / 课时</th></tr></thead>
+      <tbody id="report-path"></tbody>
+    </table>
+  </div>
+  <div class="report-block" id="report-exam-block" hidden>
+    <h2>四、天津中考怎么考（本次范围）</h2>
+    <p class="report-note" id="report-exam-note" style="margin:0 0 5px"></p>
+    <ul id="report-exam" class="report-list exam-list"></ul>
+  </div>
+  <div class="report-block">
+    <h2>五、建议课时与下一步</h2>
+    <p id="report-plan"></p>
+    <p class="report-note">本报告的结论由知识点先修关系推出，采信前请老师对照原卷与近期错题复核。答错点位已记录，可随堂复测。</p>
+  </div>
+  <div class="report-block">
+    <h2>六、本次答错的题（供老师复核）</h2>
+    <table class="path-table wrong-table">
+      <thead><tr><th style="width:24px">#</th><th style="width:74px">知识点</th><th>题干</th><th style="width:88px">参考答案</th><th style="width:52px">订正</th></tr></thead>
+      <tbody id="report-wrong"></tbody>
+    </table>
+  </div>
+  <div class="report-sign">
+    <span>授课老师签字：______________________</span>
+    <span>家长确认：______________________</span>
+  </div>
+</section>
+
+<script src="engine.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
